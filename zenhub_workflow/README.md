@@ -5,6 +5,15 @@ included in this directory.
 
 All guidelines below are adapted from this [link](https://help.zenhub.com/support/home).
 
+This guide includes:
+1. Kanban board
+2. Milestones
+3. Issues
+4. Labels
+5. Filtering
+
+------------
+
 ### ZenHub's Kanban Board
 
 It consists of 7 pipelines (individual panels):
@@ -40,7 +49,7 @@ this week, once done, should be migrated to 5 or 6
 * issues that were not done by the deadline of the week (leftovers) should stay in 2 and should be moved
 to the top
 
-
+------------
 ### Milestones
 
 Scrum's sprints are GitHub/ZenHub's milestones. This corresponds to our weekly
@@ -83,7 +92,8 @@ milestone.
 To clear milestones from issues. Just select the issues. Click "Set Milestone."
 Click "Clear milestones from issues"
 
-### Create Issues
+------------
+### Issues
 
 __To create new issues:__
 
@@ -122,6 +132,7 @@ __To close issues:__
 2. Hover your mouse on one of the issues until you see a box with three vertical dots.
 Click and click close issue.
 
+------------
 ### Labels
 
 Our issues will be driven by labels. Here's a proposed system:
@@ -156,7 +167,8 @@ __To create new labels:__
 
 read more [here](https://help.zenhub.com/support/solutions/articles/43000480398-creating-github-issue-labels)
 
-### filtering
+------------
+### Filtering
 
 It is quite straightforward. Can be done on the ZenHub board.
 
