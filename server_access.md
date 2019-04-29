@@ -27,8 +27,8 @@ Every modern operating system has an SSH client available in its command line to
 Using SSH we can access all the usual command-line tools (like Python) in the expected manner.
 
 >### Useful tips
-> - Use `ssh -M username@host` to activate multitasking superpowers. We can open the second terminal window and then use `ssh username@host` as usual to piggyback off the existing SSH connection in a second terminal window.
-- In this second terminal window use `top -o %MEM` to view the current system resource usage sorted by RAM usage.
+> - Use `ssh -M username@host` to activate multitasking superpowers. We can open a second terminal window and then use `ssh username@host` as usual to piggyback off the existing SSH connection in a second terminal window.
+- In this second terminal window, use `top -o %MEM` to view the current system resource usage sorted by RAM usage.
 
 ## RStudio Server
 RStudio Server runs as a web app accessible from the browser. To access this remotely we must setup an SSH tunnel to map the RStudio Server port to a port on our computer.
