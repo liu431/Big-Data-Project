@@ -16,21 +16,25 @@ Every modern operating system has an SSH client available in its command line to
   - Accept any certificates and provide your password when prompted
 - __Linux__
   - Press `ctrl` + `alt` + `t` to launch terminal
-  - Launch terminal by searching in Spotlight
   - Enter the command `ssh username@host`
   - Accept any certificates and provide your password when prompted
-- __ChromeOS__
-  - Install the [SSH Chrome App](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en) from the Chrome Web Store and launch the app
-  - Enter the command `ssh username@host`
+- __Chrome Browser / OS__
+  - Install the [SSH Chrome App](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en) from the Chrome Web Store
+  - Enter the command `ssh username@host` in the address bar
   - Accept any certificates and provide your password when prompted
 
 Using SSH we can access all the usual command-line tools (like Python) in the expected manner.
+
+>### Useful tips
+> - Use `ssh -M username@host` to activate multitasking superpowers. We can open a second terminal window and then use `ssh username@host` as usual to piggyback off the existing SSH connection in a second terminal window.
+>- In this second terminal window, use `top -o %MEM` to view the current system resource usage sorted by RAM usage.
 
 ## RStudio Server
 RStudio Server runs as a web app accessible from the browser. To access this remotely we must setup an SSH tunnel to map the RStudio Server port to a port on our computer.
 
 - Run the command `ssh -L 8787:localhost:8787 username@host`
 - Launch your favorite browser and navigate to `http://localhost:8787`
+  - You may encounter a security warning, however there is no cause for concern. While RStudio Server does not use HTTPS, your connection to RStudio is secured over SSH. Learn more about SSH tunneling [here](https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/).
 - Login with your server credentials
 
 ## Transferring files
