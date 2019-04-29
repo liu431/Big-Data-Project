@@ -1,6 +1,7 @@
 # Server Access Instructions
 
-<h3 style="color: red; font-weight: 700; margin-top: 0;">Important!</h3> With great power, comes great responsibility. __DO NOT__ post usernames, passwords, hostnames, API keys, or other secret information on GitHub. Once it is on the Internet, it is impossible to recall. Sanitize all code, documentation, and issues before committing/posting, and store any necessary secret information in gitignored files to reduce accidental disclosure. __You have been warned!__
+>### Important!
+>With great power, comes great responsibility. __DO NOT__ post usernames, passwords, hostnames, API keys, or other secret information on GitHub. Once it is on the Internet, it is impossible to recall. Sanitize all code, documentation, and issues before committing/posting, and store any necessary secret information in gitignored files to reduce accidental disclosure. *__You have been warned!__*
 
 ## SSH
 Every modern operating system has an SSH client available in its command line tools.
