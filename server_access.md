@@ -18,9 +18,9 @@ Every modern operating system has an SSH client available in its command line to
   - Press `ctrl` + `alt` + `t` to launch terminal
   - Enter the command `ssh username@host`
   - Accept any certificates and provide your password when prompted
-- __ChromeOS__
-  - Install the [SSH Chrome App](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en) from the Chrome Web Store and launch the app
-  - Enter the command `ssh username@host`
+- __Chrome Browser / OS__
+  - Install the [SSH Chrome App](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en) from the Chrome Web Store
+  - Enter the command `ssh username@host` in the address bar
   - Accept any certificates and provide your password when prompted
 
 Using SSH we can access all the usual command-line tools (like Python) in the expected manner.
