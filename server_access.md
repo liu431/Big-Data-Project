@@ -34,6 +34,7 @@ RStudio Server runs as a web app accessible from the browser. To access this rem
 
 - Run the command `ssh -L 8787:localhost:8787 username@host`
 - Launch your favorite browser and navigate to `http://localhost:8787`
+  - You may encounter a security warning, however there is no cause for concern. While RStudio Server does not use HTTPS, your connection to RStudio is secured over SSH. Learn more about SSH tunneling [here](https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/).
 - Login with your server credentials
 
 ## Transferring files
