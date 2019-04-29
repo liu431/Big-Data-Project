@@ -16,7 +16,6 @@ Every modern operating system has an SSH client available in its command line to
   - Accept any certificates and provide your password when prompted
 - __Linux__
   - Press `ctrl` + `alt` + `t` to launch terminal
-  - Launch terminal by searching in Spotlight
   - Enter the command `ssh username@host`
   - Accept any certificates and provide your password when prompted
 - __ChromeOS__
