@@ -1,0 +1,1490 @@
+id,reputation,creationdate,displayname,lastaccessdate,websiteurl,location,aboutme,views,upvotes,downvotes,profileimageurl,accountid
+-1,1,2008-07-31T00:00:00.000,Community,2008-08-26T00:16:53.810,http://meta.stackexchange.com/,on the server farm,"<p>Hi, I'm not really a person.</p>
+
+<p>I'm a background process that helps keep this site clean!</p>
+
+<p>I do things like</p>
+
+<ul>
+<li>Randomly poke old unanswered questions every hour so they get some attention</li>
+<li>Own community questions and answers so nobody gets unnecessary reputation from them</li>
+<li>Own downvotes on spam/evil posts that get permanently deleted</li>
+<li>Own suggested edits from anonymous users</li>
+<li><a href=""http://meta.stackexchange.com/a/92006"">Remove abandoned questions</a></li>
+</ul>
+",649,324384,1093334,,-1
+1,45742,2008-07-31T14:22:31.287,Jeff Atwood,2019-02-28T21:39:23.707,http://www.codinghorror.com/blog/,"El Cerrito, CA","<p><a href=""http://www.codinghorror.com/blog/archives/001169.html"" rel=""nofollow"">Stack Overflow Valued Associate #00001</a></p>
+
+<p>Wondering how our software development process works? <a href=""http://www.youtube.com/watch?v=08xQLGWTSag"" rel=""nofollow"">Take a look!</a></p>
+
+<p>Find me <a href=""http://twitter.com/codinghorror"" rel=""nofollow"">on twitter</a>, or <a href=""http://www.codinghorror.com/blog"" rel=""nofollow"">read my blog</a>. Don't say I didn't warn you <em>because I totally did</em>.</p>
+
+<p>However, <a href=""http://www.codinghorror.com/blog/2012/02/farewell-stack-exchange.html"" rel=""nofollow"">I no longer work at Stack Exchange, Inc</a>. I'll miss you all. Well, <em>some</em> of you, anyway. :)</p>
+",454747,3373,1310,https://www.gravatar.com/avatar/51d623f33f8b83095db84ff35e15dbe8?s=128&amp;d=identicon&amp;r=PG,1
+2,3582,2008-07-31T14:22:31.287,Geoff Dalgas,2019-02-25T19:37:07.033,http://stackoverflow.com,"Corvallis, OR","<p>Developer on the Stack Overflow team.  Find me on</p>
+
+<p><a href=""http://www.twitter.com/SuperDalgas"" rel=""nofollow noreferrer"">Twitter</a>
+<br><br>
+<a href=""http://blog.stackoverflow.com/2009/05/welcome-stack-overflow-valued-associate-00003/"">Stack Overflow Valued Associate #00003</a></p>
+",24787,654,88,https://i.stack.imgur.com/nDllk.png?s=256&g=1,2
+3,13591,2008-07-31T14:22:31.287,Jarrod Dixon,2019-02-27T18:07:14.680,http://jarroddixon.com,"Raleigh, NC, United States","<p><a href=""http://blog.stackoverflow.com/2009/01/welcome-stack-overflow-valued-associate-00002/"">Developer on the Stack Overflow team</a>.</p>
+
+<p>Was dubbed <strong>SALTY SAILOR</strong> by Jeff Atwood, as filth and flarn would oft-times fly when dealing with a particularly nasty bug!</p>
+
+<ul>
+<li>Twitter me: <a href=""http://twitter.com/jarrod_dixon"" rel=""nofollow noreferrer"">jarrod_dixon</a></li>
+<li>Email me: jarrod.m.dixon@gmail.com</li>
+</ul>
+",24985,7381,100,https://i.stack.imgur.com/2mwFl.jpg?s=256&g=1,3
+4,29230,2008-07-31T14:22:31.317,Joel Spolsky,2019-02-08T20:43:03.213,http://www.joelonsoftware.com/,"New York, NY","<p>I am:</p>
+
+<ul>
+<li>the co-founder and CEO of <a href=""http://stackoverflow.com"">Stack Overflow</a></li>
+<li>the co-founder of <a href=""http://www.fogcreek.com"" rel=""nofollow noreferrer"">Fog Creek Software</a></li>
+<li>the creator of <a href=""http://trello.com"" rel=""nofollow noreferrer"">Trello</a> (now owned by Atlassian)</li>
+</ul>
+
+<p>You can find me on my rarely-updated blog, <a href=""http://joelonsoftware.com"" rel=""nofollow noreferrer"">Joel on Software</a>.</p>
+",75102,800,96,https://i.stack.imgur.com/C5gBG.jpg?s=128&g=1,4
+5,39973,2008-07-31T14:22:31.317,Jon Galloway,2019-03-01T17:09:51.590,http://weblogs.asp.net/jgalloway/,"San Diego, CA","<p>Technical Evangelist at Microsoft, specializing in ASP.NET MVC.</p>
+
+<p>I don't use this site anymore because the moderators close or delete far too many of the useful questions.</p>
+",12147,783,34,,5
+8,942,2008-07-31T21:33:24.057,Eggs McLaren,2018-04-09T02:04:55.577,,,"<p>This is a puppet test account I use to validate ""regular user"" stuff on the site</p>
+<p>-- <a href=""http://stackoverflow.com/users/1/jeff-atwood"" rel=""nofollow"">Jeff Atwood</a>",6661,12,9,,6
+9,15163,2008-07-31T21:35:26.517,Kevin Dente,2018-11-17T01:12:56.980,http://weblogs.asp.net/kdente,"Oakland, CA","<p>Independent software engineer</p>
+",5215,46,4,,7
+10,101,2008-07-31T21:57:06.240,Sneakers O'Toole,2018-06-08T05:11:12.523,https://www.youtube.com/watch?v=OcSKd13mKUY,"Morganton, North Carolina United States","<p>I'm not takin' my sneakers off!
+<br><br>
+Actually, <b>I'm a test account</b>, used to help debug problems here on StackOverflow.</p>
+",3862,0,0,,8
+11,1978,2008-08-01T00:59:11.147,Anonymous User,2008-08-01T00:59:11.147,,,,2259,0,0,,561854
+13,183091,2008-08-01T04:18:04.943,Chris Jester-Young,2019-03-02T09:59:53.323,http://about.cky.nz/,"Raleigh, NC, United States","<p>Quick links:</p>
+
+<ul>
+<li><a href=""http://about.cky.nz/"" rel=""nofollow noreferrer"">About me</a>, <a href=""https://github.com/cky"" rel=""nofollow noreferrer"">GitHub</a>, <a href=""https://twitter.com/cky944"" rel=""nofollow noreferrer"">@cky944</a></li>
+<li><a href=""https://wiselike.com/cky"" rel=""nofollow noreferrer"">Ask me anything!</a></li>
+<li><a href=""http://careers.stackoverflow.com/cky"">SO Careers profile</a></li>
+<li><a href=""https://dyscourse.quora.com/"" rel=""nofollow noreferrer"">Programming blog</a></li>
+</ul>
+
+<hr>
+
+<p>I'm a New Zealander, and I speak and write in New Zealand English.</p>
+
+<p>If you'd like to edit my posts for spelling, please verify whether my spelling is correct in New Zealand; if so, I will likely revert your spelling ""fix"".</p>
+
+<p>In particular, in New Zealand, we use:</p>
+
+<ul>
+<li><em>-ise</em> (e.g., optimise) and <em>-yse</em> (e.g., analyse) instead of <em>-ize</em> or <em>-yze</em></li>
+<li>enrol, distil, and instil (with one <em>l</em>), and likewise enrolment and instalment (but install)</li>
+<li>colour, humour, glamour, and labour (with a <em>u</em>) when on its own, but without a <em>u</em> in some compound forms (humorous, glamorous, and laborious, but colourful)</li>
+<li><em>-t</em> forms for the past tenses of some verbs, such as dreamt, learnt, leant, and spelt, much akin to slept, meant, lent, and spent</li>
+<li>manoeuvre, oestrogen, oesophagus, aesthetics, encyclopaedia, paediatrics, etc., where US English would use <em>e-</em> instead of <em>ae-</em> or <em>oe-</em></li>
+<li>offence, defence, licence, practice (when used as noun); license, practise (when used as verb)</li>
+<li>manoeuvre, centre, metre, litre, mitre, etc., where US English would use <em>-er</em> instead of <em>-re</em></li>
+<li>Macca's, where US English would use Mickey D's ;-)</li>
+</ul>
+
+<p>This list is not exhaustive. :-)</p>
+
+<hr>
+
+<p>All the code snippets I post on Stack Overflow are licensed under <a href=""http://creativecommons.org/publicdomain/zero/1.0/"" rel=""nofollow noreferrer"">CC0</a>, unless otherwise specified.<sup>†</sup> In short: Free as in <a href=""http://en.wikipedia.org/wiki/Free_love"" rel=""nofollow noreferrer"">free love</a>. Reuse to your heart's content! :-D</p>
+
+<p>(This does not in any way contradict the site policy of licensing everything under CC-Wiki; it simply gives users even more freedom. In particular, you are not obliged to link back to SO when you use my code snippets.)</p>
+
+<p><sup>†</sup> This additional CC0 licence applies to my code snippets on Stack Overflow only. It does not apply to other Stack Exchange sites that my profile might happen to get copied to. In particular, I do not grant this licence to my posts on <a href=""http://codegolf.stackexchange.com/"">Code Golf Stack Exchange</a>.</p>
+",37429,5205,210,,9
+16,557,2008-08-01T12:01:53.023,Rodrigo Sieiro,2019-03-02T19:59:09.237,,"Uberlândia, Minas Gerais, Brazil","<p>iOS Developer at Airtime.</p>
+
+<p>Amateur barista, runner, tattoo enthusiast.</p>
+",1083,49,3,,11
+17,45592,2008-08-01T12:02:21.617,Nick Berardi,2019-03-01T17:55:24.503,http://nickberardi.com,"Issaquah, WA","<p>In my spare time when not working as a software developer, I contribute to a couple open source projects that I am quite proud of:</p>
+
+<ul>
+<li><p><a href=""http://code.google.com/p/elmah"" rel=""nofollow noreferrer"">ELMAH</a> (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. </p></li>
+<li><p><a href=""https://github.com/managedfusion/managedfusion-rewriter"" rel=""nofollow noreferrer"">URL Rewriter</a> a .NET module which mimics the Apache mod_rewrite syntax for support in IIS and Casini</p></li>
+<li><p><a href=""https://github.com/managedfusion/fluentcassandra"" rel=""nofollow noreferrer"">Fluent Cassandra</a> a .NET client for accessing the NoSQL Apache Cassandra database.</p></li>
+</ul>
+
+<p>Oh yeah and I also wrote a book:</p>
+
+<ul>
+<li>Co-authors of <a href=""https://rads.stackoverflow.com/amzn/click/0470410957"" rel=""nofollow noreferrer"">ASP.NET MVC 1.0 Website Programming: Problem - Design - Solution</a> published by Wrox and released in June 2009.</li>
+</ul>
+",4941,885,216,,12
+19,1407,2008-08-01T12:05:14.233,Mads Kristiansen,2019-03-01T08:59:37.200,https://gitlab.com/madskristiansen,"Denmark, Europe",,910,36,12,https://i.stack.imgur.com/tVlbc.png?s=128&g=1,13
+20,8840,2008-08-01T12:09:11.010,Tom,2016-12-20T20:03:00.167,http://tommcfarlin.com,"Atlanta, GA",,1714,370,38,,14
+22,13531,2008-08-01T12:11:11.897,Matt MacLean,2019-03-01T22:53:47.730,,"Calgary, Canada","<p><a href=""https://www.certmetrics.com/amazon/public/badge.aspx?i=1&amp;t=c&amp;d=2018-01-11&amp;ci=AWS00408304"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/V7O1T.png"" alt=""AWS Certified Solutions Architect Associate""></a>
+<a href=""https://www.certmetrics.com/amazon/public/badge.aspx?i=2&amp;t=c&amp;d=2018-01-13&amp;ci=AWS00408304"" rel=""nofollow noreferrer""><img src=""https://i.stack.imgur.com/G2dk9.png"" alt=""AWS Certified Developer Associate""></a></p>
+",1140,203,5,,15
+23,4446,2008-08-01T12:11:43.703,Jax,2019-03-01T18:38:52.303,,"Charlotte, NC, United States",,810,609,7,https://i.stack.imgur.com/QWTks.jpg?s=128&g=1,16
+24,3279,2008-08-01T12:12:53.453,sanmiguel,2019-02-26T09:49:39.660,,"London, United Kingdom","<p>-behaviour(gen_ale_drinker).</p>
+",475,537,3,,17
+25,17581,2008-08-01T12:15:23.243,CodingWithoutComments,2018-05-03T20:41:05.130,http://www.codingwithoutcomments.com,"Seattle, Washington United States","<p>a man, a plan, a canal, panama</p>
+",3982,539,83,,18
+26,11624,2008-08-01T12:18:14.520,Shawn,2018-04-11T04:40:35.660,,"San Francisco, CA","<p>a long time ago i found an xss vuln here and took down the entire site<br/><br/>
+userid 26, respect</p>
+",3452,565,67,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,19
+27,1291,2008-08-01T12:21:40.020,denny,2019-02-28T18:00:54.257,,"Winchester, VA","<p>I write shitty, buggy code...but that's okay.</p>
+",398,376,3,,20
+29,75959,2008-08-01T12:24:53.820,Michael Haren,2019-03-01T14:50:13.607,http://blog.wassupy.com/search/label/Technology,Ohio,"<ul>
+<li>These days I'm a .net/sql software guy</li>
+<li>I have plenty of experience on the LAMP stack, too</li>
+<li>Currently toying with RoR, ObjC. and stumbling my way through LINQ to Entities</li>
+<li>Currently loving ASP.NET MVC and jQuery</li>
+<li>More about be on my <a href=""http://careers.stackoverflow.com/haren"">CV</a> or <a href=""http://blog.wassupy.com/search/label/Technology"" rel=""nofollow"">personal blog</a></li>
+<li>mharen@gmail.com</li>
+<li>Random silliness on <a href=""http://twitter.com/mharen"" rel=""nofollow"">Twitter</a></p></li>
+</ul>
+
+<p>This is a personal account and not affiliated with my employer.</p>
+
+<p>#SOreadytohelp</p>
+",5255,5794,179,,21
+30,8353,2008-08-01T12:25:44.817,Grant,2019-03-01T18:24:49.787,http://beta.stackoverflow.com/badges/22/great-question,Georgia,"<p>Lead (and only) programmer for respectable hardware company.</p>
+",1403,144,8,,22
+32,980,2008-08-01T12:31:17.783,TimM,2018-06-28T18:29:05.740,http://www.sample.com,Alabama,I live in meteor crater.  I hate ObjC.,329,5,1,,23
+33,18828,2008-08-01T12:32:10.963,John,2019-03-02T19:36:34.937,http://www.blueboxes.co.uk,"Southampton, United Kingdom","<p>I am software developer primary working with Microsoft technologies and you can find me on <a href=""http://twitter.com/johnkilmister"" rel=""nofollow noreferrer"">Twitter</a></p>
+
+<p>#SOreadytohelp</p>
+",1544,2467,28,,24
+34,17426,2008-08-01T12:39:52.493,Karl Seguin,2012-02-04T00:55:28.387,http://www.openmymind.net/,"Ottawa, Canada","Check out my <a href=""http://tinyurl.com/5jaae2"" rel=""nofollow"">free ebook</a>",1754,51,9,,25
+35,15632,2008-08-01T12:43:07.713,Greg Hurlman,2019-02-26T05:28:49.427,http://greghurlman.com,"Washington, DC","<p>Solution Architect on the Parature team at Microsoft based in Washington, DC.<br/>
+<br/>
+Coder for 25 years, .Net developer since 2001.<br/>
+<br/>
+Twitter: @justcallme98<br />
+<br />
+Xbox Live Gamertag: ExitNinetyEight</p>
+",1522,452,212,,26
+36,4477,2008-08-01T12:43:55.683,Pat,2019-03-02T02:31:10.160,http://www.patrickhyatt.com,"Carrboro, NC, United States","<p>Full stack developer, living in NC, working remotely for a social media analytics company headquartered in Bethesda, MD.<br>
+Most proficient with WISC (<strong>W</strong>indows, <strong>I</strong>IS, <strong>S</strong>QL Server, <strong>C</strong>Sharp) stack, dabble with the rest.  </p>
+
+<p><a href=""http://www.patrickhyatt.com"" rel=""nofollow noreferrer"">http://www.patrickhyatt.com</a></p>
+",534,449,11,,27
+37,4818,2008-08-01T12:44:00.723,Wally Lawless,2019-03-01T16:49:18.177,http://www.power-coder.net,"Georgetown, Canada","<p>I'm a professional developer that used to work in PHP every day. These days I work primarily with JavaScript-based technologies and Front-End software.</p>
+",789,257,18,,28
+38,2882,2008-08-01T12:44:28.833,blcArmadillo,2015-07-30T20:40:27.617,http://www.ianburris.com,"Detroit, MI","<p>I'm currently studying computer engineering at the University of Michigan. My interests include: machine learning, data mining, hardware design, investing, and music.</p>
+",558,74,0,,29
+39,11318,2008-08-01T12:44:55.743,huseyint,2019-02-27T19:57:56.077,http://huseyint.com/,"Istanbul, Turkey","<p>Livin' and breathin' .NET!</p>
+",1585,559,21,,30
+40,9367,2008-08-01T12:48:12.353,Kevin,2019-03-01T23:59:12.670,http://kevinx.net/,"Philadelphia, PA",,1237,640,96,,31
+41,828,2008-08-01T12:56:51.897,Redbaron,2011-03-16T19:26:26.833,,Canada,,184,66,9,,32
+42,21287,2008-08-01T13:00:11.640,Coincoin,2019-02-27T23:14:14.567,,"Montreal, Canada","A guy with the attention span of a dead goldfish who has been having a blast in the industry for more than 10 years.
+
+Mostly specialized in game and graphics programming, from custom software 3D renderers to accelerated hardware pipeline programming.",1111,373,46,,33
+43,1917,2008-08-01T13:02:27.907,Justin,2017-11-16T20:04:41.077,http://www.thirdandgrove.com,United States,"<p>Co-founder and CTO at <a href=""http://www.thirdandgrove.com/"" rel=""nofollow"">Third and Grove</a>, <a href=""http://www.justinemond.com/pro-web-project-management/"" rel=""nofollow"">published author</a>, lover of beer, Director of Safety at the Black Mesa Research Facility.</p>
+",405,304,48,,34
+44,2236,2008-08-01T13:03:39.327,Tom Grochowicz,2019-01-15T17:05:03.940,http://tom.grochowi.cz,"Austin, TX","<p>More of a lurker than an asker.</p>
+
+<p>Currently working with Javascript, Python, and whatever else is necessary.</p>
+",346,39,8,,35
+45,68416,2008-08-01T13:04:45.017,Bob,2019-02-04T13:12:44.127,http://www.bob-stanton.com,United States,,2052,72,21,,36
+46,11245,2008-08-01T13:13:21.413,sven,2017-05-29T11:08:05.950,http://-,Belgium,,1192,516,23,https://i.stack.imgur.com/U5kmD.jpg?s=128&g=1,37
+48,5264,2008-08-01T13:25:15.757,Mat,2019-02-26T12:23:54.393,,"London, United Kingdom",,610,95,26,,38
+49,17766,2008-08-01T13:29:21.053,Leon Bambrick,2019-03-02T15:51:40.580,http://secretGeek.net,Australia,"<p>Living the dream. 
+creator of <a href=""http://TimeSnapper.com"" rel=""nofollow noreferrer"">http://TimeSnapper.com</a>, <a href=""http://NimbleText.com"" rel=""nofollow noreferrer"">http://NimbleText.com</a>, <a href=""http://secretGeek.net"" rel=""nofollow noreferrer"">http://secretGeek.net</a>, <a href=""http://YouMustGet.It"" rel=""nofollow noreferrer"">http://YouMustGet.It</a> and <a href=""https://YourFirstProduct.com"" rel=""nofollow noreferrer"">https://YourFirstProduct.com</a></p>
+",1287,1080,18,https://i.stack.imgur.com/ehgC6.png,39
+50,8340,2008-08-01T13:29:54.810,helloandre,2019-02-25T06:18:12.990,https://andre.blue,"San Francisco, CA, United States","<p>I'm <a href=""http://andrebluehs.net"" rel=""nofollow"">Andre Bluehs</a>. I build websites.</p>
+",1671,814,50,,40
+51,29118,2008-08-01T13:31:13.187,Yaakov Ellis,2019-03-02T17:21:26.243,http://ellisweb.net,"Yad Binyamin, Israel","<p>Husband, father, learner and programmer trying to live life as it should be lived. (@yaakov)</p>
+
+<p>Developer @ StackExchange since 10/2013</p>
+",2739,2704,44,https://www.gravatar.com/avatar/c55f4bccc99a9d23cd4f42c237eec90b?s=256&d=identicon&r=PG,41
+52,2093,2008-08-01T13:33:31.543,saniul,2016-09-28T18:31:04.840,,"London, United Kingdom",,392,399,50,,42
+55,7901,2008-08-01T13:40:09.767,Ryan Fox,2019-03-03T00:03:03.993,http://rcfox.ca,"Toronto, Ontario, Canada","<p>Computer Engineer</p>
+",1012,280,152,,44
+56,9162,2008-08-01T13:53:45.607,doekman,2019-02-28T14:06:08.043,http://www.zanstra.com/my/,"Groningen, Netherlands","<p>I'm both a Mac and Windows user. I like programming web applications. My languages of choice are Python, Javascript and C#.</p>
+",784,220,6,https://i.stack.imgur.com/CqIac.png,45
+57,78,2008-08-01T13:53:49.363,Chad Paulson,2011-06-19T05:21:53.290,http://chadpaulson.com/about.html,"Chicago, IL",,68,1,0,,46
+58,23819,2008-08-01T13:56:33.807,cmcculloh,2019-02-14T20:50:48.467,,"Indianapolis, IN","<p>Senior Front-End Engineer at Salesforce</p>
+
+<p>Co-Author of HTML, XHTML and CSS All-in-one Desk Reference for Dummies</p>
+
+<p>Graduated from IU with a Bachelors of Media Arts and Science and a Certificate in Applied Computer Science.</p>
+
+<p>Tech Editor for Building Facebook Applications for Dummies and Building Websites All-in-one for Dummies 2nd Edition.</p>
+
+<p>Creator and maintainer of the Status-bar Calculator Firefox and Chrome extensions</p>
+
+<p>Four years professional JS experience, three years professional Java E-Commerce experience, and four years professional experience with PHP</p>
+
+<p>Teach Server Side Programming with PHP and Mobile Applications Development at IUPUI</p>
+",1728,1041,55,,47
+59,4207,2008-08-01T14:02:13.030,saint_groceon,2008-09-15T17:34:53.940,http://www.antesonic.org,"Houston, TX","I tend to program Python, PHP, VBA (sigh), and C++ every now and then.",250,24,4,,48
+60,52330,2008-08-01T14:04:09.017,Dave Ward,2015-11-29T17:12:52.700,http://encosia.com,"Atlanta, GA","<p>Full stack .NET/JavaScript consultant specializing in architecture and development for sites, hybrid apps, and APIs built on web technologies.</p>
+",3443,2104,228,,49
+61,21867,2008-08-01T14:21:00.573,Bernard,2019-03-03T04:47:42.410,,"Auckland, New Zealand","<p>Programmer and wearer of many hats.</p>
+",1664,1306,214,,50
+62,4482,2008-08-01T14:21:21.930,Liron Yahdav,2019-02-23T20:44:23.650,http://example.com,"San Francisco, CA","<p>I'll fill this out someday.</p>
+",748,1196,11,,51
+63,6817,2008-08-01T14:25:17.443,JimDaniel,2017-01-20T20:54:59.837,http://resoapp.com,"Atlanta, GA","<p>I am a programmer with seven years experience. My current technology interests are Ruby, Rails, Objective C, iOS.</p>
+",857,158,12,https://i.stack.imgur.com/M0cBF.jpg,52
+64,7059,2008-08-01T14:27:12.480,t3rse,2019-02-27T16:19:11.300,http://www.t3rse.com,United States,"<p>Software developer based in Sioux Falls, South Dakota but of Ugandan extraction. Interests include photography, chess, literature, and sports.</p>
+",888,259,7,,53
+67,120008,2008-08-01T14:49:18.473,Rex M,2019-03-03T00:39:02.473,http://www.rexmorgan.net,United States,"<p>Building cool stuff with great teams as Engineering Director @ <a href=""http://www.inmar.com/"" rel=""nofollow"">Inmar</a>. Previously Qorvo, Volvo.<br /><br />
+Connect with me on <a href=""http://twitter.com/rexm"" rel=""nofollow"">Twitter @rexm</a> or <a href=""http://github.com/rexm"" rel=""nofollow"">GitHub</a>, or directly at rex@rexmorgan.net.</p>
+",9163,4187,780,,55
+68,1130,2008-08-01T14:52:56.327,Jonathan,2019-03-01T20:16:39.787,,"Minneapolis, Minnesota, United States",,148,16,2,,56
+70,6456,2008-08-01T15:02:45.980,Tim Boland,2017-07-07T15:01:57.000,http://www.techtoolblog.com,"Cincinnati, OH",Web App Developer,398,72,4,,57
+71,23660,2008-08-01T15:05:56.503,Dillie-O,2019-03-02T00:22:46.847,http://about.me/dillieo,"Prescott, AZ","<p>Senior Software Engineer for <a href=""http://freshconsulting.com"" rel=""nofollow"">Fresh Consulting</a>. </p>
+
+<p>See my <a href=""http://careers.stackoverflow.com/dillieo"">Careers CV</a> for geekish details.</p>
+
+<p>See my <a href=""http://about.me/dillieo"" rel=""nofollow"">website</a> for everything else.</p>
+
+<p><em>Bonum, Veritas, Pulcher, Techne.</em></p>
+
+<p><em>Living. Loving. Forgiving. Never giving up...</em></p>
+",2711,1444,21,,58
+72,23658,2008-08-01T15:09:58.697,pix0r,2019-02-15T18:19:24.630,http://pixor.net/,"Carlsbad, CA, United States","<p>Computer nerd</p>
+",1544,1234,21,,59
+73,1108,2008-08-01T15:12:05.870,Joe Fontana,2018-10-02T16:32:28.560,,United States,,174,79,5,,60
+75,6071,2008-08-01T15:54:25.720,Ryan Ahearn,2019-03-01T21:44:18.690,http://rcahearn.net,"Baltimore, MD","<p>I am a software engineer whose job includes coding in about every language that's ever been involved in the web.  Ruby, C, C++, PHP, Java, Javascript, Python, and Perl.</p>
+",506,675,13,,61
+76,3455,2008-08-01T15:56:38.010,Pete,2019-03-01T12:40:56.087,http://www.peteonsoftware.com,"Delaware, OH","<p>My name is Pete Shearer. I am a professional software developer with almost a decade of experience. I started working with VBA, then VB6 - earning my MCSD, on to classic ASP with VBScript, and now C# and ASP.Net. I mostly use Sql Server 2008 for back end development.
+</p>
+
+<p>I’ve worked for banks, hospitals, consulting companies, a small software development company, and now a health care services company.
+</p>
+
+<p>My blog title is a blatant ripoff of Joel on Software, but I consider it more of an homage!
+</p>
+
+<p>I am married, have 3 kids, and live in Ohio. GO BUCKS!!!</p>
+",313,282,15,,62
+77,59822,2008-08-01T16:02:03.927,Darren Kopp,2019-02-24T00:04:39.867,http://darrenkopp.com,"North Potomac, MD, USA","<p>I'm a software developer from Utah working in the Washington, DC metro area.</p>
+",3001,429,49,,63
+78,562,2008-08-01T16:03:23.347,A Salim,2019-02-27T19:01:41.007,http://asalim.net,Canada,"<p>@theshady</p>
+",270,10,2,,64
+79,18960,2008-08-01T16:05:09.163,Adam Ernst,2018-04-06T01:48:22.657,http://www.itrans.info,"New York, NY","<p>I'm an iOS developer based in New York City. I made one of the first 500 apps on the App Store with <a href=""http://www.itrans.info/"" rel=""nofollow"">iTrans, my NYC subway app</a>. I did the Khan Academy iPad app and the Turntable.fm iPhone app.</p>
+
+<p>Now I <a href=""http://www.adamernst.com/"" rel=""nofollow"">blog</a> and work at Facebook on their iOS app.</p>
+",1315,411,38,,65
+80,3246,2008-08-01T16:11:11.427,alumb,2019-03-01T23:57:32.140,http://lynet.ca,"Vancouver, Canada","<p>I'm a banana. My spoon is too big.</p>
+",973,143,7,,66
+81,1092,2008-08-01T16:28:33.453,MattH,2019-02-27T21:41:18.960,,United States,,315,55,5,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,67
+82,13744,2008-08-01T16:28:35.497,xyz,2019-01-14T13:35:55.907,,,,1977,1326,15,,68
+83,31090,2008-08-01T16:31:56.940,Zack Peterson,2019-02-22T18:13:35.590,http://careers.stackoverflow.com/zackpeterson,"Des Moines, IA","<p>I am a computer programmer with interests in both interface design and software architecture. I develop World Wide Web applications and distributed network applications. I am concerned with all facets of the software development process. I contribute to projects in an application architect role and also perform individual programming tasks.</p>
+",2801,1955,63,,69
+85,24751,2008-08-01T16:38:08.627,Paul Wicks,2019-03-03T00:26:56.460,,United States,,1142,471,86,,70
+86,4869,2008-08-01T16:45:58.800,svrist,2019-02-26T21:00:06.000,https://blog.vrist.dk,Denmark,"<ul>
+<li>Developer/Architect (Python, Elm, PostgreSQL etc)</li>
+<li>Former Developer (Java, C#, Silverlight/WPF)</li>
+<li>Former consultant</li>
+</ul>
+
+<p>from Copenhagen, Denmark, Europe</p>
+",537,1759,60,,71
+87,1280,2008-08-01T16:59:16.603,DylanJ,2017-11-08T15:12:32.027,http://john.ston.ca,Germany,,177,25,8,,72
+88,2033,2008-08-01T17:09:52.793,ESRogs,2019-02-28T07:00:03.710,,,,218,326,6,,73
+91,117200,2008-08-01T17:55:22.200,Michael Stum,2019-03-02T16:43:34.227,https://www.Stum.de,"Raleigh, NC, United States","<p>The same thing we do every night, Pinky. Try to take over the world!</p>
+
+<p>Full-Stack Developer on <a href=""https://stackoverflow.com/enterprise"">Stack Overflow Enterprise</a>, working to make our little corner of the Internet better for all of us.</p>
+
+<p>I also have <a href=""https://stum.de/"" rel=""nofollow noreferrer"">a blog</a> and a <a href=""https://twitter.com/mstum"" rel=""nofollow noreferrer"">Twitter</a>.</p>
+",12116,7111,55,,75
+92,17115,2008-08-01T17:55:41.827,Justin Standard,2019-03-01T16:54:43.780,http://stackoverflow.com/users/92/justin-standard,California,"<p>I am a software developer in southern California. My favorite languages are Python and Scala.  I have a ton of experience in JavaLand.</p>
+
+<p>I can also shoot a bow and arrow, change a clutch, bake chocolate-chip-bacon-cookies, pull a mean shot of espresso, and probably dozens of other unrelated things.</p>
+",3083,678,37,,76
+93,6292,2008-08-01T18:23:58.790,MojoFilter,2019-03-01T19:58:04.677,,"Crystal River, Florida United States",,679,687,14,,77
+94,114,2008-08-01T18:26:19.067,Stephen R.,2012-06-22T04:18:38.607,http://ontheheap.com,"Chicago, IL",,56,3,0,,78
+95,14108,2008-08-01T18:28:24.817,Marek Grzenkowicz,2019-03-02T20:07:43.750,,Poland,"<p>SQL Server → .NET → SharePoint → Informatica PowerCenter → Hadoop → Python / Data analytics</p>
+
+<p><a href=""http://www.linkedin.com/in/marekgrzenkowicz"" rel=""nofollow noreferrer"">LinkedIn</a> | <a href=""http://www.last.fm/user/chopeen"" rel=""nofollow noreferrer"">Last.fm</a> | <a href=""https://github.com/chopeen"" rel=""nofollow noreferrer"">GitHub</a></p>
+",2634,2647,153,,79
+96,26991,2008-08-01T18:33:48.240,Chris Marasti-Georg,2019-02-28T20:13:47.977,http://www.marastige.org,"Pittsburgh, PA","<p>Bowler with a programming problem.</p>
+",1841,948,98,,80
+99,9523,2008-08-01T19:25:50.707,Jason Pratt,2019-02-20T17:56:12.197,http://jasonpratt.org/,"Pittsburgh, PA","Game Developer<br>
+Favorite language: Python",370,146,52,,81
+100,5637,2008-08-01T20:41:59.493,Eric Haskins,2018-03-20T03:06:49.960,http://www.ehaskins.net,"Elkhorn, WI","<p>
+I'm a geek. What else do you want to know?
+</p>
+",1837,614,12,,82
+101,34802,2008-08-01T20:47:39.030,Peter Burns,2019-02-21T05:46:01.573,http://blog.rictic.com/,"San Francisco, CA","<p>I like my dynamic languages dynamic (Javascript, Python, Ruby) and my static types strong (Haskell).  Though in a pinch I have been known to code in C, Java, and C#.</p>
+
+<p>Currently working for Google.</p>
+",1759,539,64,,83
+102,11615,2008-08-01T22:04:10.763,Bill,2019-01-30T17:41:03.760,,United States,"<p>I'm a software engineer, and I've been spending a lot of time using C# lately.</p>
+",988,2515,38,,84
+103,2794,2008-08-01T22:31:22.487,svec,2019-03-03T01:55:19.767,https://chrissvec.com,"Raleigh, NC, USA","<p>I'm an embedded software engineer and all around nice guy.</p>
+
+<p>I make robots. I used to make chips.</p>
+
+<p><a href=""https://chrissvec.com"" rel=""nofollow noreferrer"">https://chrissvec.com</a></p>
+
+<p><a href=""http://www.linkedin.com/in/christophersvec"" rel=""nofollow noreferrer""><a href=""http://www.linkedin.com/in/christophersvec"" rel=""nofollow noreferrer"">http://www.linkedin.com/in/christophersvec</a></a></p>
+",480,198,8,,85
+104,1600,2008-08-01T23:16:18.903,Ted Dziuba,2010-09-10T21:27:22.020,http://www.teddziuba.com/,California,We gonna kick some nerd ass up in here.,2325,9,4,,86
+105,1964,2008-08-01T23:29:32.760,Ryan Eastabrook,2019-03-01T18:36:16.263,http://www.mantratechnology.com,United States,A software developer.,386,102,5,,87
+106,13344,2008-08-02T00:12:12.737,EndangeredMassa,2019-01-22T21:45:15.073,http://massalabs.com/,"Chicago, IL",,2479,761,110,,88
+107,506,2008-08-02T00:14:14.153,Wilson,2019-02-23T09:37:05.410,http://www.netwhatever.com/,"Sydney, Australia","<p>General-purpose tech guy</p>
+
+<p>Twitter: @wafonso</p>
+",89,8,1,,89
+108,3491,2008-08-02T00:19:35.607,Greg,2019-03-03T04:01:30.543,http://gregcurt.is,"Menlo Park, CA, USA",,323,326,5,,90
+109,10920,2008-08-02T00:20:47.820,Kalid,2015-10-10T21:32:52.273,http://betterexplained.com,"Seattle, WA","<p>I'm always up for new programming tricks.</p>
+",479,136,3,,91
+111,2042,2008-08-02T03:35:55.553,saalon,2018-10-17T20:52:56.923,http://www.saalonmuyo.com,"Pittsburgh, PA","<p>Writer, Filmmaker, Programmer.</p>
+
+<p>Or something like that.</p>
+",364,663,3,,92
+112,22105,2008-08-02T05:39:11.330,Jesse Beder,2019-03-03T00:32:00.510,http://bederstudios.com,"Chicago, IL, United States","<p>Googler, mathematician.<br><br>
+Check out Optia, a puzzle game for iOS, or yaml-cpp, a YAML parser/emitter library in C++.</p>
+",2062,1183,175,,93
+113,1503,2008-08-02T05:39:54.150,tlrobinson,2019-03-01T18:58:44.243,http://tlrobinson.net,"San Francisco, CA",,308,172,55,,94
+114,873,2008-08-02T05:40:36.787,Craig Smitham,2019-03-03T00:05:23.527,http://craigsmitham.com,,,211,53,4,,95
+115,42881,2008-08-02T05:44:40.553,UnkwnTech,2018-12-31T23:36:51.203,http://arronchapman.com,"Oregon, United States","<p>The desire to attempt the impossible is a key trait of most great programmers.</p>
+
+<p>arron@arronchapman.com</p>
+",4055,2978,482,,96
+116,173508,2008-08-02T05:51:57.153,Mark Harrison,2019-03-03T00:45:39.443,http://markharrison.net,"Piedmont, CA","<p>I'm currently a Software Engineer at Google where I work on machine learning planning systems.</p>
+
+<p>From 2001-2015 I worked at Pixar, where I was in charge of the Data Management Group. I had a 50 year charter to store and catalog all data and metadata related to the Studio's feature films.</p>
+
+<p>Prior to that I lived in China and was the Chief Software Architect at AsiaInfo, the company that built China's internet.  While there my software was used to grow the China Internet from 200K to 65M users.  Since I've left that's grown to about 350M users.</p>
+
+<p>I studied computer science and worked in Texas for many years.  I also wrote a couple of computer books.</p>
+
+<p>feel free to drop me a line if you've got any feedback on stuff I've posted here!</p>
+
+<p>marhar@gmail.com</p>
+",18446,2518,38,https://i.stack.imgur.com/f6flX.jpg?s=128&g=1,97
+117,24007,2008-08-02T05:54:20.440,Peter Coulton,2019-02-26T14:36:34.473,http://www.petercoulton.com/,"Middlesbrough, United Kingdom",,956,874,28,,98
+118,14478,2008-08-02T06:12:32.960,Brian Willis,2019-02-17T22:00:57.387,http://brianwillis.com,"Wellington, New Zealand","<p>I live over at brianwillis.com</p>
+
+<p>Come say hi.</p>
+",633,2203,14,https://i.stack.imgur.com/LVNuH.png,99
+119,169,2008-08-02T06:16:23.953,Jesse Ezell,2014-05-19T08:08:35.100,http://www.iserviceoriented.com,,test,115,1,0,,100
+120,970,2008-08-02T06:23:02.970,hitec,2019-02-25T19:49:26.243,,"Mumbai, India","<p>System.StackOverflowException</p>
+",279,139,0,,101
+121,11730,2008-08-02T07:34:46.760,ricree,2015-01-20T13:17:16.547,,,,468,396,25,,102
+122,32921,2008-08-02T07:56:07.917,Mike Stone,2019-02-26T15:00:44.793,http://reasonnumber.com/,"Sunnyvale, CA","<p>I am a programmer by hobby and by profession.  At work, I (currently) mostly work with Java and web technologies, but I enjoy playing with other languages as well.  Ruby is my favorite language to use, and so I try to work with it whenever I find the opportunity (and it makes sense).</p>
+
+<p>My operating system of choice is Linux (specifically Ubuntu), and my editor of choice is Emacs (I was converted by a combination of my current coworkers and articles from Steve Yegge).</p>
+",2820,515,51,,103
+123,30271,2008-08-02T08:01:26.953,prakash,2019-02-26T15:11:57.230,http://www.praka.sh,"Stockholm, Sweden","<p>Dad, Dreamer, Developer</p>
+",3443,419,40,https://i.stack.imgur.com/Tn2xB.jpg?s=128&g=1,104
+124,3606,2008-08-02T08:24:47.517,Daniel Broekman,2017-04-18T20:55:38.137,,"Seattle, WA",,196,6,1,,105
+131,2884,2008-08-02T08:58:50.910,Marcel,2016-12-09T06:26:10.660,,"Melbourne, Australia",,935,470,20,https://www.gravatar.com/avatar/66ae294daa3fc8e9ed6d1f088186d6ee?s=128&d=identicon&r=PG&f=1,106
+133,10896,2008-08-02T09:06:05.827,Luke Girvin,2019-03-02T17:59:58.577,http://twitter.com/lgirvin,"Norwich, United Kingdom","<p>Web developer (C#, JavaScript, SQL Server, Oracle), Emacs user, and Norwich City fan.</p>
+",1860,3792,454,https://i.stack.imgur.com/LNtwN.png?s=128&g=1,107
+134,496,2008-08-02T09:12:56.250,Stephen Hendry,2008-09-25T15:12:35.140,http://stephenhendry.net,"London, United Kingdom",To be filled in at some point,80,5,0,,108
+135,2480,2008-08-02T10:11:35.663,Rob Burke,2018-07-16T22:15:19.553,http://rob.ie/,"Dublin, Ireland","<p>Navision / C# developer with all the appropriate SQL-fu that goes with the aforementioned.
+<br /><br />
+Dabble in Python, Ruby, and Linux system administration.
+<br /><br />
+I also administer Exchange 2007, Active Directory, Blackberry, and various Windows servers.
+<br /><br />
+I'm a rugby player and fan and spend far too much time going to the movies.</p>
+",471,95,7,,109
+136,28513,2008-08-02T10:21:53.847,Michiel de Mare,2019-03-01T21:54:48.803,,"Amsterdam, Netherlands","<p>I've been programming since I was twelve years old - Basic, Pascal, C, C++, Java, Ruby. I've done a lot of Java, and since 2006 I'm working mostly with Ruby, and sometimes a bit of Clojure.</p>
+",2097,551,98,,110
+137,16695,2008-08-02T10:46:12.550,Polsonby,2019-02-28T17:08:03.757,,"England, United Kingdom",,960,384,46,,111
+139,2438,2008-08-02T11:34:21.253,bentsai,2019-03-01T19:04:35.343,http://bentsai.wordpress.com,"Pittsburgh, PA","<p>I enjoy pizza.</p>
+",174,417,5,,112
+140,445,2008-08-02T11:49:27.073,Rufo Sanchez,2018-01-04T15:53:08.847,http://rufosanchez.com/,"Rochester, NY","Ruby/Rails/Javascript-oriented programmer located in Rochester, NY.",179,73,7,,113
+142,22790,2008-08-02T12:41:43.627,Lehane,2016-06-11T20:10:35.320,http://becomeaprogrammerin21years.blogspot.com/,Ireland,Software programmer,793,106,3,,114
+143,7035,2008-08-02T12:45:43.887,Robert Höglund,2016-10-30T11:19:55.807,http://blog.roberthoglund.com/,"Uppsala, Sweden","<p>dotnet programmer by day, cocoa novice by night</p>
+",890,269,3,,115
+144,4513,2008-08-02T14:22:14.800,Issac Kelly,2019-03-03T04:41:43.580,http://www.issackelly.com,"Palo Alto, CA","<p>Developer, Python/Django primarily.</p>
+",462,123,9,,116
+145,12538,2008-08-02T14:40:17.600,akdom,2018-11-01T21:11:20.103,http://blog.echoet.com/,"New York, NY","<p>I've done System Administration for a small non-profit for the last few years while going to school full time.  This entailed building a half-decent knowledge of Linux and Mac OSX system administration and learning PHP and Bash as well as some Perl and Python.  I'm currently working on a couple side projects (yet to be disclosed), and a Bachelors in Computer Science.</p>
+",1469,577,7,,117
+146,4360,2008-08-02T14:49:20.517,Sam Schutte,2019-01-15T17:38:49.337,https://unstoppablesoftware.com,"Cincinnati, OH","<p>President of <a href=""https://www.unstoppablesoftware.com"" rel=""nofollow noreferrer"">Unstoppable Software, Inc.</a>, a custom software development shop that focuses on building solutions for healthcare, engineering, and industrial companies.  Our ability to ""bolt on"" to your team to deliver solutions on-time and on-budget set us apart from a the herd of staff aug consultants that it's your problem to manage.  Reach out to us at 513-382-8499 if you'd like to learn more about how we engage for incredible ROI, or read the case studies below to learn just how great that ROI can be:</p>
+
+<p><a href=""https://unstoppablesoftware.com/portfolio-posts/inspection-fines-management-system/"" rel=""nofollow noreferrer"">Inspection Fines Management System</a>: <strong>4000% ROI over two years</strong>
+<br></p>
+
+<p><a href=""https://unstoppablesoftware.com/portfolio-posts/patient-diag-treatment-mgmt-system/"" rel=""nofollow noreferrer"">Automated Patient Diagnostics System/EMR</a>: <strong>50%+ productivity and $200,000 annual audit risk reduction</strong></p>
+
+<p><a href=""https://unstoppablesoftware.com/portfolio-posts/3d-web-based-cad-system/"" rel=""nofollow noreferrer"">Sales Enablement Through Automated CAD Design</a>: <strong>1,000% ROI through lead time reduction from 2 weeks to 5 minutes</strong></p>
+
+<p>If you're not ready to engage for a full project, check out some of our micro-engagements which can deliver incredible value in a very short time:</p>
+
+<p><a href=""https://unstoppablesoftware.com/services/micro"" rel=""nofollow noreferrer"">Micro Engagements</a>
+<br><br>
+sschutte@unstoppablesoftware.com</p>
+",598,605,14,https://i.stack.imgur.com/9n0Df.jpg?s=128&g=1,118
+147,14547,2008-08-02T14:57:08.083,Gareth Simpson,2018-12-17T19:11:52.377,http://xurble.org/,"Burbank, CA","Just zis guy, you know?",646,284,24,,119
+148,11010,2008-08-02T15:01:32.393,Adrian Clark,2019-03-03T03:49:19.123,,"Brisbane, Australia","<p>I'm a Microsoft .Net Developer and work in both the Windows and Web Application spaces.  I really enjoy writing code, solving problems and helping people with technology.</p>
+",647,325,26,,120
+149,12288,2008-08-02T15:03:56.477,Rob Allen,2019-02-17T21:01:29.030,http://careers.stackoverflow.com/roballen,"Boston, MA","<p>Manager of Software Development, Boston, MA </p>
+
+<p>See also, <a href=""http://twitter.com/robspages"" rel=""nofollow"">Twitter</a>, <a href=""http://www.linkedin.com/pub/rob-allen/1/687/aa8"" rel=""nofollow"">LinkedIn</a> </p>
+",1657,945,28,,121
+150,6358,2008-08-02T16:09:34.817,ESV,2019-02-15T17:26:22.047,, , ,352,1058,13,https://www.gravatar.com/avatar/01e9568182da0c71804cf1aa521e358b?s=256&d=identicon&r=PG,122
+151,2168,2008-08-02T16:20:32.437,Darren Greaves,2019-03-02T10:55:54.123,http://boncey.org,"London, United Kingdom","<p>Freelance software developer living in the UK.</p>
+
+<ul>
+<li><a href=""http://boncey.org/"" rel=""nofollow"">http://boncey.org/</a></li>
+<li><a href=""http://twitter.com/boncey"" rel=""nofollow"">http://twitter.com/boncey</a></li>
+<li><a href=""https://github.com/boncey"" rel=""nofollow"">https://github.com/boncey</a></li>
+</ul>
+",407,616,0,,123
+152,3735,2008-08-02T17:25:04.990,Jonesinator,2019-02-11T03:27:17.830,http://jonesinator.com,"Littleton, CO, United States",,168,48,11,https://i.stack.imgur.com/oXFHS.jpg?s=128&g=1,124
+153,1723,2008-08-02T17:26:08.623,jaredg,2013-08-15T23:25:10.143,,California,,346,61,0,,125
+154,5090,2008-08-02T17:32:17.973,Matt,2019-02-09T19:12:33.010,,Canada,"<p><i>Interests include:</i> bicycle maintenance, distributed systems, and tools development.</p>
+
+<p><i>Languages of interest:</i> C, Java, Python.</p>
+",305,41,63,,126
+155,866,2008-08-02T17:33:51.103,garg,2015-10-06T15:54:58.643,,,,216,344,3,,127
+156,13816,2008-08-02T17:36:27.823,Joe Shaw,2019-02-13T18:27:54.587,https://joeshaw.org,"Columbus, OH","<p>I am a distributed systems engineer at <a href=""https://fastly.com"" rel=""nofollow noreferrer"">Fastly</a>, a real-time, global content delivery network.</p>
+
+<p>Over the years I've worked on <a href=""https://joeshaw.org/about"" rel=""nofollow noreferrer"">many different things</a>, including Linux software management, hardware integration in the Linux desktop, desktop search, cluster and service management, a largely JavaScript operating system, embedded firmware, web services, and CDN infrastructure.</p>
+
+<p>I've contributed a lot to open source over the years, especially the GNOME project.</p>
+
+<p>These days I mostly program in Go, with some Python and C and JavaScript sprinkled in.  In the past I've done C# as well.</p>
+",1167,970,51,,128
+157,40408,2008-08-02T17:42:25.970,nlucaroni,2017-02-08T20:30:05.247,http://stackoverflow.com/users/157/,"New Rochelle, NY","<p><b>Home:</b> Functional Programming (OCaml), Scientific Computing, Statistics, <br/>
+<b>Work:</b> Functional Programming (Scala), Java, REST µServices, <br/></p>
+",2043,1490,588,,129
+159,1144,2008-08-02T18:20:52.883,Holtorf,2019-02-27T22:56:50.690,,"New York, United States","<p>I here to kick butt and code software. </p>
+
+<p>I'm all out of butt.</p>
+",218,1115,17,,130
+160,371,2008-08-02T18:35:58.640,Louis Salin,2017-11-09T21:53:44.227,http://louissalin.lostechies.com,"Austin, TX",I'm just trying to get better at what I do,122,79,1,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,131
+161,2951,2008-08-02T18:49:07.723,Federico Builes,2019-02-27T16:05:46.437,http://mheroin.com,"Amsterdam, Netherlands","<p>More icy-beams por favor.</p>
+",549,269,8,,132
+162,2054,2008-08-02T20:09:15.177,Paul G,2019-02-27T13:08:29.273,http://None,"Murfreesboro, TN","<p>Sr App Dev Mgr for a content distributor</p>
+
+<h1>SOreadytohelp</h1>
+",539,1786,3,,133
+163,5974,2008-08-02T20:40:09.590,thelsdj,2018-11-20T02:53:06.610,http://blog.thelsdj.org/,"Vallejo, CA","C# business logic programmer by day, electronic music and science fiction fan by night",420,301,22,,134
+164,12811,2008-08-02T20:59:47.133,John Siracusa,2019-02-05T14:44:54.230,http://hypercritical.co,"Newton, MA","<p>Web developer, podcaster, freelance technology writer.</p>
+",4755,212,24,,135
+166,1440,2008-08-02T21:28:38.603,Ryan Olson,2019-03-01T19:21:38.453,http://gimpysoft.com,"Los Angeles, California United States","<p>Perl and Bikes and Food</p>
+
+<p>Twitter: @gimpson</p>
+",273,475,14,https://i.stack.imgur.com/bolro.jpg,136
+168,1198,2008-08-02T21:53:24.467,Dan Wolchonok,2019-02-03T22:07:23.230,http://dwolchon.com,,,288,48,2,,137
+169,5415,2008-08-02T22:51:03.507,Arnold Zokas,2019-03-01T16:56:36.107,http://www.opentable.co.uk/,"London, United Kingdom","<p>Developer at OpenTable</p>
+",647,1977,18,,138
+170,2762,2008-08-02T23:13:02.997,UberAlex,2019-02-27T18:30:00.210,http://www.oconnoat.com,"Dublin, Ireland","<p>Computer Science Researcher in Ireland.
+Mainly Java &amp; Python. 
+Interests in Semantics, Databases, Social Networks, Customer Support and Adaptivity.</p>
+",235,148,7,,139
+171,3144,2008-08-02T23:47:08.527,dagorym,2019-02-28T18:54:58.197,http://www.thomasstephens.info,"Spanish Fork, UT","<p>Self-taught programmer, Astronomy Ph.D. formerly a contractor for NASA as a developer on the NASA Fermi Gamma-ray Space Telescope.  Now the Physics, Astronomy, Math, and Computer Science librarian at BYU.</p>
+",307,359,2,,140
+172,866,2008-08-02T23:55:05.610,Bruce the Hoon,2018-09-26T00:59:01.293,,"Las Vegas, NV",,186,21,1,,141
+173,639,2008-08-03T01:04:00.900,Justin Walgran,2014-04-13T17:24:05.923,http://walgran.com/justin,"Lewisburg, PA",Professional .NET programmer and part time rock god. ,111,49,18,https://www.gravatar.com/avatar/c3a9af4bea6a400c0d5d44cbc14ff27c?s=128&d=identicon&r=PG,142
+175,2311,2008-08-03T01:39:56.100,engtech,2013-04-29T15:52:56.193,http://engtech.wordpress.com,"Ottawa, Canada","<p>I play a cat on the internet.</p>
+
+<p>Formerly found at:</p>
+
+<ul>
+<li><a href=""http://engtech.wordpress.com"" rel=""nofollow"">Internet Duct Tape</a></li>
+<li><a href=""http://twitter.com/engtech"" rel=""nofollow"">twitter</a></li>
+<li><a href=""http://userscripts.org/users/11513"" rel=""nofollow"">userscripts</a></li>
+</ul>
+
+<p>I make the hardware that puts the tubes in the internet.</p>
+
+<p>If you're reading this, you've sent bits through something I worked on. Isn't that cool?</p>
+",108,43,12,,143
+177,1408,2008-08-03T02:15:39.960,Fred,2018-03-22T21:41:49.940,http://none,"Hanford, CA","I'm a programmer with a computer science background.  I got very good at C and C++ in college with one coding internship using Visual C++, MFC, and Direct Sound.   I got familiar with J++ by doing my algorithms class in it, I've done some Sun Java as well.  Most of my coding has been in VB to automate MS Access however.  I'm currently teaching myself C# by creating a utility I hope to sell online.",152,502,1,,144
+178,630,2008-08-03T02:21:57.857,steve_mtl,2018-12-20T15:51:29.813,http://stevenmcgurn.wordpress.com,"Montreal, Canada","Software developer, Scrum Master. Made my bones in Java, and more recently developed in c#.  ",165,44,3,,145
+179,1006,2008-08-03T02:38:27.013,Isaac Moses,2019-02-28T16:15:35.377,http://IsaacEMoses.info,"Silver Spring, MD","<p>I founded <a href=""http://meta.judaism.stackexchange.com/questions/1/where-did-all-these-posts-come-from"">mi.yodeya</a>.
+<br>
+I'm also a public transit technologist.
+<br>
+Major Jewish communal credentials:<br>
+Mashgiach Emeritus, MIT Hillel Kosher Kitchens;<br>
+Gabbai Emeritus, MIT Orthodox Minyan.</p>
+
+<p>Keep these XKCD messages handy at all times:</p>
+
+<ul>
+<li>For communication: <a href=""http://xkcd.com/169"" rel=""nofollow noreferrer"">169</a>, <a href=""https://xkcd.com/1984"" rel=""nofollow noreferrer"">1984</a></li>
+<li>For professionalism: <a href=""http://xkcd.com/277"" rel=""nofollow noreferrer"">277</a></li>
+<li>For self-preservation: <a href=""http://xkcd.com/386"" rel=""nofollow noreferrer"">386</a></li>
+<li>For civility: <a href=""http://xkcd.com/438/"" rel=""nofollow noreferrer"">438</a></li>
+<li>For teaching: <a href=""http://xkcd.com/1053"" rel=""nofollow noreferrer"">1053</a></li>
+</ul>
+
+<p>Contact me off-line at lo_yodeya@ (my personal domain, listed under ""Website"" in this profile).</p>
+",403,198,12,https://www.gravatar.com/avatar/d7b6ce3e99416ded77610cbbf2997885?s=256&d=identicon&r=PG,146
+181,2032,2008-08-03T03:43:40.233,Bill,2019-01-10T04:02:09.440,http://wdr1.com/blog/,"Los Angeles, CA","<p>(your <em>about me</em> is currently blank)</p>
+",318,195,22,,147
+183,1782,2008-08-03T05:09:40.827,Eric Davis,2014-10-17T20:18:04.787,http://theadmin.org,Oregon,"<p>Team leader of <a href=""https://www.chiliproject.org"" rel=""nofollow"">ChiliProject</a>, previous core contributor to <a href=""http://www.redmine.org"" rel=""nofollow"">Redmine</a>, developer of over <a href=""https://github.com/edavis10"" rel=""nofollow"">100 Open Source Redmine/ChiliProject plugins</a>.</p>
+",565,34,1,,148
+184,29045,2008-08-03T05:34:19.013,Niyaz,2019-03-01T04:53:29.903,,"Seattle, WA, United States","<p>I hang out <a href=""http://news.ycombinator.com/user?id=niyazpk"" rel=""nofollow noreferrer"">here</a>.</p>
+",3404,652,25,,149
+186,1546,2008-08-03T06:30:23.550,Swinders,2019-02-11T12:58:22.280,http://swinders.co.uk,United Kingdom,"<p>Work as Systems Analyst for a company in Portsmouth, United Kingdom. Program mostly using LabVIEW with some Visual Studio and use MS SQL for database. Seem to be doing lots of serial communication code to barcode readers, balances, Andon devices, MFCs (Mass Flow Controllers) and Environmental chambers lately.</p>
+
+<p>Playing with Raspberry Pi and Arduino in my spare(?) time.</p>
+
+<p>Say hi on twitter <a href=""http://twitter.com/swinders"" rel=""nofollow"">@swinders</a>.</p>
+
+<p>Find out more on <a href=""http://about.me/swinders"" rel=""nofollow"">about.me</a> or view my <a href=""https://profiles.google.com/steve.swindley"" rel=""nofollow"">Google</a> or <a href=""http://www.linkedin.com/in/stephenswindley"" rel=""nofollow"">LinkedIn</a> Profiles</p>
+
+<h1>SOreadytohelp</h1>
+",456,431,5,,150
+188,27464,2008-08-03T08:34:56.543,Matthew Schinckel,2019-03-01T04:53:55.007,http://schinckel.net,"Adelaide, Australia","<p>Developer.</p>
+",1864,1197,113,,151
+189,10118,2008-08-03T09:23:42.793,Seb,2019-02-28T16:38:20.127,http://www.lyst.com,"London, United Kingdom","<p>Super web developer.</p>
+",697,63,3,,152
+190,970,2008-08-03T09:47:03.607,robaker,2019-03-01T15:14:33.793,http://www.google.co.uk,"Telford, United Kingdom",for the badge,94,64,54,,153
+191,8445,2008-08-03T09:55:26.223,Ramesh Soni,2019-02-27T11:26:44.970,http://www.dailycoding.com,India,"I am fun loving guy and a techie working as a engineer in a software development firm. My hobbies and interests are all around my profession. These includes programming, computer games, technology, internet..",1415,294,61,,154
+192,28752,2008-08-03T10:15:38.557,tags2k,2019-02-28T10:37:14.560,,"Harrogate, England, United Kingdom","<p>Scottish C# ASP.NET developer currently living and working in Yorkshire, UK.</p>
+",716,102,9,,155
+193,6266,2008-08-03T10:44:38.247,Ronnie,2019-02-23T16:30:59.440,http://www.twitter.com/ronniebarker,United Kingdom,"<p>Agile Evangelist - C#.Net since 2006, programming since the mid-eighties!</p>
+",385,71,28,,156
+194,17455,2008-08-03T10:56:49.987,Adam Haile,2018-10-07T14:24:59.297,http://adamhaile.net,United States,,2321,219,18,,157
+195,1143,2008-08-03T11:02:15.077,gil,2018-01-27T17:50:08.797,,Illinois,,161,80,7,,158
+196,383,2008-08-03T11:27:05.040,Spencer,2019-03-02T23:11:30.017,,United States,,138,136,6,,159
+197,7426,2008-08-03T11:32:35.700,Daan,2019-03-02T10:09:03.177,http://stuq.nl,Netherlands,"<p>Crafting web applications in a variety of languages.</p>
+",392,561,10,,160
+198,11037,2008-08-03T12:18:28.293,dlinsin,2019-02-27T12:34:16.690,http://dlinsin.github.com,"Kerpen, Germany","<p>Freund und Papa • Kaffee-Liebhaber &amp; Katzen-Zähmer • Hockey Fan • Software Entwickler</p>
+",1268,744,57,,161
+199,11324,2008-08-03T12:26:21.943,Brendan,2019-03-01T09:50:19.710,http://brendan.sdf-eu.org/,"Bristol, United Kingdom","<p>Was a physicist, now a freelance technologist and UX designer</p>
+
+<p>Most at home with C#, XAML, Javascript and Python with experience in lots of other languages and technologies.</p>
+",1088,728,0,,162
+200,11305,2008-08-03T12:55:49.887,John Downey,2019-03-01T15:24:40.767,http://jtdowney.com,United States,"<p>Developer and Product Security Lead @ <a href=""http://www.braintreepayments.com/"" rel=""nofollow"">Braintree</a></p>
+",757,196,16,,163
+202,6959,2008-08-03T13:02:31.823,Christian Hagelid,2019-03-01T05:00:17.763,,"Melbourne, Australia","<p>while(isCoding)
+    {
+        DrinkCoffee();
+        WearHeadphones();
+    }</p>
+",612,1815,12,,165
+203,10199,2008-08-03T13:26:47.500,Ben Mills,2019-02-28T02:45:16.927,http://www.millssoftware.com,Vermont,"<p>Software programmer living in Vermont.</p>
+",640,691,25,,166
+204,7806,2008-08-03T13:27:56.623,dragonmantank,2018-11-03T01:01:29.810,http://ctankersley.com,United States,"<p>Love to program in PHP, starting to look into Python and C# as well.</p>
+",533,56,3,,167
+205,4031,2008-08-03T13:31:27.647,Mike Powell,2019-02-14T15:19:41.430,,United States,"<p>.NET developer and Director of IT for a medium-sized nonprofit organization.  Also serving as self-titled Director of IT, network admin, and handyman for <a href=""http://www.preddycreekvet.com"" rel=""nofollow"">my wife's small business</a>. I also have a sporadically-used <a href=""http://twitter.com/#!/mowog74"" rel=""nofollow"">twitter account</a>.</p>
+",445,197,10,,168
+206,3292,2008-08-03T13:35:14.050,Chris Miller,2019-03-01T14:51:42.797,http://www.rajapet.com,"Albany, NY","<p>I am a <a href=""http://mvp.microsoft.com/en-us/mvp/Chris%20Miller-5000200"" rel=""nofollow"">Microsoft MVP for Visual C#</a>, a Xamarin Certified Mobile Developer for iOS and Android, and the leader of the <a href=""http://tvug.net"" rel=""nofollow"">Tech Valley .NET User Group</a>.</p>
+
+<p>I have been developing on various platforms for way too long to detail, but I currently work and write about C# programming using Microsoft and Xamarin tools.</p>
+",620,243,6,,169
+207,19600,2008-08-03T13:51:13.817,James Sulak,2018-06-28T17:58:38.263,http://www.jamessulak.com,"Houston, TX","<p>I'm a software developer in Houston, Texas. Find me at my <a href=""http://www.wordsinboxes.com"" rel=""nofollow"">blog</a> or on <a href=""http://www.twitter.com/jsulak"" rel=""nofollow"">Twitter</a>, or check out different <a href=""http://www.jamessulak.com"" rel=""nofollow"">projects I've done</a>.<p><a href=""http://twitter.com/jsulak"" rel=""nofollow"">@jsulak</a></p><p><a href=""http://facebook.com/james.sulak"" rel=""nofollow"">facebook</a></p></p>
+",1067,689,24,,170
+208,29753,2008-08-03T13:52:08.760,brad,2019-03-02T13:25:55.343,http://braddunbar.net,"Lexington, South Carolina",,1335,695,10,,171
+209,10510,2008-08-03T13:54:19.503,CVertex,2019-02-26T04:22:03.477,http://au.linkedin.com/in/vijaysanthanam,Australia,"<p>""There's a risk I'll OD on imagination like my friend Chauncey"" - Wonder Showzen.</p>
+",1424,1858,54,,172
+210,25720,2008-08-03T14:46:59.273,rfunduk,2019-02-27T15:19:52.287,https://ryanfunduk.com,"Waterloo, Canada","<p>I eat code for breakfast, lunch, and dinner. These days I'm mostly working with React, Node, and Ruby and Rails.</p>
+
+<p>Co-founder of <a href=""https://coursecraft.net"" rel=""nofollow noreferrer"">CourseCraft</a> and <a href=""https://bugrocket.com"" rel=""nofollow noreferrer"">Bugrocket</a>.</p>
+",1365,507,551,,173
+211,2194,2008-08-03T14:56:28.707,jhornnes,2013-09-19T06:06:16.590,http://www.hornnes.org,"Hendersonville, NC",not much to say,104,0,1,,174
+212,3413,2008-08-03T14:59:56.407,Mike Polen,2019-02-26T19:46:33.410,http://about.me/mwpolen,"Richmond, VA","<p>Christian, dynamic systems engineer, developer, classic liberal, reader, teacher, father and husband</p>
+",1114,456,4,,175
+214,10703,2008-08-03T15:12:30.920,ICR,2019-03-01T18:42:45.730,http://www.morethannothing.co.uk,United Kingdom,I am a second year Computer Science who has been programming for 8 years in a variety of languages spanning from BASIC to C#.,618,656,21,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,176
+216,7689,2008-08-03T15:21:52.727,Joey deVilla,2018-12-17T17:48:27.423,http://globalnerdy.com/,"Tampa, Florida","<p>Accordion-playing tech evangelist, developer, and tech community leader seeking new opportunities.</p>
+",327,29,0,https://i.stack.imgur.com/4v31P.jpg?s=128&g=1,177
+217,493,2008-08-03T15:59:20.483,Jonathan Rauch,2019-02-24T10:16:29.470,http://twitter.com/JonathanRauch,"Tel Aviv, Israel","<p>Software developer. Mostly C#. And as much Ruby as I can find the time for</p>
+",80,645,3,,178
+219,15068,2008-08-03T16:25:07.687,Rudd Zwolinski,2019-03-01T19:00:04.653,http://www.ruddzw.com,"Fairfield, CT, United States",,648,1169,16,https://i.stack.imgur.com/YdULj.png,179
+223,8582,2008-08-03T16:58:07.103,David Pokluda,2017-09-15T04:49:41.223,http://blog.pokluda.com,"Redmond, WA","<p>Test driven developer using mostly Microsoft technologies.</p>
+",618,59,9,,181
+224,7002,2008-08-03T17:17:37.627,vzczc,2019-02-26T12:30:05.217,http://www.vzcz.com,Norway,Developer in Oslo,829,466,4,,182
+225,22069,2008-08-03T17:19:42.117,brendan,2019-02-26T21:55:43.263,http://devspade.com,"Boston, MA","<p>Developer - mostly .Net these days but I've dabbled in a tons of other stuff.
+<br /><br />
+Currently working for <a href=""http://litmusapp.com"" rel=""nofollow"">Litmus</a>.</p>
+",1334,926,32,,183
+227,11293,2008-08-03T17:53:19.473,Ishmaeel,2019-03-02T17:28:43.243,,"Istanbul, Turkey","<p>I prefer to keep an air of mystery about me.</p>
+",703,2068,62,,184
+229,855,2008-08-03T18:25:54.463,Brian Jorgensen,2010-06-15T15:42:05.580,http://code.google.com/p/sympy/,United States,"Straight-up coding 24/7, dawg.",90,22,1,,185
+230,15746,2008-08-03T19:32:46.793,Dan,2019-01-09T11:21:45.190,,"London, United Kingdom",,1440,725,183,,186
+231,6635,2008-08-03T19:35:19.220,FryHard,2019-02-28T09:29:21.837,http://www.fryhard.com,South Africa,"<p>Software developer working in the Microsoft world.</p>
+",317,277,8,,187
+232,9389,2008-08-03T20:02:07.670,Matt Dawdy,2019-03-02T20:52:29.733,,"Prairie Village, KS","<p>Programming is fun. And hard.  But mostly fun.  Well, actually, it changes hour by hour.</p>
+
+<h1>SOreadytohelp</h1>
+",963,650,37,https://i.stack.imgur.com/1cV9F.png?s=128&g=1,188
+233,35975,2008-08-03T20:19:32.847,Ray,2019-02-06T21:15:32.600,,"Auckland, New Zealand",,1589,1733,211,,189
+234,85571,2008-08-03T20:25:38.200,Orion Edwards,2019-03-02T09:40:54.820,http://orionedwards.blogspot.com,New Zealand,"<p>I do .NET, C++, Ruby, Automated Testing, Running and Snowboarding<p><a href=""http://twitter.com/borland"" rel=""nofollow"">@borland</a></p></p>
+",4835,3842,324,,190
+235,21107,2008-08-03T20:30:43.370,Joshua McKinnon,2019-03-02T02:31:41.433,http://codecampfire.blogspot.com,United States,Developer and longtime geek - I enjoy everything about programming and computers.,1147,760,5,,191
+236,630,2008-08-03T20:50:07.713,sachin,2019-02-28T16:55:43.237,http://www.google.com,"Bangalore, India","<p>Software developer</p>
+",115,191,2,,192
+237,375,2008-08-03T20:59:06.353,yoliho,2019-02-28T05:45:16.433,,"Bethesda, MD","Pet: Shiba Inu
+
+",117,149,1,,193
+238,28570,2008-08-03T21:42:37.873,Pat,2019-03-01T15:42:11.817,http://yoolki.com,"Beirut, Lebanon",:-),736,216,18,,194
+242,4076,2008-08-03T22:55:19.053,Dhaust,2019-03-01T02:25:01.350,http://www...com,From up there. Now down here.,"<p>To live is to fall ...<br>
+To survive is to find meaning in the falling ...<br>
+And I'm finding <i>a lot</i> of meaning!</p>
+
+<p>I'm a most-of-the-stack web dev working primarily with .NET. I like pretty pixels, user-centered design and code that solves interesting business problems cleanly.</p>
+",811,1123,89,https://i.stack.imgur.com/fE31K.jpg?s=128&g=1,195
+243,17664,2008-08-03T23:49:51.343,Goyuix,2019-03-01T05:32:41.457,https://plus.google.com/u/0/+GregMcMurray,"Salt Lake City, UT","<p>I started coding at about age 8 on an Apple II with a friend when we decided the Lemonade Stand game just wasn't awesome enough. Since then I have had deep exposure to C, C++, Java, C# and JavaScript. I have recently taken a deeper interest in Python, F# and PowerShell.</p>
+
+<p>Did my answers help you? Say thanks with something from my <a href=""http://www.amazon.com/gp/registry/wishlist/1DRYNF2J67E3O/"" rel=""nofollow noreferrer"">Amazon.com Wishlist</a>.</p>
+",881,4679,73,,196
+244,22430,2008-08-04T00:23:06.660,Claude Houle,2019-03-01T23:25:42.647,https://medium.com/@claude.houle,"Montreal, Canada","<p>I'm a geek. It's as simple as that... My hobbies are</p>
+
+<ul>
+<li>RPGs</li>
+<li>Wargames </li>
+<li>Music</li>
+<li>Guitar</li>
+<li>Biking</li>
+<li>Coding (obviously)</li>
+</ul>
+",1356,86,10,https://i.stack.imgur.com/OPy8n.jpg?s=128&g=1,197
+245,15638,2008-08-04T00:38:47.160,Michael Pryor,2017-12-01T04:29:59.157,http://www.fogcreek.com,"New York, NY","<p>President Fog Creek Software Inc.
+CEO Trello Inc.</p>
+",5263,1028,89,,198
+246,4773,2008-08-04T00:47:32.897,rjohnston,2019-03-02T22:01:51.780,http://www.rjohnst.com,"Brisbane, Australia","<p>Once had an unfortunate encounter in a photo booth on the wildlife-populated island of Catalina.</p>
+",441,1359,31,,199
+247,5304,2008-08-04T00:50:51.253,Shawn Miller,2019-03-01T16:32:37.783,https://mediocre.com,"Lake St. Louis, MO, United States","<p><li>Co-Founder, CTO of <a href=""https://mediocre.com"" rel=""nofollow noreferrer"">mediocre.com</a></li>
+<li>Former Development Manager at <a href=""http://www.woot.com/"" rel=""nofollow noreferrer"">woot.com</a></li>
+<li>Twitter <a href=""http://twitter.com/smiller/"" rel=""nofollow noreferrer"">@smiller</a></li></p>
+",829,525,84,,200
+253,1969,2008-08-04T05:38:52.653,Scott Cowan,2018-08-21T16:21:00.413,http://www.sleepoverrated.com,"London, United Kingdom","<ul>
+<li>Born in Vancouver</li>
+<li>Live in London</li>
+</ul>
+",457,168,5,,201
+254,937,2008-08-04T05:45:21.830,Dean Bates,2015-10-29T14:23:41.917,,,,169,1,0,,202
+255,30018,2008-08-04T05:46:02.093,Jim McKeeth,2019-03-02T23:28:39.363,http://www.Delphi.org/,"Boise, ID","<p>Lead World Wide Developer Evangelist for <a href=""http://www.embarcadero.com/"" rel=""nofollow"">Embarcadero Technologies</a></p>
+
+<p><a href=""http://patentlyo.com/patent/2013/01/smartphone-wars-microns-slide-to-unlock-patent.html"" rel=""nofollow"">Invented and patented swipe to unlock</a> in 2000. See
+US Patent # <a href=""http://www.google.com/patents/US8352745"" rel=""nofollow"">8352745</a> &amp; <a href=""http://www.google.com/patents/US6766456"" rel=""nofollow"">6766456</a>, and others.</p>
+
+<p>Host of the <a href=""http://delphi.org/"" rel=""nofollow"">Podcast at Delphi.org</a>. (mostly a blog, but some podcast episodes).</p>
+
+<p>Preferred Languages:</p>
+
+<ol>
+<li>Delphi / Object Pascal</li>
+<li>C# / .NET</li>
+<li>JavaScript</li>
+<li>Java</li>
+<li>C++</li>
+<li>Objective-C</li>
+</ol>
+",3308,2432,70,https://i.stack.imgur.com/zl74R.jpg,203
+257,6404,2008-08-04T07:30:01.447,Josh,2017-11-06T11:07:18.063,http://parris.josh.com.au/,Australia,"A child prodigy, Josh is gracing StackOverflow with his copious spare time in an attempt to bring some balance to the Force.",307,233,35,,204
+258,3344,2008-08-04T07:59:04.570,Anthony Main,2019-02-26T18:47:00.807,https://thedistance.co.uk,United Kingdom,"<p>Yorkshire’s leading app development agency</p>
+
+<p>We are experienced
+We’ve been developing apps since the launch of the first iPhone, and our extensive portfolio of brands - including household names and world famous companies - speaks for itself.</p>
+
+<p>We are specialists
+Our apps are built in-house in our York office by a highly specialised staff whose skillsets guarantee quality and excellence are at the heart of each project.</p>
+
+<p>Our sole service is native app development on iOS, Android and Windows tablets and phones. Dedicated developers on each platform ensure delivery of the best quality user experience.</p>
+
+<p>We are here for you
+Our team are on hand through every stage of the process to ensure your complete satisfaction. We are a credible and independently stable partner in business; our name comes from the promise we make at the beginning of each client relationship.</p>
+
+<p>We’ll go The Distance</p>
+",514,286,33,,205
+259,20252,2008-08-04T08:10:58.337,David Sykes,2019-03-02T06:09:01.400,,United Kingdom,,1392,1503,158,,206
+260,6127,2008-08-04T08:21:41.703,gyurisc,2019-02-27T10:43:18.750,http://www.littlebigtomatoes.com/,"Budapest, Hungary","<p>Hi!<br> My name is Krisztian Gyuris. I enjoy coding and solving problems. Nowadays I am learning python, pandas and frontend development.   
+</p>
+
+<p><br/>
+<a href=""http://twitter.com/gyurisc"" rel=""nofollow noreferrer"">Twitter</a></p>
+",962,1544,5,,207
+261,2513,2008-08-04T08:51:21.440,Mattias,2018-11-13T15:49:56.143,http://www.bothernomore.com/,United Kingdom,,238,24,0,,208
+263,271,2008-08-04T09:56:55.427,Mark,2008-11-23T14:51:07.470,,Australia,,47,5,1,,209
+264,52235,2008-08-04T09:58:18.153,Xenph Yan,2017-06-01T09:39:03.233,http://chris.beckett.io,"Sydney, Australia","<p>Builds strange little websites for money.</p>
+",4243,707,34,,210
+265,1213,2008-08-04T10:01:02.967,Lauren,2018-12-30T11:10:32.370,https://github.com/Comaleaf,United Kingdom,,198,111,27,,211
+266,25895,2008-08-04T10:02:44.353,Rytmis,2019-03-01T13:33:13.630,http://blog.rytmis.net,"Esbo, Finland","<p>Software developer since 2001, independent consultant since 2010. I work primarily on Windows, but I get along well with Linux as well. .NET is my bread and butter, but I've grown to love dynamic languages too.</p>
+",1712,554,51,,212
+267,291347,2008-08-04T10:11:06.833,Lasse Vågsæther Karlsen,2019-03-01T21:56:48.563,,"Porsgrunn, Telemark, Norway","<p>I am a 47 year old Software Architect working for <a href=""https://www.visma.no"" rel=""nofollow noreferrer"">Visma Software Labs</a> in Norway.</p>
+
+<p>Currently I work on the Workforce Management (WFM) product Gat used throughout municipalities and the public health system in Norway but will soon be transitioning over to other teams related to cloud products, also in the WFM area.</p>
+",34738,5699,2021,,213
+268,27895,2008-08-04T10:11:11.637,Vincent Robert,2019-03-01T11:48:26.597,http://genezys.net,"Paris, France","<p>Excuse any English mistakes :-)</p>
+
+<p>I am on <a href=""http://twitter.com/genezys"" rel=""nofollow noreferrer"">Twitter</a></p>
+",1963,1199,65,,214
+269,14457,2008-08-04T10:13:44.767,sparkes,2008-09-30T07:30:19.520,http://zx-81.com,United Kingdom,"General hacker from the UK who is rapidly getting fed up of the sort of tossers attracted to SO beta.
+<br /><br />
+
+It's a crying shame that something with so much potential is going to end up like Slashdot.
+<br /><br />
+
+Joel, Jeff, guys while it's the crowd that can make this place that's what's going to kill it too.",535,330,37,,215
+270,21212,2008-08-04T10:21:45.813,roryf,2019-02-27T11:41:36.087,http://www.roryf.co.uk,"Edinburgh, United Kingdom","<p>Every time you link to <a href=""http://w3fools.com"" rel=""nofollow"">w3schools</a>, a kitten dies.</p>
+",1387,395,89,,216
+271,6646,2008-08-04T10:25:01.297,Justin Bennett,2019-02-24T14:19:10.907,http://jmbennett.org,"New York, NY","I'm a Systems Engineer in Syracuse, NY.  I have a good deal of programming experience in C/C++, PHP and Java and a bit of experience in Perl, C#, ASP and others.  I enjoy web development and small application development as well as the writing the types of scripts used for system administration and such.",390,167,13,,217
+272,28,2008-08-04T10:30:47.807,Sven,2015-12-26T16:44:09.907,http://SvenSemmler.org,,"<p>please delete me</p>
+",128,11,0,,218
+273,70,2008-08-04T10:36:45.563,Henrik Bierbum Bacher,2019-02-27T14:27:17.930,,"Copenhagen, Denmark",,79,4,0,,219
+274,29582,2008-08-04T10:43:23.023,Xetius,2019-02-28T13:21:09.647,http://www.xetius.com,United Kingdom,"Geek, pure and simple.",1831,642,16,,220
+275,21005,2008-08-04T10:44:03.973,lubos hasko,2015-08-04T04:17:32.180,http://www.manager.io,"Sydney, Australia","<p><a href=""http://www.manager.io"" rel=""nofollow"">Accounting software</a></p>
+",2258,1178,77,,221
+276,8222,2008-08-04T10:44:14.473,Erik Öjebo,2018-12-17T19:08:45.423,http://www.erikojebo.se,"Örebro, Sweden","<p>Technical lead / development lead focusing on building solutions for the Microsoft .NET platform, using agile practices and methodologies such as kanban, scrum, test driven development and continuous integration.</p>
+
+<p>I'm currently building distributed web systems with ASP.NET MVC, and trying to learn more about DevOps-y stuff.</p>
+
+<p>Almost everything I code in my spare time is geared towards open source in one way or another, either by writing my own OSS, contributing to other OSS projects or simply learning about all the good stuff that's out there.</p>
+
+<p>I'm an emacs enthusiast who enjoys playing with different programming languages, such as Haskell, Ruby and Lisp.</p>
+",784,356,1,,222
+277,7750,2008-08-04T10:55:22.093,kaybenleroll,2019-03-01T15:59:13.183,http://www.kaybensoft.com,Ireland,"<p>Software Developer in Ireland, who is fond of asking questions...</p>
+",517,878,5,,223
+278,4140,2008-08-04T11:28:54.023,Lea Cohen,2019-02-27T10:02:20.083,http://leketshibolim.ort.org.il,Israel,"<p>Web developer, both server-side and client-side. Started my web career with ASP.NET and now also write in PHP (mainly Wordpress, some Moodle).</p>
+
+<h1>SOreadytohelp</h1>
+",974,3376,24,,224
+279,3798,2008-08-04T11:30:57.327,John with waffle,2018-11-15T12:35:50.480,http://john-benjamin-cassel.com/,"Champaign, IL",,644,221,13,,225
+280,899,2008-08-04T11:49:45.323,bgoncalves,2017-12-13T16:06:16.260,http://www.bgoncalves.com,"Marseille, France","<p>Bruno Gonçalves is currently a faculty member at the Centre de Physique Théorique of Aix-Marseille Université in Marseille, France. He completed his joint PhD in Physics, MSc in C.S. at Emory University in Atlanta, GA in 2008 following which he joined the Center for Complex Networks and Systems Research at Indiana University as a Research Associate. From September 2011 until August 2012 he was an Associate Research Scientist at the Laboratory for the Modeling of Biological and Technical Systems at Northeastern University.</p>
+
+<p>Since 2009 he has been pursuing the use of Data Science and Machine Learning to study human behavior. By processing and analyzing large datasets from Twitter, Wikipedia, webaccess logs, and Yahoo! Meme he studied how we can observe both large scale and individual human behavior in an obtrusive and widespread manner. The main applications have been to the study of Information Diffusion, Behavioral Change and Epidemic Spreading.</p>
+",157,29,1,,226
+281,260,2008-08-04T12:13:17.443,Caleb Elston,2009-05-21T20:29:23.980,http://www.toluu.com,"Miami, FL",,72,14,0,,227
+282,1858,2008-08-04T12:18:45.500,Bert Lamb,2019-03-01T20:17:41.817,http://www.bertlamb.com,"Exeter, NH","<p>Engineering Manager, Litmus.com</p>
+",156,129,2,,228
+283,562,2008-08-04T12:21:06.087,Rich Reuter,2014-10-23T18:03:05.907,http://www.richreuter.com,"Dayton, OH","<p>Developer and musician from the Gem City.</p>
+<p>http://twitter.com/rich36</p>",79,97,2,https://www.gravatar.com/avatar/c137a6c8cf34067f84a33d73fdf598f6?s=128&d=identicon&r=PG&f=1,229
+285,2356,2008-08-04T12:34:49.693,sestocker,2019-02-20T13:49:48.047,http://www.edynamic.net,"Maumee, OH, United States","<p>I'm Director of Solution Architecture at edynamic where I oversee teams on content management projects, primarily Sitecore.</p>
+",256,199,6,,230
+287,23656,2008-08-04T12:43:38.490,basszero,2014-04-24T14:25:50.303,http://rauros.net,United States,bright shiny objects,2867,326,33,,232
+288,757,2008-08-04T12:50:02.907,Haydar,2019-02-28T18:05:33.100,,Maryland,,198,110,10,,233
+289,391,2008-08-04T12:53:11.827,Chris Leon,2013-12-14T00:09:41.443,,"Shreveport, LA","Chris started using computers shortly after completing his toilet training. He began by hitting random keys on a Commodore 64 until a rocket ship took off if he happened to spell a word correctly. He started programming one day when his father brought home an old 8088 when he was in 5th grade and has only stopped for the occasional bathroom break.
+Chris has plans of one day becoming an astronaut, pirate, or some sort of combination of astronaut and pirate.",59,2,0,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,234
+291,840,2008-08-04T13:03:39.603,The How-To Geek,2017-03-30T20:23:08.940,http://www.howtogeek.com,United States,"This box should contain something about me. Unfortunately, nothing witty comes to mind.",473,60,0,,236
+292,16329,2008-08-04T13:14:31.860,shsteimer,2015-06-17T21:25:20.813,http://shsteimer.com,"Pittsburgh, PA","<p>I'm a senior consultant and technical architect with <a href=""http://www.crownpartners.com"" rel=""nofollow"">Crown Partners</a> working in our WEM Solutions Group.  I have expertise in Java, JavaScript, and Python programming languages as well as Adobe CQ5 and EMC Documentum Implementations.</p>
+",972,370,142,,237
+293,793,2008-08-04T13:18:55.330,miya,2019-03-02T17:24:13.933,http://miyadevnotes.wordpress.com,"Buenos Aires, Argentina",,277,346,2,https://i.stack.imgur.com/CBDju.jpg?s=128&g=1,533287
+295,56,2008-08-04T13:25:14.553,benjaminperdomo,2019-03-01T14:56:18.257,http://www.carvajalsolucioneseducativas.com,"Bogota, Colombia","<p>Web developer from Bogota, Colombia. Currently working in www.librerianorma.com</p>
+",74,3,1,,239
+296,3041,2008-08-04T13:26:48.043,jdecuyper,2018-10-19T03:45:02.127,http://jdecuyper.github.com/,"Mexico City, Mexico","<p>I have a Bachelor degree in <strong>Sociology</strong> and a master degree in <strong>Computer Science</strong>!</p>
+
+<p>I started programming with my Commodore 64 in the nineties and with <strong>VB6</strong>, <strong>ASP</strong> and <strong>ActionScript</strong> around 2002.</p>
+
+<p>Today, I mostly build web applications with ASP.NET, MSSQL and Javascript. Over the time, I have proven multiple times being able <strong>to adapt to any kind of technology or languages</strong>. I always strive to use programming pattern, write reusable code and simplify the user's experience.</p>
+
+<p>Cruise Control, SVN and Git occupy a privileged spot in my tool box.</p>
+",937,1203,6,,240
+298,5666,2008-08-04T13:29:28.710,Riri,2019-02-22T08:51:16.880,,Sweden,Fantomen,577,361,16,,241
+299,5911,2008-08-04T13:31:09.550,Bryan Roth,2018-12-07T17:40:34.290,http://bryanroth.com,United States,,685,143,19,,242
+300,5586,2008-08-04T13:38:16.757,Don Dickinson,2019-03-03T01:45:19.027,http://www.greatwebdivide.com,"Minneapolis, MN","<p>computer programmer living in minnetonka, mn. i love delphi, powerbasic, php, codeigniter, sqlite,  mysql, mssql, and couchbase. i spend too much time manipulating X12 EDI files :(</p>
+",431,133,4,,243
+302,33132,2008-08-04T13:39:41.467,Jake McGraw,2019-03-01T21:46:42.967,,"Los Angeles, CA, USA","<p>Cofounder &amp; CTO at <a href=""https://www.theblockcrypto.com"" rel=""nofollow noreferrer"">The Block</a></p>
+
+<p>Been double-clawing my way to the top with PHP since 2004.</p>
+",2569,533,81,https://i.stack.imgur.com/zonWW.jpg,244
+303,15286,2008-08-04T13:48:50.527,NotMyself,2019-03-01T01:25:09.697,http://www.iamnotmyself.com,United States,"<p>I am a passionate agile engineer with an interest in shipping quality software, building strong collaborative teams and continuous improvement of my skills, team and the product. My experience ranges from building small line of business applications allowing financial professionals to execute quickly to large public facing distributed social content apps.</p>
+
+<p>I have a passion for new technologies, open source software and the greater software development community.</p>
+",1585,273,24,https://i.stack.imgur.com/lMeSA.jpg?s=128&g=1,245
+304,94803,2008-08-04T13:54:38.253,McDowell,2017-08-11T09:53:30.507,http://illegalargumentexception.blogspot.com/,United Kingdom,"<p>""Part of the challenge of programming is looking at the building blocks provided to you and deciding how to assemble them to build something new. After all, if everything you wanted a program to do already existed ready-made, it wouldn't be called programming any more. It would be called shopping.""<br />-<a href=""http://blogs.msdn.com/oldnewthing/archive/2009/08/04/9856634.aspx"" rel=""nofollow noreferrer"">Raymond Chen</a></p>
+",13873,5754,4414,,246
+305,92665,2008-08-04T14:04:19.590,Mark Biek,2019-02-25T19:53:13.363,https://mark.biek.org,"Louisville, KY",,7176,4593,478,,247
+306,2661,2008-08-04T14:09:03.607,num1,2019-03-03T03:32:48.977,http://stackoverflow.com/users/306/num1,"Istanbul, İstanbul, Turkey","<p>Sometimes I program</p>
+",355,619,38,,248
+307,21406,2008-08-04T14:26:05.913,Brett Veenstra,2019-03-01T19:53:53.530,https://www.linkedin.com/in/brettveenstra,United States,"<p>Disciple, Husband, Father, Brother, Son... Programmer</p>
+",958,2638,6,,249
+308,6744,2008-08-04T14:34:46.893,Brad Tutterow,2010-04-15T21:35:08.790,http://www.codebadger.com,United States,"application architect with an affinity for microsoft technologies, open source tools, and chewing gum",294,211,13,,250
+311,1881,2008-08-04T14:57:09.343,Bruce Alderman,2019-03-01T21:59:43.907,http://www.squishlikegrape.com/,Kansas,"<p>I'm the Lead Programmer for <a href=""http://www.jocolibrary.org/"" rel=""nofollow"">Johnson County Library</a>, and a sometime writer for <a href=""http://www.sitepoint.com/"" rel=""nofollow"">SitePoint</a>.</p>
+",696,2939,8,,251
+312,18495,2008-08-04T15:01:41.100,palehorse,2019-03-01T23:39:42.397,http://blog.palehorse.net/,United States,Just a code monkey slogging along the trail to (in)sanity.,617,927,9,,252
+313,6285,2008-08-04T15:05:26.473,caryden,2019-01-22T19:13:41.543,http://precisionlender.com,"Cary, NC",,490,22,2,https://www.gravatar.com/avatar/e2ce47843fcb8fa6e4a4167b292a85aa?s=256&d=identicon&r=PG,253
+314,4091,2008-08-04T15:25:23.360,Uberfuzzy,2019-03-01T11:12:34.840,http://uberfuzzy.com,"OH, United States","<p>OH, thats what this gray box is for...</p>
+",313,320,2,https://i.stack.imgur.com/dxgz6.jpg,254
+315,1004,2008-08-04T15:33:26.573,Tokabi,2018-06-27T12:50:54.557,http://www.tokabi.com,United Kingdom,"I started out in the early 80's writing games in Basic, 6502 & 6809 assembler for the Commodore 64 and Dragon 32, I even got paid for a couple. Now working as a freelance contractor, mostly specialising in C#, SQL Server and ASP.Net.
+",76,49,13,https://www.gravatar.com/avatar/d702a2da940690c20522218d11617a3f?s=128&d=identicon&r=PG&f=1,255
+317,9800,2008-08-04T15:43:28.767,Joseph Sturtevant,2018-12-10T01:59:45.380,http://sturtevant.myopenid.com,"Vancouver, WA",,742,469,10,https://www.gravatar.com/avatar/453b8cd3e076201aefba0f177077d946?s=256&d=identicon&r=PG,257
+318,6448,2008-08-04T15:47:15.610,karlgrz,2018-07-04T16:07:55.030,http://karlgrz.com/,"Elgin, IL","<p>Software Engineer for Mediafly.</p>
+
+<p>Music is my passion outside of development. I play guitar in a couple rock bands &amp; have been putting together a ""solo"" album of sorts with the recent acquisitions of a 5 string bass &amp; a 49 key USB MIDI Controller / Keyboard (which, when combined with Battery, Cubase, &amp; Guitar Rig, form a fairly solid home studio).</p>
+",566,807,13,,258
+319,3499,2008-08-04T16:03:00.383,Binarytales,2019-03-02T01:18:40.090,http://binarytales.com,"Brighton, United Kingdom",,465,72,12,https://www.gravatar.com/avatar/7bd128323de776c3d9b9af6cf05250a5?s=256&d=identicon&r=PG,259
+320,26400,2008-08-04T16:17:25.300,Brian,2019-03-03T00:50:23.307,,United States,"<p>I received a Computing and Software Systems (CSS) degree from the University of Washington in 1999 and have been working as a developer ever since. My focus has been on Microsoft development, in particular .Net (both WinForms and ASP.Net), but I also have experience in classic ASP and even a little COM.</p>
+
+<p>My current position is Senior Software Developer\Architect at TourFactory.com. We build a virtual tour product for real-estate agents.</p>
+",880,587,6,,260
+322,11096,2008-08-04T16:38:52.400,Chris Smith,2019-01-18T21:10:43.303,http://completely-unique.com,"Seattle, WA, United States","<p>Author of ""Programming F#"" by O'Reilly and all-around nice guy.</p>
+
+<p>Employee #3 at Pulumi. Former Googler working on dev tooling for GCP. Before that I worked at Microsoft on the F# team.</p>
+",1621,943,13,,261
+323,181,2008-08-04T16:42:43.267,dibson,2017-11-10T21:23:11.017,,,,42,11,0,,262
+324,2452,2008-08-04T16:46:29.407,adeel825,2010-03-31T16:02:21.697,http://www.adeelkhan.com,United States,"Software Developer focusing on Collaboration technologies such as Instant Messaging, Voice, and Video.",252,105,9,,263
+326,15480,2008-08-04T16:59:58.770,Ian Robinson,2019-03-01T17:59:20.710,https://enlivenhq.com,United States,"<p>My team and I help businesses launch new digital products and services.</p>
+",1040,1206,52,,265
+327,9700,2008-08-04T17:08:49.203,Luke,2018-02-14T05:50:53.270,,"Orange County, California United States","<p>I asked a lot of stupid questions and now I have a bunch of points!</p>
+",679,589,30,,266
+328,1337,2008-08-04T17:20:23.003,fastcall,2019-01-20T23:22:03.573,,United States,,345,77,5,,267
+331,1382,2008-08-04T17:50:48.200,jasonjwwilliams,2019-03-01T05:02:17.063,http://phanto.me,United States,Just love coding.,239,51,15,,268
+332,16870,2008-08-04T17:51:58.197,Wedge,2019-03-01T23:55:50.173,,"Redmond, WA",,1488,1850,191,https://i.stack.imgur.com/PsJXF.jpg?s=128&g=1,269
+333,138,2008-08-04T17:58:16.140,Edward Luong,2010-09-03T06:19:09.617,http://www.mrawde.com/,United States,,75,8,2,,270
+337,30087,2008-08-04T18:11:42.323,Larsenal,2019-03-02T01:06:13.250,,"Ventura, CA","<p>I enjoy running my data processing boxes at a 5-minute load average of 77.  Keep it hot and off heap.</p>
+",1413,1693,14,,271
+338,44833,2008-08-04T18:34:44.117,Frank Krueger,2019-01-19T07:24:39.867,http://www.praeclarum.org,United States,"I am an engineer living in Seattle. I have been programming for about 15 years. I started out with video game hacking with the <a href=""http://web.archive.org/web/19990220095633/http://www.darkjedi.com/"" rel=""nofollow"">Code Alliance</a>. Moved on to embedded systems development in an R&D group at GM. Did way too much graphics (3D) programming. Then did a lot of network programming for large data centers. Was forced to get my <a href=""http://www.rit.edu/kgcoe/electrical/"" rel=""nofollow"">Master's in Electrical Engineering</a>. Got into compiler and interpreter development. Spent some time <a href=""http://en.wikipedia.org/wiki/Windows_Presentation_Foundation"" rel=""nofollow"">coding at Microsoft</a>. Moved on a year later to start <a href=""http://kruegersystems.com"" rel=""nofollow"">my own company</a> creating control systems and web apps. I love programming and have spent way too much time learning too many languages, frameworks, APIs, paradigms, and operating systems.
+
+Super Secret Code: pL95Tr3",4942,2421,93,,272
+339,2646,2008-08-04T18:45:47.900,reconbot,2019-03-01T20:05:14.580,http://www.roborooter.com,United States,"<p>I'm just this guy, you know?</p>
+",964,523,21,,273
+340,6346,2008-08-04T18:49:59.967,Anton,2019-03-01T20:29:08.377,http://antonpantev.com,"Richmond, VA, United States","<p>General programming lover, with a current addiction to WebGL and Node.js.</p>
+
+<p>Made a StackApp to organize your favorites:
+<a href=""http://antonpantev.com/projects/stackfavorites/"" rel=""nofollow noreferrer"">http://antonpantev.com/projects/stackfavorites/</a></p>
+",9141,3219,42,https://i.stack.imgur.com/ltlg4.png?s=128&g=1,274
+341,15345,2008-08-04T19:36:28.860,Christian Lescuyer,2019-03-02T22:48:39.823,http://www.flyingcoders.com/,"Paris, France","I'm an electronics engineer by trade, designed industrial computers (exciting), switched to test & commissioning (exhilarating). 
+Launched my web agency in 2000 as many did (fun), folded in late 2005 (not fun). After a 2-year stint back in the industry, I am launching a new B2B software company (thrilling).",518,1820,30,,275
+342,12004,2008-08-04T19:59:52.010,graham.reeds,2019-03-01T18:22:15.837,http://www.digital-utopia.com/,United Kingdom,"<p>Contract C++ Developer</p>
+",4103,1132,106,,276
+343,20704,2008-08-04T20:13:06.617,Jon Tackabury,2019-02-28T19:15:27.547,http://www.binaryfortress.com,Canada,"I'm a software developer living in Canada. I work with .NET on a daily basis, but dabble in anything else I can get my hands on.",1451,1668,91,,277
+346,2362,2008-08-04T21:30:40.220,dwj,2019-02-22T22:07:51.093,,"San Francisco, CA",,358,307,0,,278
+349,1196,2008-08-04T23:02:07.447,Edo,2019-02-25T10:11:56.183,,"Zagreb, Croatia",,178,379,1,,279
+350,3008,2008-08-04T23:06:23.383,csmba,2018-03-27T20:53:21.840,http://knol.google.com/k//free-tools-and-websites/2p76v0g9rhval/4#,"San Francisco, CA","<p>Cool, Blue, 42</p>
+",335,42,8,,280
+352,380,2008-08-05T00:03:22.597,user352,2010-05-13T05:03:15.770,,Australia,,126,27,8,,281
+353,49,2008-08-05T00:30:52.963,HokeyWhiteBoy,2018-08-06T00:48:47.720,http://www.webgurus.com.au,"Perth, Australia","I am just this guy, you know?",60,2,0,,282
+354,1345,2008-08-05T00:31:33.820,Schmidty,2019-03-01T17:21:28.957,,United States,,120,94,17,https://i.stack.imgur.com/EylIB.jpg?s=128&g=1,283
+355,2475,2008-08-05T01:02:01.417,henrym,2019-03-01T19:34:32.493,http://www.henrymalthus.com,"Rose Bay, New South Wales, Australia",,110,159,8,,284
+356,25863,2008-08-05T01:13:09.243,Dinah,2019-01-22T16:15:39.097,,North Carolina,"<p>Professional and hobbyist developer</p>
+",3328,3371,154,,285
+357,35701,2008-08-05T01:29:23.797,Seibar,2019-01-30T00:20:00.100,,Minnesota,,1263,508,71,,286
+358,23786,2008-08-05T01:41:40.573,Mike Minutillo,2018-05-04T12:04:36.377,http://codermike.com,"Perth, Western Australia, Australien","<p>Mike is a Software Consultant / Team lead with 8 years of industry experience building data-driven web applications. His current focus is on reducing friction in the development process and improving his skills by helping those around him.</p>
+
+<p>He is having fun seeding Stack Overflow with questions that everyone should know.</p>
+",1260,322,8,https://i.stack.imgur.com/T29ga.jpg,287
+359,619,2008-08-05T02:58:12.807,CTKeane,2019-02-27T18:33:39.623,http://www.ctkeane.com,Connecticut,"<p>ETL Developer and Data Architect.</p>
+",176,387,2,,288
+360,1226,2008-08-05T03:51:05.523,Stephen Pellicer,2018-12-07T19:28:14.697,http://www.cs.gsu.edu/~cscsjpx/,"Atlanta, GA",I'm a CS PhD Student at Georgia State University mainly working on distributed computing.,265,51,12,,289
+361,23152,2008-08-05T04:20:27.053,stimms,2019-03-03T04:21:57.010,http://blog.simontimms.com,"Calgary, Canada","<p>I work as a freelance software developer with an interest in distributed systems, CQRS, cloud computing and ice cream. Ice cream most of all.</p>
+",1781,490,2,,290
+362,629,2008-08-05T04:38:30.873,agweber,2019-02-27T21:08:20.297,http://agweber.net/,Indiana,"<p>A bored kid</p>
+",110,126,10,,291
+363,18588,2008-08-05T04:56:30.197,Patrick Johnmeyer,2019-01-28T13:30:00.943,,Missouri,"<p>Maintainer of <a href=""https://github.com/unittest-cpp/"" rel=""nofollow"" title=""UnitTest++"">https://github.com/unittest-cpp/</a>.</p>
+
+<p>Happily married, gainfully employed, and pleased with life in general.</p>
+",732,108,36,,292
+364,24412,2008-08-05T05:33:41.430,Matt Mitchell,2017-10-05T05:16:57.727,http://MattMitchell.com.au,,"<p>You can email me at Matt@MattMitchell.com.au.</p>
+
+<p>I also keep a technical log at <a href=""http://MattMitchell.com.au/Technical"" rel=""nofollow"">http://MattMitchell.com.au/Technical</a></p>
+",1959,3604,126,,293
+366,2123,2008-08-05T06:49:49.780,littlecharva,2019-02-26T19:32:08.037,http://www.twitter.com/littlecharva,,,226,84,1,,294
+369,75420,2008-08-05T08:33:43.627,Blorgbeard,2019-03-02T16:20:04.660,http://stackoverflow.com/users/369/,"Vancouver, BC, Canada",,8641,5616,7423,https://i.stack.imgur.com/DHcF2.png?s=128&g=1,295
+370,9471,2008-08-05T08:37:18.970,DShook,2019-03-03T04:54:35.243,http://dillonshook.com/coding,United States,"<p>Autodidact, Keyboard Hero, Zero One Infinity Advocate</p>
+
+<p>Current stack</p>
+
+<ul>
+<li>C#</li>
+<li>Javascript</li>
+<li>MS Sql / MySql</li>
+<li>ASP.Net MVC</li>
+<li>PHP</li>
+<li>ASP.Net</li>
+<li>CSS / Less</li>
+<li>HTML</li>
+</ul>
+
+<p>Languages from another life, aka college, include C++, C, python, bit of Java.</p>
+
+<p><a href=""http://gibson125.deviantart.com/art/Quite-Blue-Apophysis-41000229"" rel=""nofollow"">Profile picture source</a></p>
+",575,445,12,,296
+371,8877,2008-08-05T09:14:27.257,Dave Anderson,2019-03-02T22:25:10.917,http://uk.linkedin.com/in/davecanderson,"Sydney, Australia","<h1>SOreadytohelp</h1>
+",835,829,31,,297
+372,79251,2008-08-05T09:16:41.183,Jon Limjap,2019-02-26T07:26:09.407,http://jonlimjap.net,"Manila, Philippines","<p>Technical Advisor at <a href=""http://pageuppeople.com"" rel=""nofollow noreferrer"">PageUp</a>. Mainly doing C#/.NET, but also did some iOS/Objective-C and Java/GWT in a previous life. Focusing on distributed applications nowadays.</p>
+
+<p><a href=""http://mvp.microsoft.com/en-us/mvp/Jacinto%20Alarcon%20Limjap-4025208"" rel=""nofollow noreferrer"">Microsoft MVP</a> since 2009, latest for Visual Studio &amp; Development Technologies. I also lead the <a href=""http://facebook.com/groups/phinug"" rel=""nofollow noreferrer"">Philippine .NET Users Group(PHINUG)</a>.</p>
+",6921,2875,223,https://i.stack.imgur.com/jJ39O.jpg?s=128&g=1,298
+373,20251,2008-08-05T09:37:52.467,urini,2017-12-18T16:13:22.570,,Israel,,741,53,1,,299
+375,933,2008-08-05T09:55:57.237,Danny Whitt,2019-01-27T14:30:15.717,,United States,"<p>Not a real doctor.</p>
+",138,240,21,,300
+376,2729,2008-08-05T09:58:37.917,davewasthere,2019-02-27T10:36:09.740,http://www.davewasthere.com,Australia,"<p>Kiwi software-dev contracting and living in Australia (mostly).
+Working with predominantly M$ technologies; ASP.Net, C#, SQL Server. But have wide exposure to a lot of other tech throughout career. (Electronics, Networking, Aircraft, Security System, Education)</p>
+",264,354,11,,301
+377,26355,2008-08-05T10:01:14.403,ZombieSheep,2019-02-27T11:58:45.800,http://zombiesheep.co.uk,"Leeds, United Kingdom","<p>UK based .Net developer and gadget freak.</p>
+
+<p><a href=""http://twitter.com/zombiesheep"" rel=""nofollow"">My tweets</a> | <a href=""http://meta.stackexchange.com/questions/7237/how-does-reputation-work"">About reputation on StackOverflow</a></p>
+
+<p><a href=""http://windowsmobility.co.uk"" rel=""nofollow"">Windows Mobility Blog</a></p>
+",1616,877,23,,302
+378,667,2008-08-05T10:01:49.143,Krishna Gopalakrishnan,2018-07-29T18:47:46.360,,"Sunnyvale, CA","<p>Loves technology, coding. Googler.</p>
+",91,63,5,,303
+379,741,2008-08-05T10:03:38.423,geocoin,2014-12-12T10:23:37.150,http://www.stackoverflow.com,United Kingdom,"<p>some code monkey that uses predominantly C++ on windows platforms.</p>
+<p>
+have worked for companies such as ntl broadcast(an ex UK Telco now renamed and nothing to do with CATV) Honeywell (an experience never to be repeated) and McLaren Electronics, doing whizzy F1 telemetry type stuff (cool!)
+now works in a small place, producing legal Database UI software while trying to think up an interesting handheld game concept or trying to hack some hardware beyond recognition. </p>",5586,213,6,,304
+380,8757,2008-08-05T10:39:18.677,Vaibhav,2017-03-21T17:19:07.273,http://blog.gadodia.net,"Gurgaon, India",,1200,430,46,,305
+381,8487,2008-08-05T10:39:26.353,David,2019-02-14T10:48:45.137,,"London, United Kingdom","<p>Software developer currently programming in VB.NET and ASP.NET</p>
+",704,910,60,,306
+382,1846,2008-08-05T10:40:04.900,skfd,2019-03-01T16:42:42.553,,"Kiev, Kyiv city, Ukraine",,154,218,5,,307
+383,34801,2008-08-05T10:46:37.323,GateKiller,2019-03-01T15:30:53.917,http://gatekiller.co.uk,United Kingdom,"I am a Web Developer working in the UK, developing web applications in ASP.NET C#.
+
+Click me",3384,1187,238,,308
+384,4348,2008-08-05T11:03:36.943,Adhip Gupta,2018-12-01T21:56:57.237,http://adhipg.in,"Brighton, United Kingdom","<p>Trying to figure that out!<p><a href=""http://twitter.com/adhipg"" rel=""nofollow"">@adhipg</a></p><p><a href=""http://github.com/adhipg"" rel=""nofollow"">GitHub</a></p></p>
+",897,360,8,,309
+389,1160,2008-08-05T11:44:29.653,jake,2018-05-09T00:56:53.407,http://stackoverflow.com/users/389/,Uganda,,354,138,3,,310
+390,3868,2008-08-05T11:53:49.650,Antonio Haley,2019-02-28T18:14:36.730,http://www.daehrednud.com,"Hollywood, FL",I'm a language agnostic programmer with quite a few years under his belt.,191,335,10,,311
+391,1186,2008-08-05T12:27:15.200,Paul,2019-03-02T23:13:49.477,,Luxembourg,,87,77,2,,312
+392,68499,2008-08-05T12:29:07.210,Dan Herbert,2019-01-25T02:35:52.497,http://dan.herbert.io,"San Francisco Bay Area, CA, USA","<p>I like to code.</p>
+",3674,1795,79,,313
+394,19134,2008-08-05T12:36:16.930,PabloG,2017-06-09T21:01:30.660,,Argentina,,666,132,5,,315
+395,828,2008-08-05T12:45:51.760,qrush,2016-12-09T20:12:12.027,http://quaran.to,United States,,232,6,1,,316
+396,20188,2008-08-05T12:46:44.957,Bryan Denny,2019-03-01T20:12:29.787,http://www.bryandenny.com,"Mount Airy, NC, United States","<p>Currently web (C#/ASP.NET) programmer for a printing business.<br><br>
+Former computer science college student with a strong background in Java and C#.
+<br><br>
+I'm a <strong>moderator</strong> on the <a href=""http://android.stackexchange.com/"">Android StackExchange</a>.  I own a G1 running CM5 and a Motorola Droid running CM6.  I also own a rooted Nook Color and a wifi Motorola Xoom. I currently use a rooted Galaxy Nexus as my main device.
+<br/><br/>
+You can also find me on <a href=""http://www.twitter.com/mandlar"" rel=""nofollow noreferrer"">Twitter</a>.
+<br/><br/>
+I'm also a new Android developer.  Check out my tipping calculator app called ""Tippy Tipper"" or my car dock app called ""Car Dashboard"" <a href=""http://www.mandaria.net"" rel=""nofollow noreferrer"">here</a>. The source code for ""Tippy Tipper"" can be found <a href=""http://code.google.com/p/tippytipper/"" rel=""nofollow noreferrer"">here</a>.</p>
+",2178,1324,47,https://www.gravatar.com/avatar/3497d52dba17d86666a7bc82a2243c07?s=256&d=identicon&r=PG,317
+398,2163,2008-08-05T12:58:30.643,Tarks,2019-03-01T14:32:09.010,http://N/A,United Kingdom,"<p>Awesome programmer in training ^_^</p>
+",418,53,9,,318
+399,2545,2008-08-05T13:08:21.077,titanous,2018-03-09T17:45:22.113,https://titanous.com,,,240,61,15,https://i.stack.imgur.com/FEhIQ.jpg?s=128&g=1,319
+400,347,2008-08-05T13:08:52.497,dustin,2019-03-02T15:31:03.190,,"Pittsburgh, PA, United States","<p>Software development leader, primarily C# &amp; SQL.</p>
+",98,112,9,,320
+402,13363,2008-08-05T13:24:03.870,Steve Willard,2017-10-21T23:39:32.377,http://www.stevewillard.com,United States,"Math, Code, Cheesecake",293,15,1,,321
+403,307,2008-08-05T13:31:58.657,elgrego,2018-04-09T19:52:40.470,http://www.elgrego.org,"Stockholm, Sweden","<p>Darling, Im damned if I know...</p>
+",121,62,3,,322
+404,14599,2008-08-05T13:34:59.370,Chris Farmer,2019-03-03T04:18:07.863,http://cfarmerga.myopenid.com/,"Nashville, TN","Always happy, never blue.",2230,2447,593,,323
+406,1130,2008-08-05T13:38:24.543,Mark Norgren,2019-03-01T15:50:07.537,http://marknorgren.com,United States,"<p>iOS Engineer. Software Engineer.  Embedded C Software.</p>
+",236,434,17,,324
+407,190,2008-08-05T13:47:10.857,Grant,2011-09-09T17:58:26.657,,,,52,10,1,,325
+409,8836,2008-08-05T13:53:20.410,Brian Deacon,2019-03-01T18:05:01.433,,United States,,278,72,42,,326
+410,5310,2008-08-05T13:55:13.603,cynicalman,2018-10-10T22:35:24.637,http://blog.geeksmithology.com,"Calgary, Canada","<p>Pragmatic developer, mostly in Java, but some Ruby, Perl, and C# sprinkled in the career.</p>
+",291,257,21,,327
+411,3235,2008-08-05T14:10:01.203,Calvin Allen,2019-03-01T22:28:31.877,https://www.calvinallen.net,"Columbus, OH",,468,311,30,,328
+412,838,2008-08-05T14:16:36.103,somas1,2019-02-23T16:02:34.047,http://None,United States,                  .,99,278,0,,329
+414,13450,2008-08-05T14:32:06.307,Stu,2019-02-26T17:39:48.490,http://None.,"Sacramento, CA, United States","<p>Me? I turned my programming hobby into my profession in 1994, and I have gotten really, really good at it. The downside is that it has left me without any good hobbies.</p>
+
+<p>I write excellent front ends. I like to pay all the taxes to make it good, localizable, testable, task-based, consistent, and other interesting adjectives – whereas your average Enterprisy web interface just makes me twitch.</p>
+
+<p>But people have a way of finding out I am the only one at hand with experience in bleeding edge, obscure and weird things… so an hour later, I am suddenly working on background services, connection pool balancers, clustering, evaluating the newest Entity Framework, coding check-in policies, retrofitting mocking, porting ancient code from Fortran, diagnosing a SAN, and so on. My inner MacGyver approves.</p>
+
+<p>Then those things taper off and I gravitate towards more Architecty things: evaluate new version of X, or find a library to do Y, or refactor huge project to fix 2 circular references (or maybe 800). more commonly, a lot of them). There is fun in going from “finds lots of issues in code reviews” to “writes the coding standards” to “full-codebase overhaul” to “defines life cycle” and “re-did the build from scratch” and “found a way to integrate 12,000 unit tests”. Note to self: demand raise next time.</p>
+
+<p>Inevitably, we go from moving things to making things move faster. As much as I hate premature unfocused optimization, or  throwing hardware at a problem because it almost always actually works, some times are SHOWPLAN times. I have taken a Fortune-low-number data warehouse from “cannot do daily reports because the transform takes 40 hours, we are all going to get fired” to “refreshes every hour with time to spare”. Yes, that is fun.</p>
+
+<p>I do not do “Big Data”. Half the people that use that term have no idea what it means, and the other half is lying their collective behinds off to puff their resume and cash in on the fad. So I’ve taken to call what I do “Lots of Data” instead. Usually it’s “Looots of Small Bits of Data”. Sooner or later I end up owning (run the systems) for 5-50TB. THAT is real.</p>
+
+<p>I love agile and am deft at defending it from the many that do not like it. It structurally forces ownership and that truly motivates and improves. It makes people care. Without it you get, well… Oracle.</p>
+
+<p>I breathe data warehouses, cubes, migrations, spatial data, partitioning, monte carlo, scale out, cloud and more. I’ve tackled – nay, spanked – the vagaries of health care, energy, and telecom.</p>
+
+<p>The above is not a resume, just personal observations. I hope it amused you and spoke to you. If so, you should seriously consider giving me a lot of money to make your software and your life much better. And after that, you should give me a lot of money to me a lot of money to make your software and your life much better.</p>
+",930,617,162,,330
+415,5528,2008-08-05T14:37:16.327,Steve Tranby,2019-03-02T20:33:52.080,http://www.stevetranby.com,"Colorado, USA","<p><strong>Star Command Galaxies</strong> (<a href=""http://store.steampowered.com/app/402160/Star_Command_Galaxies/"" rel=""nofollow noreferrer"">Steam</a>)</p>
+
+<blockquote>
+  <p>Focused my part-time help on this game mostly on low-level rendering with Unity. Mesh generation, chunking maps, packing textures, and other improvements to the projected pixel art rendering pipeline. </p>
+</blockquote>
+
+<p><strong>Star Command</strong> (<a href=""https://itunes.apple.com/us/app/star-command/id632079234?mt=8"" rel=""nofollow noreferrer"">iOS</a> / <a href=""https://play.google.com/store/apps/details?id=com.starcommand.scgame&amp;hl=en"" rel=""nofollow noreferrer"">Android</a>) </p>
+
+<blockquote>
+  <p>As the sole programmer on a team with two artists (who came to me with the idea) I handled the development, managing the asset pipeline, and preparing the game for launch on the iOS, and later Google/Amazon, App Store(s).</p>
+</blockquote>
+
+<p><strong>Snooz Alarm</strong> (<a href=""http://itunes.apple.com/us/app/alarm-clock-music-sleep-timer/id364942039?mt=8"" rel=""nofollow noreferrer"">iOS</a>)</p>
+
+<blockquote>
+  <p>My other released app I made mainly for myself, but others found a use for it. The claim to fame was allowing music alarm to occur after many hours keeping it running in the background.</p>
+</blockquote>
+
+<p><strong>Naval Fight</strong> (<a href=""http://itunes.apple.com/us/app/naval-fight/id334183810?mt=8"" rel=""nofollow noreferrer"">iPhone</a>)</p>
+
+<blockquote>
+  <p>Wrote this game as my first real iPhone project to learn Objective-C, XCode, the SDK, and various APIs. </p>
+</blockquote>
+",379,689,9,,331
+416,615,2008-08-05T14:37:26.873,Daniel,2019-02-28T08:30:27.823,http://danielph.in,"Perth, Australia",,231,235,12,https://www.gravatar.com/avatar/c55e821024cc27594f628a899ac0b67b?s=256&d=identicon&r=PG,332
+417,3009,2008-08-05T14:45:33.050,y0mbo,2019-03-02T16:27:49.490,http://john.uhri.com,"South Elgin, IL","<p>Senior software developer and IT Manager. Currently writing most of the codes in C#, but I've dabbled in Ruby on Rails and Javascript in the past.</p>
+",484,211,16,,333
+418,861,2008-08-05T14:46:44.747,Darren Steinweg,2017-06-06T20:07:14.350,https://dsteinweg.com,"Minneapolis, Minnesota, United States","<p>I work primarily with ASP.NET and related web technologies.</p>
+",118,49,2,,334
+419,97741,2008-08-05T14:48:22.980,Kev,2019-03-01T18:20:31.853,,"Greater Perthshire, Scotland","<h3><strong><em>Actively looking for freelance work</em></strong></h3>
+
+<h3>About Me:</h3>
+
+<p>I'm a professional software developer and have spent my time building provisioning and web based self-service systems for IIS, Apache and Citrix XenServer, amongst other things. 
+<br/>
+<br/>
+My <a href=""http://careers.stackoverflow.com/kev"">Curriculum Vitae</a> can be viewed on Stack Overflow Careers (might be a bit out of date).
+<br/>
+<br/>
+Stuff I like to listen to at <a href=""http://www.last.fm/user/cosmicklev"" rel=""nofollow noreferrer"">last.fm</a>
+<br />
+<br />
+You can get in touch here: kevin.e.kenny #@# gmail.com (you know what to do with the # and spaces). 
+<p>
+Also not ashamed to admit I like trains, mostly diesels, late Era 8 (BR Sectorisation) and Era 9 onwards :) I'm also interested in signalling if anyone from Network Rail is looking this far down ;)</p>
+",30777,4879,2406,https://i.stack.imgur.com/dySwp.jpg?s=128&g=1,335
+420,2142,2008-08-05T14:55:15.447,Alex,2018-03-27T23:53:37.293,http://twitter.com/alexmchale,"Springfield, MO","<p>I'm a rubyist working for Gemini SBS.</p>
+",410,9,2,,336
+422,59638,2008-08-05T15:11:55.337,Chris Bunch,2018-12-20T17:46:30.813,http://www.byzantinereality.com,"Mountain View, CA","<p>I'm a software engineer at Google in Mountain View, California. I love programming and learning new programming languages.</p>
+
+<p>Some open source projects I've been involved in:</p>
+
+<p><a href=""http://github.com/AppScale/appscale"" rel=""nofollow"">AppScale</a> - an open source implementation of the Google App Engine APIs. Runs App Engine apps written in Python, Java, Go, or PHP over Amazon EC2, Google Compute Engine, Eucalyptus, Xen, or KVM.</p>
+
+<p><a href=""http://active-cloud-db.appspot.com/"" rel=""nofollow"">Active Cloud DB</a> - a software-as-a-service that exposes a REST API to any of the databases that AppScale supports (e.g., HBase, Cassandra, MongoDB) or the Datastore that App Engine supports.</p>
+
+<p><a href=""http://neptune-lang.appspot.com/"" rel=""nofollow"">Neptune</a> - a domain specific language that automatically configures and deploys high performance computing apps over AppScale. Run your MPI, MapReduce, X10, and other codes automatically over EC2 without needing to know how to start them and configure them!</p>
+",2269,1925,31,,337
+423,4422,2008-08-05T15:24:44.717,Brandon Wood,2019-03-02T22:46:48.510,https://bcwood.me,"Anchorage, AK, United States","<p>Web developer (primarily .NET &amp; SQL Server, w/ some PHP, mySQL, WordPress on the side)</p>
+",339,766,30,https://i.stack.imgur.com/fEOZ7.jpg,338
+424,415,2008-08-05T15:26:06.930,Friend Of George,2019-03-01T19:54:45.600,https://www.reverbnation.com/bringmeaminstrel,"Nashville, Tennessee, United States","<p>Programmer / Musician / Family Man</p>
+",180,265,7,,339
+425,4468,2008-08-05T15:31:37.183,Owen,2019-03-01T07:02:36.140,http://enginechris.wordpress.com/,"Leeds, AL","Leeds based c#/asp.net developer. See:
+
+<ul>
+<li>
+	My current open source project -  Less Css for .NET
+</li>
+<li>
+	My Blog - EngineChris
+</li>
+</ul>
+
+Feel free to contact me at: <br />
+<b>E:</b> chris.j.owen@hotmail.co.uk <br />
+<b>Skype:</b> christopher.john.owen <br />
+<b>T:</b> 07886711645",514,125,26,,340
+426,4265,2008-08-05T15:31:51.537,bugmagnet,2019-02-25T15:02:38.090,http://codeaholic.blogspot.com,Australia,"<p>Software Engineer. Over 20 years experience in programming and user-support.<br /><br />
+Working full-time for <a href=""http://q-metrics.com.au/"" rel=""nofollow noreferrer"">q-metrics</a>. <br /><br />Research assistant / librarian for, and contributor to, the <a href=""http://hopl.info"" rel=""nofollow noreferrer"">History of Programming Languages (HOPL)</a>. </p>
+",1914,931,9,,341
+428,3233,2008-08-05T16:12:27.447,Sam,2019-03-01T21:02:01.303,http://sam.xnet.tk,"Ipswich, United Kingdom","<p>Web developer from Ipswich, UK</p>
+",249,593,24,https://www.gravatar.com/avatar/d05bf9ac2d3b972d1c13e4c737a8bc65?s=128&d=identicon&r=PG&f=1,342
+429,59778,2008-08-05T16:44:40.797,Patrick,2019-02-22T02:19:52.910,http://careers.stackoverflow.com/patcar,"San Francisco, CA",,2440,257,157,,343
+430,5948,2008-08-05T16:45:35.723,jj33,2019-02-23T17:21:58.697,http://www.jetmore.org/john/,United States,I'm a bit pusher.  I push bits.,407,358,13,,344
+431,4022,2008-08-05T17:00:01.857,Mario Marinato,2019-02-28T11:18:50.390,http://www.osarcofago.blospot.com,"Rio De Janeiro, Brazil","<p>Java programmer and systems analyst.  Eclipse RCP developer.</p>
+
+<p>Used to work with VB and C++.</p>
+",507,372,1,,345
+432,13296,2008-08-05T17:18:46.967,andrewrk,2019-02-28T21:53:55.490,http://andrewkelley.me/,United States,"<p>open source software developer</p>
+",2097,676,473,,346
+434,5960,2008-08-05T17:42:54.423,Nathan Bedford,2019-03-03T04:50:52.133,http://www.nathanbedford.com/blog/,"Farmington Hills, MI",In the process of transferring over my personal KB to stackoverflow...,221,610,16,,347
+435,223,2008-08-05T17:58:35.017,TiTi,2014-02-11T21:21:02.063,http://www.google.fr/reader/shared/15098435215572676812,France,French IT guy!,97,8,0,,348
+437,36744,2008-08-05T18:13:45.330,Patrick McElhaney,2019-03-02T00:26:36.277,http://patrickmcelhaney.com,"Waxhaw, NC, United States","<p>At the stage in my career where I tend to focus more on people than code. I still use Stack Overflow every day, but I'm more likely to be active on Twitter (<a href=""http://www.twitter.com/patrick_mc"" rel=""nofollow noreferrer"">@patrick_mc</a>) or <a href=""http://github.com/pmcelhaney"" rel=""nofollow noreferrer"">GitHub</a>.</p>
+
+<p>As moderator for its first year, I helped get <a href=""http://ux.stackexchange.com"">ux.stackexchange.com</a> off the ground.</p>
+
+<h3>Favorite Books for Programmers</h3>
+
+<ul>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0132350882"" rel=""nofollow noreferrer"">Clean Code</a> by Robert C. Martin</li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/020161622X"" rel=""nofollow noreferrer"">The Pragmatic Programmer</a> by Hunt &amp; Thomas  </li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0131177052"" rel=""nofollow noreferrer"">Working Effectively With Legacy Code</a> by Michael Feathers</li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0201485672"" rel=""nofollow noreferrer"">Refactoring</a> by Martin Fowler</li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0672326140"" rel=""nofollow noreferrer"">The Inmates are Running the Asylum</a> by Alan Cooper</li>
+</ul>
+",3732,2606,28,,349
+438,1852,2008-08-05T18:28:20.447,jdelator,2018-11-06T01:06:11.290,http://topreplays.com,"Seattle, WA",msftie,250,211,18,,350
+439,1660,2008-08-05T18:36:05.377,KP.,2019-03-03T01:03:21.977,http://priester.net/,"St Augustine, Florida, United States","<p>Surfing Vilano since 1983</p>
+
+<p>Manipulating the DOM since 1994.</p>
+
+<p>First program Applesoft Basic on Apple IIe 1983.</p>
+
+<p>Currently enjoying node.js, C# MVC Razor,  Xamarin, Ektron, WinPhone 10</p>
+",455,278,3,,351
+440,55,2008-08-05T18:55:42.967,PixelRobot,2015-08-27T09:01:37.443,http://pixelrobot.net,"Espirito Santo, Brazil",,41,1,0,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,352
+441,271,2008-08-05T19:07:44.673,Peter Hession,2013-09-06T13:03:47.737,http://www.peterhession.com,"London, United Kingdom",Programming for over twenty years. Currently working in .NET for a financial software house.,76,3,1,,353
+443,8488,2008-08-05T19:27:20.563,PaulStock,2019-03-01T17:48:52.020,http://www.stockconsultinginc.com,"Columbus, OH",.NET programmer and bicycling geek,534,1573,10,,354
+444,2767,2008-08-05T19:31:46.717,Dan,2014-08-08T18:12:45.483,,,,255,298,48,,355
+445,11137,2008-08-05T19:37:25.207,Calanus,2019-02-25T09:29:21.297,https://floodassist.co.uk,United Kingdom,"<p>c# and SAS (!) programmer from the UK, working in the life-sciences area</p>
+",864,755,21,,356
+446,22139,2008-08-05T19:46:59.320,andnil,2019-02-06T06:07:13.197,,Sweden,,540,297,19,,357
+447,1043,2008-08-05T19:55:45.903,Alex,2019-03-01T01:34:28.673,,"Miami, FL, USA",,190,59,3,https://i.stack.imgur.com/3OjC5.png,358
+448,2395,2008-08-05T20:14:14.413,Chris Benard,2019-03-01T04:04:33.207,http://chrisbenard.net,"Plano, TX, United States","<p>I'm a Senior .Net Software Developer in Plano, Texas working remote in the pharmaceutical industry on pharmacy and pharmacy-related software. I do lots of work with old, established technologies like NCPDP EDI and credit card processing. I do mostly backends on distributed, connected systems. Occasionally, I come here to help other people out or get an answer to something I've been banging my head on all day.</p>
+
+<p><strong>Links</strong></p>
+
+<ul>
+<li><a href=""http://chrisbenard.net"" rel=""nofollow noreferrer"">My Blog</a></li>
+<li><a href=""https://github.com/cbenard"" rel=""nofollow noreferrer"">My GitHub</a></li>
+</ul>
+",329,173,6,,359
+449,64,2008-08-05T20:14:46.053,Mufaka,2008-08-06T17:58:40.740,,United States,,31,0,0,,360
+452,3299,2008-08-05T20:53:49.390,Tony Wong,2018-01-12T22:34:17.187,http://bitfable.com,"Toronto, Canada",,355,72,1,,362
+453,1507,2008-08-05T20:59:40.360,omar,2018-03-26T22:07:27.127,http://www.digitaltree.com,United States,,88,12,0,,363
+454,312,2008-08-04T08:52:03.310,Mesidin,2014-01-09T22:06:46.670,http://www.minionstudios.com,"Casper, WY","Web programmer in Casper, WY.",93,62,0,,364
+455,68,2008-08-05T21:42:19.603,Rob G.,2018-10-17T17:23:39.720,,"Glassboro, NJ",,24,1,0,https://i.stack.imgur.com/MwoTZ.jpg,365
+456,43335,2008-08-05T21:47:05.117,wilhelmtell,2012-04-21T22:00:26.927,,,,3286,1298,70,,366
+457,9894,2008-08-05T21:48:25.520,NilObject,2017-07-13T22:09:41.537,http://www.nilobject.com,"San Francisco, CA",,585,312,19,,367
+459,27199,2008-08-05T21:54:42.903,dlamblin,2019-03-02T21:57:47.593,http://www.syntaxerr.org/~daniell,United States,"<p>I had something here once. It was about work.<br>
+<code>#SOreadytohelp</code></p>
+",2231,1167,156,,368
+462,37904,2008-08-06T00:05:58.923,Greg Case,2019-03-03T02:07:42.667,http://news.ycombinator.com/user?id=gwc,United States,"<p>Software Engineer in New England.  These days I write C++ for a living.</p>
+",1033,45,0,,369
+463,1083,2008-08-06T00:13:18.193,Amr,2019-03-01T18:44:07.010,https://amreldib.com,"Vancouver, Canada",,189,466,11,,370
+464,426,2008-08-06T00:15:02.167,Stan,2009-03-04T02:39:02.487,,Ohio,,43,373,0,,371
+466,860,2008-08-06T00:59:59.050,Andrew Hampton,2019-01-25T21:14:58.253,http://twitter.com/andrewhampton,United States,"<p>BY DAY: Ruby/Rails, Javascript. BY NIGHT: Whatever seems interesting.</p>
+",191,147,1,,372
+468,485,2008-08-06T01:46:00.797,Chris Newman,2017-04-04T02:06:01.757,http://www.phase9studios.com,United States,,40,149,4,,373
+470,6837,2008-08-06T02:58:55.330,flipdoubt,2019-03-02T13:54:12.203,http://dreamofblue.com,United States,"<p>Full-stack .NET and Javascript generalist by necessity.</p>
+",743,1230,3,,374
+472,1479,2008-08-06T05:36:48.180,Mario,2019-03-02T15:04:52.707,,"Waterloo, ON, Canada",,183,117,0,,375
+473,8025,2008-08-06T05:51:32.440,sverrejoh,2019-02-15T05:23:50.220,http://www.sverrejoh.org,"Chandigarh, India","<p>Developer living and working in Chandigarh, India.</p>
+",372,100,14,,376
+475,11325,2008-08-06T07:16:20.927,Chris Roberts,2019-02-27T13:22:43.083,http://solutionmania.com,"Cheltenham, United Kingdom","<p>I'm a developer turned business owner working in Cheltenham, England.</p>
+",936,134,22,,377
+476,396701,2008-08-06T08:15:28.173,deceze,2019-03-02T21:35:12.053,http://kunststube.net,Germany,"<p>More or less independent web dude washed ashore in Japan.<br>
+More or less recently more less than more.<br>
+More recently also less Japan and more Europe.</p>
+
+<p>Full-stack developer, most heavily focussed on web development. Has a background in system administration, so ""full-stack"" pretty much starts at putting CPUs on motherboards, via installing and configuring the OS, writing the backend and frontend, to designing the interface. Bread and butter is PHP, current favourite stack is Python, AngularJS and Polymer; has long standing love affair with Haskell, Erlang and others. Likes tweaking nginx configuration files for some reason.</p>
+
+<p>Is writing articles about topics that keep popping up regularly on Stackoverflow but seldom get the treatment they require, like:</p>
+
+<ul>
+<li><a href=""http://kunststube.net/encoding/"" rel=""nofollow noreferrer"">What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text</a></li>
+<li><a href=""http://kunststube.net/escapism/"" rel=""nofollow noreferrer"">The Great Escapism (Or: What You Need To Know To Work With Text Within Text)</a></li>
+<li><a href=""http://kunststube.net/isset/"" rel=""nofollow noreferrer"">The Definitive Guide To PHP's isset And empty</a></li>
+<li><a href=""http://kunststube.net/frontback/"" rel=""nofollow noreferrer"">Handling Unicode Front To Back In A Web App</a></li>
+<li><a href=""http://kunststube.net/static/"" rel=""nofollow noreferrer"">How Not To Kill Your Testability Using Statics</a></li>
+</ul>
+",61283,11685,37630,,378
+477,2327,2008-08-06T08:33:20.880,dalelane,2019-03-02T21:29:01.693,http://dalelane.co.uk/blog/,"England, United Kingdom","<p>Developer for IBM working on Watson</p>
+",467,232,28,,379
+479,5341,2008-08-06T08:37:10.967,Christopher Mahan,2019-02-09T23:40:32.710,http://christophermahan.com/,"Los Angeles, CA","<p>I code for Bank of America, and they pay me. </p>
+
+<p>I write fiction, poetry at <a href=""http://christophermahan.com/writings/"" rel=""nofollow"">http://christophermahan.com/writings/</a></p>
+
+<p>I also write the poems on twitter.</p>
+
+<p>See me there at <a href=""https://twitter.com/chris_mahan"" rel=""nofollow"">https://twitter.com/chris_mahan</a></p>
+",1175,505,34,,380
+480,306,2008-08-06T08:40:05.797,mdy,2010-07-15T06:04:07.983,http://twitter.com/mdy,Asia,Tech addict. Doting aunt. Alto. Email and Twitter junkie. Part-time blogger. Perennial dieter. Erstwhile writer. Quarterly editor.,92,49,0,,381
+481,2759,2008-08-06T08:40:41.380,Dragan Panjkov,2019-02-15T19:53:58.253,http://www.dragan-panjkov.com,Germany,"<p><strong>K2/SharePoint consultant</strong><br /><strong>Office 365 MVP</strong><br />#SOReadyToHelp<br /><p><a href=""http://www.dragan-panjkov.com"" rel=""nofollow""><a href=""http://www.dragan-panjkov.com"" rel=""nofollow"">http://www.dragan-panjkov.com</a></a><br /><a href=""http://twitter.com/panjkov"" rel=""nofollow"">@panjkov</a></p></p>
+",341,82,1,,382
+482,735,2008-08-06T08:54:09.530,Thejesh GN,2019-01-25T06:46:13.643,http://thejeshgn.com,"Bangalore, Karnataka, India","<p>{Thejesh GN ⏚ ತೇಜೇಶ್ ಜಿ.ಎನ್} Hacker, Maker, Blogger, InfoActivist, Developer, Web, Free &amp; Open SW/HW/Data/Internet, Traveller,  0xBFFC8DD3C06DD6B0</p>
+
+<p><a href=""http://twitter.com/thej"" rel=""nofollow noreferrer"" title=""Thej on Twitter"">@thej on Twitter</a></p>
+
+<p><a href=""https://thejeshgn.com"" rel=""nofollow noreferrer"" title=""My Blog"">My Blog</a></p>
+",421,58,0,,383
+483,6275,2008-08-06T08:54:52.337,Nidonocu,2019-03-01T09:51:18.813,,"Stafford, United Kingdom","<p>A strange creature that enjoys web and desktop development, not to mention unhealthy amounts of Halo. One of those rare entities that enjoys both code and UI design.</p>
+",438,386,27,,384
+484,1064,2008-08-06T09:04:41.567,Tim Trueman,2019-03-02T23:34:19.687,https://timtrueman.com/,"Seattle, WA, USA",,177,39,1,https://i.stack.imgur.com/JyZdl.jpg?s=128&g=1,385
+486,11261,2008-08-06T09:19:11.880,grom,2019-02-27T02:46:35.457,http://grom.zeminvaders.net,Australia,Currently working on custom in-house intranet applications written in mostly PHP. Also experienced in Java.,1213,167,6,,386
+487,873,2008-08-06T09:46:18.830,Nick Masao,2019-02-20T19:46:05.530,http://www.nickmasao.com,,"<p>.NET Software Developer</p>
+
+<p>Twitter - @nickmasao</p>
+",172,510,2,,387
+488,3199,2008-08-06T09:52:47.523,Anthony Cramp,2017-04-06T06:29:52.293,http://www.anthonycramp.name,Australia,"Semi-literate, semi-shaved, primate.",332,964,10,,388
+489,8843,2008-08-06T09:59:30.410,David Wengier,2019-02-28T23:39:09.910,http://wengier.com/,"Melbourne, Australia","<p>Coder of things #SOreadytohelp</p>
+",692,37,4,,389
+491,160,2008-08-06T10:06:45.187,Conrad Halling,2008-08-08T10:04:35.703,http://sphaerula.com/wordpress/,United States,"I am a bioinformatics scientist, marathoner, astronomy buff, Apple fanboy, and reader. I use the following languages regularly, in this order: Perl, R, C, C++. In the past I have used PHP, Z80 assembler, but I've forgotten practically everything I once knew about these. I am a novice with Python, C#, Visual Basic, Java.
+",113,0,0,,390
+492,5505,2008-08-06T10:17:26.507,CAD bloke,2019-02-28T19:55:52.577,https://www.CADbloke.com,"Newcastle NSW, Australia","<p>Made: <a href=""https://www.tvCAD.tv/"" rel=""nofollow noreferrer"">tvCAD.tv</a> - automated cable schedules from Television (or data centre) wiring drawings</p>
+
+<p>Made: <a href=""https://www.CADreplace.com/"" rel=""nofollow noreferrer"">CAD find &amp; Replace</a> - because the standard one is crap and Regex should be everywhere, amirite?</p>
+
+<p>I design Television Stations and write code to automate that. I raced small yachts on big oceans...way back when I had time. Now I have code and kids.</p>
+",2633,5565,15,,391
+493,56727,2008-08-06T10:25:05.493,lomaxx,2017-07-24T04:19:34.223,http://keypay.com.au,Australia,"<p>Co-Founder of KeyPay - Simple, intuitive, cloud-based payroll system for small to medium Australian businesses</p>
+",3047,1550,148,,392
+497,8202,2008-08-06T11:31:57.603,Chris Bartow,2019-02-27T16:10:24.650,https://chrisbartow.com/,"Morristown, NJ","<p>I'm a photographer now.</p>
+
+<p>I use to do web stuff in php/mysql + jQuery.</p>
+",496,156,8,,393
+499,1,2008-08-06T11:34:59.830,bps,2018-04-25T20:39:40.053,http://bsmyth.net,"Pittsburgh, PA",,598,0,0,,394
+500,128,2008-08-06T12:03:28.197,Jason Tennier,2019-03-01T15:15:25.177,http://supergenius.ca,Canada,,163,16,1,,395
+501,7492,2008-08-06T12:11:33.623,Michal Sznajder,2019-02-26T14:33:32.760,http://none,Poland,Random developer.,601,562,14,,396
+503,103,2008-08-06T12:17:31.037,littlecharva,2008-08-13T16:29:58.160,,,,46,0,0,,397
+504,1086,2008-08-06T12:44:37.927,Thomas,2019-02-04T19:40:40.847,,United States,"<p>Information technology professional capable of leading projects throughout the full life cycle on tight deadlines in a fast-paced environment.  Strong analytical, programming, and communication skills.  Experience developing business intelligence and web applications for both internal and external customers and integrating them to form cohesive systems.  Strong team member with experience using Agile and Waterfall project methodologies.</p>
+",74,77,3,https://i.stack.imgur.com/DZ0Rt.jpg,398
+506,2849,2008-08-06T12:56:30.087,Matthew Ruston,2019-03-01T21:26:45.110,,"Sarnia, Canada","<p>Software engineer, DBA, video gamer, dad.</p>
+",615,4193,28,https://i.stack.imgur.com/XetTZ.jpg,399
+507,36797,2008-08-06T13:04:33.470,Joseph Daigle,2019-03-01T16:10:23.230,http://josephdaigle.me,"Atlanta, GA","<p>hacker, husband, father, and poodle owner</p>
+",1140,509,84,,400
+509,1021,2008-08-06T13:10:37.157,SitWalkStand,2019-03-01T21:16:01.397,http://www.sitwalkstand.net,United States,"<p>.NET developer enjoys technology and keeping up with software development</p>
+",143,66,0,,401
+510,17252,2008-08-06T13:19:18.200,Evan Shaw,2019-03-03T04:15:38.357,,"Auckland, New Zealand","<p>I have a history in embedded systems with C and C++, but now work on high performance servers in Go.</p>
+
+<p>I love programming languages and can find something to like just about anywhere. I wish I had more time to spend learning about compilers.</p>
+",1078,174,11,,402
+511,207,2008-08-06T13:22:48.427,krujos,2016-05-08T02:24:05.947,,"St. Paul, MN",,47,83,1,,403
+512,1276,2008-08-06T13:26:59.290,Jason Sparks,2014-07-19T16:30:51.060,http://twitter.com/jsparksman,United States,Rock & roller. Tech dabbler. Information addict.,101,18,3,,404
+514,2650,2008-08-06T13:59:16.760,James Hall,2019-03-02T20:33:53.360,http://imjameshall.com,"Atlanta, GA","<ul>
+<li>Co-Founder of ImGame <a href=""http://imga.me"" rel=""nofollow"">http://imga.me</a></li>
+<li>Tech Lead at 352 Inc - <a href=""http://352inc.com"" rel=""nofollow"">http://352inc.com</a></li>
+<li>Formerly Technology Directory at Maxmedia - <a href=""http://maxmedia.com"" rel=""nofollow"">http://maxmedia.com</a></li>
+<li>Formerly Associate Dir. Of Technology at AgencyNet Interactive - <a href=""http://www.agencynet.com"" rel=""nofollow"">http://www.agencynet.com</a></li>
+</ul>
+",467,164,12,https://graph.facebook.com/33001383/picture?type=large,405
+517,4403,2008-08-06T14:01:37.147,Adam V,2019-03-01T17:48:28.600,,"Houston, TX","<p>Not much to tell! Professional developer; always looking to learn; huge fan of SO.</p>
+",408,565,13,,407
+518,3327,2008-08-06T14:07:17.040,Telcontar,2019-03-01T11:53:26.877,http://www.chema.ya.st,Spain,Java Desktop developer,547,137,6,,408
+519,1399,2008-08-06T14:09:46.617,Otto,2018-12-07T14:59:08.920,,"Eugene, Oregon United States",,117,58,2,,409
+520,2729,2008-08-06T14:11:47.313,aceinthehole,2019-03-01T18:01:37.187,http://www.kevinkinnett.com,"Marietta, GA, United States","<p>I am a software engineer working in Atlanta, GA. My experience is primarily in, but not limited to .Net, C#, ASP.NET, BizTalk, SharePoint, SSIS, MS Sql Server 2005/08, Visual Studio 2005/08/10, javascript, XML, etc.
+</p></p>
+
+<p>
+I am currently a consultant working on BizTalk and SharePoint projects, as well as custom .Net and ASP.NET apps.
+</p>
+
+<p>
+If you enjoyed or benifited from any of my questions/answers consider sending me some BitCoins at 1Sb25Aq18igwN29X4qdiBDzyP2VxrkWD3. If you don't know what BitCoins are, check them out at BitCoin.org
+</p>
+
+<p></p></p>
+",387,103,2,https://i.stack.imgur.com/olIJN.jpg,410
+521,4361,2008-08-06T14:16:34.980,palmsey,2019-03-01T20:12:36.323,,United States,,261,450,2,,411
+522,1108,2008-08-06T14:24:03.357,Ed.,2012-08-23T17:57:43.070,,,,626,152,22,,412
+525,5323,2008-08-06T14:41:28.690,pc1oad1etter,2016-09-12T18:23:44.157,,,,662,131,14,,413
+527,874,2008-08-06T14:44:09.103,ggasp,2019-01-14T12:01:18.763,http://gasparolo.com/gabriel,Chile,"<p>I'll upvote every answer to my questions!</p>
+
+<p><a href=""http://www.hackernewsers.com/users/ggasp.html"" rel=""nofollow noreferrer"">http://www.hackernewsers.com/users/ggasp.html</a></p>
+",162,135,4,,414
+528,1191,2008-08-06T14:45:05.420,Nick Brosnahan,2018-08-31T18:51:59.697,http://nick.brosnahan.org,"Paris, France","<p>Recently, a Software Engineer at Apple.
+I used to work on the iCloud account system.</p>
+",225,159,5,,415
+529,578,2008-08-06T14:52:01.913,guitsaru,2017-03-08T00:36:05.380,http://relativelyearly.com,United States,,61,7,1,,416
+533,18387,2008-08-06T15:17:04.280,Curt Hagenlocher,2019-02-19T04:47:23.010,http://blogs.msdn.com/curth/,"Seattle, WA, US","<p>I'm a programmer at Microsoft working on Power Query.</p>
+",1032,93,17,,417
+534,2003,2008-08-06T15:17:19.663,Stephen Cox,2015-11-19T19:43:28.023,http://www.stephencox.org,"Fort Lauderdale, FL","Mainframe geek learning new ""tricks"".",431,98,6,,418
+535,3179,2008-08-06T15:28:45.100,Jay Hofacker,2017-05-15T19:48:39.213,http://www.linkedin.com/in/jayhofacker,"Indianapolis, IN","Microsoft Dynamics AX software consultant at <a href=""http://www.bkdtechnologies.com/AX/"" rel=""nofollow"">BKD Technologies</a>",273,22,1,,419
+536,42613,2008-08-06T15:30:22.677,Judah Gabriel Himango,2019-02-28T21:51:41.700,https://debuggerdotbreak.judahgabriel.com,"Savage, MN","<p>Web developer, speaker, entrepreneur, startup founder, musician, dad, husband, Jewish follower of Jesus.</p>
+
+<ul>
+<li>I created Youth Service Network's <a href=""https://ysnmn.org"" rel=""nofollow noreferrer"">YsnMN</a>. It's an awesome project to help homeless youth in Minnesota. I
+<a href=""https://debuggerdotbreak.judahgabriel.com/2015/01/14/show-and-tell-beds-and-services-for-homeless-youth/"" rel=""nofollow noreferrer"">blogged about it here</a>, and that blog post made it to the <a href=""https://news.ycombinator.com/item?id=8886588"" rel=""nofollow noreferrer"">front
+page of HackerNews</a> - woohooo!)</li>
+<li>I created <a href=""http://messianicradio.com"" rel=""nofollow noreferrer"">Chavah</a>, a Pandora-like PWA for the Messianic Jewish religious community.</li>
+<li>I'm a <a href=""https://ravendb.net"" rel=""nofollow noreferrer"">RavenDB</a> enthusiast and helped create <a href=""http://live-test.ravendb.net"" rel=""nofollow noreferrer"">Raven Studio</a>.</li>
+<li>I help run <a href=""https://twincitiescodecamp.com"" rel=""nofollow noreferrer"">Twin Cities Code Camp</a> and built <a href=""https://twincitiescodecamp.com"" rel=""nofollow noreferrer"">TwinCitiesCodeCamp.com</a>.</li>
+<li>I built 3M's <a href=""https://3m.com/vas"" rel=""nofollow noreferrer"">Visual Attention Software</a>.</li>
+<li>I'm the creator of <a href=""https://messianicchords.com"" rel=""nofollow noreferrer"">MessianicChords.com</a>, an ad-free HTML5 site for lyrics and guitar chords to Messianic Jewish music.</li>
+<li>I built <a href=""http://etzmitzvot.com"" rel=""nofollow noreferrer"">EtzMitzvot.com</a>, a fun project visualizing the relationship between commandments in the Hebrew Bible.</li>
+<li>I blog about software at <a href=""http://debuggerdotbreak.judahgabriel.com"" rel=""nofollow noreferrer"">DebuggerDotBreak</a>, and on life and faith over at <a href=""https://blog.judahgabriel.com"" rel=""nofollow noreferrer"">Kineti</a>.</li>
+</ul>
+",3924,2788,176,,420
+537,2927,2008-08-06T15:32:33.530,James Avery,2018-09-21T02:09:23.750,http://adzerk.com,"Raleigh, NC","<p>Founder and CEO of Adzerk (http://adzerk.com). </p>
+
+<p>I am a software developer living in the Raleigh, NC area where I run Adzerk. I also co-founded TekPub and Epic Win Hosting.</p>
+
+<p>I have written a number of books and articles, the most recent being Windows Developer Power Tools for O'Reilly.</p>
+",550,160,11,,421
+538,891,2008-08-06T15:35:43.667,Eric Lamb,2017-01-04T07:03:28.437,http://mithra62.com,United States,"<p>I live in Los Angeles and am a freelance programmer.</p>
+",198,171,16,,422
+539,1001,2008-08-06T15:37:07.530,Daniel J. Pritchett,2018-05-14T01:01:58.587,http://dpritchett.net,"Memphis, TN","<p>Rails, Python, enterprise BI.</p>
+",133,366,1,,423
+541,7589,2008-08-06T15:38:13.053,Nathan,2019-02-25T17:49:27.697,http://www.thefreakparade.com,"Santa Rosa, CA","I am made mostly of tinfoil, and yet...and yet I know how much I mean to you, and I accept that in myself, in the tinfoil pocket where my heart sloshes back and forth as I walk. If you have ever felt like you were committing murder when you cracked an egg for your breakfast, please realize the embryonic chicken was dead long ago. If chicken fetuses could survive refrigeration, why would their mothers sit on them in order to make them hatch? Try to use some of the common sense god gave you and I think we'll all have a better day.",549,131,8,,424
+543,14965,2008-08-06T15:41:31.237,bpapa,2019-02-20T21:58:31.390,http://twitter.com/bpapa,"New York, New York United States","<p>iOS engineer</p>
+",2000,679,156,https://graph.facebook.com/547245455/picture?type=large,425
+544,5888,2008-08-06T15:58:13.090,Mike McMaster,2019-03-02T22:07:44.257,http://mikemcmaster.com,"Los Angeles, CA","<p>Startin' up.</p>
+",520,168,10,,426
+547,2543,2008-08-06T16:09:22.707,mauriciopastrana,2009-05-02T17:02:53.393,http://www.mauriciopastrana.com,United States,Internet Guru. Last of a Dying Breed. Jah! Right.,257,109,0,,427
+548,1540,2008-08-06T16:19:07.167,Ramiro Berrelleza,2019-03-01T01:14:58.517,http://about.me/rberrelleza,"San Francisco, CA","<p>Software Developer at Atlassian, member of the HipChat team. Specialized in Cloud Services, Virtual Appliances, messaging applications and web apis. Formerly of ElasticBox and Microsoft (go ServiceBus!)</p>
+
+<p>Really interested in cloud computing, containers, IOT and Home Automation.</p>
+",276,146,7,,428
+549,12625,2008-08-06T16:20:06.150,Josh Kodroff,2019-02-19T23:10:27.993,http://joshkodroff.com,"Philadelphia, PA","<p>Senior Engineer at eMoney Advisor.</p>
+
+<p>Work stuff I know how to do: agile development, C#, ASP.NET MVC, Domain Driven Design, NServiceBus, CQRS, The JavaScripts, continuous integration, automated deployment</p>
+
+<p>Work stuff I want to know how to do better: functional programming, more JavaScripts, better devops, event sourcing</p>
+
+<p>Outside-of-work interests include: making music (bass and guitar), cooking noms, general lulz</p>
+",1340,1569,47,,429
+550,3320,2008-08-06T16:22:46.190,Juan,2019-03-02T14:14:04.173,http://www.linkedin.com/in/juancivile,"Buenos Aires, Argentina",,237,452,17,,430
+551,930,2008-08-06T16:24:59.900,Dylan Bennett,2017-12-30T20:38:37.663,http://mboffin.com,Oregon,"There's nobody else like me. I checked.<br /><br />
+
+secretGeek wrote: ""currently stack overflow suffers from too many great people ready to answer questions -- not enough 'unwashed masses' asking""<br /><br />
+
+One unwashed mass at your service. I've got tons of unwashed questions.",202,16,1,,431
+552,305,2008-08-06T16:25:06.607,Angus,2019-02-28T15:46:18.370,,DFW,"<p>Web development and Java consultant in DFW area.</p>
+",26,180,1,https://i.stack.imgur.com/OzE5Y.jpg,432
+553,472,2008-08-06T16:26:02.627,Brad Choate,2017-08-29T04:17:53.220,http://bradchoate.com/,"San Francisco, CA",,60,5,1,,433
+555,3403,2008-08-06T16:43:59.753,Hunter,2019-03-02T21:47:31.403,http://www.hanchorllc.com,"Santa Barbara, CA","<p>iOS developer of Vegas Mate and other apps.</p>
+",654,103,27,,434
+556,5322,2008-08-06T16:48:23.970,deadprogrammer,2019-02-12T18:45:21.817,http://www.deadprogrammer.com,"New York, NY","Web developer, blogger, content management specialist. 
+
+Major switches in life: Soviet Union to the US, single to married, PC to Mac, ASP to PHP, Sharepoint to Drupal.
+
+My blog is actually readable, people tell me. Go check it out at http://www.deadprogrammer.com",2123,452,95,,435
+557,1038,2008-08-06T17:12:26.420,MattSayar,2018-12-26T17:41:56.483,http://mattsayar.com,"Colorado Springs, CO","<p>Junior Software Dev for a large engineering company <br>
+I've been programming professionally since I was a senior in high school, <a href=""http://www.codinghorror.com/blog/archives/000051.html"" rel=""nofollow"">I suck at it</a>, and I want to do better.</p>
+",325,263,1,,436
+560,3441,2008-08-06T17:55:23.947,Jeremy Privett,2019-03-01T21:02:08.870,http://www.jeremyprivett.com,United States,"<p>Educator. Community Organizer. Consultant.</p>
+
+<p>I teach Mid- and Senior-level Developers how to be more effective.</p>
+
+<p>I teach development teams how to be more efficient and focus on the right things.</p>
+
+<p><a href=""http://www.jeremyprivett.com"" rel=""nofollow"">http://www.jeremyprivett.com</a></p>
+",217,45,44,,437
+563,3212,2008-08-06T18:24:06.070,Yann Trevin,2019-02-28T15:15:57.390,http://www.interfacingreality.blogspot.com,"Luxembourg City, Luxembourg","<p>Corporate software engineer working as .NET developer in the research center of a large tire manufacturing company.</p>
+
+<p>Contributor to the <a href=""http://gallio.org"" rel=""nofollow"">Gallio</a> OSS project and Core Team Member since 2009.<br>
+<a href=""http://gallio.org"" rel=""nofollow""><img src=""http://gallio.org/images/EchoLink100.png"" alt=""Gallio""></a></p>
+",313,590,9,,438
+564,11,2008-08-06T18:30:28.057,dev-andrey,2018-10-20T15:51:54.227,,United States,,27,1,0,,439
+565,1558,2008-08-06T18:51:58.013,Cade,2019-02-22T23:20:05.847,http://www.google.com,United States,Application Developer,169,53,5,,440
+567,5193,2008-08-06T19:14:16.970,Tanerax,2019-02-27T01:50:32.480,http://tanerax.com/,Canada,"<p>Been developing using various languages for the last 15+ years. QBasic, C/C++, Visual Basic, C#, Java, Python, ColdFusion, Javascript, Ruby...</p>
+",211,23,0,,441
+568,4104,2008-08-06T19:50:58.627,David McGraw,2018-05-23T13:05:23.103,http://moonlitsolutions.com,"Wichita, KS, United States","<p>I build tech startups, write and   .️Hang around a while. Semper Fi </p>
+",592,207,37,,442
+570,11,2008-08-06T20:13:45.133,Ghirai,2009-10-29T14:23:41.350,http://nodereality.com,,,96,0,0,,443
+571,16646,2008-08-06T20:19:59.067,Lance Fisher,2019-03-02T20:48:58.713,,"Missoula, MT","<ul>
+<li>Missoula .NET Users Group Founder</li>
+<li>Father</li>
+<li>Husband</li>
+<li>Ultra runner
+<li>Believer</li>
+<li>Snowboarder</li>
+<li>Math Geek</li>
+<li>Learning Russian</li>
+<li>Learning Spanish</li>
+</ul>
+",1622,2530,50,,444
+572,70534,2008-08-06T20:56:54.547,Thomas Owens,2019-03-02T16:45:00.370,https://thomasjowens.com/,"Cambridge, MA, United States","<p>I'm a software engineer with experience across the software development lifecycle. My primary interest is software development methodologies and software process improvement. My CV is available on <a href=""https://stackoverflow.com/story/thomasjowens"">Stack Overflow Careers</a> and <a href=""http://www.linkedin.com/in/thomasjowens"" rel=""nofollow noreferrer"">LinkedIn</a>. I'm also a runner, a hobbyist photographer, an avid reader, and a casual gamer.</p>
+",13929,2946,204,https://i.stack.imgur.com/Cc7mM.jpg?s=128&g=1,445
+573,43480,2008-08-06T21:00:42.387,abyx,2019-02-25T09:14:44.437,https://avivbenyosef.com,Israel,"<p>Heyo,</p>
+
+<p>I help tech executives bridge knowledge gaps (their own or their team's): Strategy, architecture, and coaching.</p>
+
+<p>Even the best teams can raise their bar and perform better, and I provide an outside perspective about your processes, developer experience, communication and more.</p>
+
+<p>Hit me up on my site at <a href=""https://avivbenyosef.com"" rel=""nofollow noreferrer"">https://avivbenyosef.com</a></p>
+",2300,2521,13,,446
+574,1199,2008-08-06T21:11:23.347,Jarin Udom,2015-02-10T19:26:18.387,http://robotmodehq.com,"San Diego, CA","<p>Ruby on Rails / Adobe AIR / Adobe Flex developer specializing in eCommerce and digital media distribution.</p>
+<p><a href=""http://twitter.com/jarin"">@jarin</a></p><p><a href=""http://facebook.com/jarin"">facebook</a></p>",161,132,7,,447
+575,777,2008-08-06T21:14:57.037,Joe Mahoney,2018-06-29T02:03:39.227,https://iterative.co.nz,,,101,87,12,,448
+576,2491,2008-08-06T21:34:52.630,Eddie,2019-03-01T17:34:51.170,http://www.usdm.net,"Corpus Christi, TX","<p>I am a web developer in south Texas primarily using C# .NET and PHP.</p>
+",275,1514,2,https://i.stack.imgur.com/hUQc3.jpg?s=128&g=1,449
+577,5704,2008-08-06T21:36:25.590,Sam McAfee,2016-10-05T21:49:21.307,http://www.startuppatternsbook.com/get-help/,"Oakland, CA","<p>I help entrepreneurs build and scale startup companies, find product-market fit, and improve software products and teams.</p>
+
+<p>For fifteen years I have helped technology product teams to be successful and deliver meaningfully for the business. I have long been an active member of the Agile, Lean Startup and Kanban communities in the Bay Area.</p>
+
+<p>Find out more -> <a href=""http://www.startuppatternsbook.com/"" rel=""nofollow"">http://startuppatternsbook.com</a></p>
+",792,216,5,,450
+578,3018,2008-08-06T22:07:45.527,axk,2019-03-02T22:08:01.027,,"Minsk, Belarus",,672,1174,27,,451
+580,16494,2008-08-06T22:30:28.227,Brian Leahy,2013-01-30T19:24:15.533,,Arizona,I'm a .net developer working in wpf and silverlight primarily.,1005,181,101,,453
+581,4961,2008-08-06T22:42:01.667,JeremiahClark,2009-10-15T14:04:45.910,http://blogs.msdn.com/miah,Maryland,I work as a .NET Development Consultant for Microsoft in the DC Metro area.,116,23,10,,454
+582,148738,2008-08-06T22:43:52.490,Lily Ballard,2019-02-26T19:13:12.843,,"San Francisco, California, United States","<p>iOS Developer at Twitch. Open source contributor. Programming language aficionado. She/her.</p>
+",7177,722,140,https://i.stack.imgur.com/ev49G.png?s=128&g=1,455
+584,993,2008-08-06T23:46:37.340,Eltariel,2018-02-26T02:11:16.457,http://eltariel.com,"Newcastle, Australia","<p>I am me. That is all for now.</p>
+",150,131,8,,456
+586,3385,2008-08-07T00:14:14.273,jlleblanc,2019-02-23T20:40:46.347,http://www.jlleblanc.com,"Austin, TX","<p>I program mainly in JavaScript and PHP; finding myself increasingly working with Ruby. I'm also interested in schemaless databases (CouchDB, Mongo, etc...). When I'm not at Meetups in Austin, I'm coding for <a href=""http://bigcommerce.com"" rel=""nofollow noreferrer"">BigCommerce</a> and <a href=""http://www.lynda.com/JosephLeBlanc"" rel=""nofollow noreferrer"">authoring videos</a> for Lynda.com.</p>
+",496,245,6,,458
+588,9775,2008-08-07T00:22:53.757,Kieron,2019-03-01T01:50:00.123,,Australia,"Senior Software Engineer in Melbourne, Australia.",295,58,3,,459
+590,2403,2008-08-07T00:24:39.713,Kevin Sheffield,2017-02-17T14:35:31.337,http://www.ksheffield.com,Virginia,Young guy trying to learn,396,68,13,,460
+592,20111,2008-08-07T00:51:32.107,saschabeaumont,2017-10-12T04:28:05.000,http://www.eyeonit.com.au,"Maroochydore, Queensland, Australia","<p>Former professional install ninja, spent some years working on cloud platform infrastructure/capacity for bing.com in Seattle. Now in Sunshine Coast, Australia</p>
+",2045,1508,179,,461
+598,45500,2008-08-07T02:49:41.620,Haacked,2019-02-23T23:11:10.703,http://haacked.com/,"Bellevue, Washington United States","<p>I Rock</p>
+",9563,214,13,,462
+602,186,2008-08-07T05:07:46.833,David Yu,2018-04-21T06:27:31.533,,United States,Network Security,41,2,0,,463
+604,86,2008-08-07T05:58:55.343,swartzrock,2016-10-07T05:10:41.747,,United States,,50,2,0,,464
+605,611,2008-08-07T09:30:58.237,winsql,2019-02-27T17:15:06.150,http://www.winsql.com,United Kingdom,"I live in London, England with my partner and lots of computers.  I am a solutions architect and senior lead developer, and responsible for the design and technical architecture of reliable, high-performance, high-availability, trusted and flexible solutions on the Microsoft Windows platform.
+<br>
+I'm interested in solution architecture, database design, coding standards, architecting and building .NET smart clients.  I also blog on Visual Studio and SQL Server topics - whatever I am thinking about or working on.
+<br>
+I like to cook, travel, listen music, watch movies and I am Stargate SG-1, Stargate Atlantis, Battlestar Galactica (2003) and Bones fanboy.  I know but it's only television!!",220,52,2,,465
+607,5611,2008-08-07T10:12:01.617,Anh Do,2019-03-03T02:37:32.043,http://anh.do,"HCMC, Ho Chi Minh City, Ho Chi Minh, Vietnam","<p>I made <a href=""http://getwritingkit.com"" rel=""nofollow noreferrer"">Writing Kit text editor</a> for iOS.</p>
+",501,1063,56,,466
+608,9031,2008-08-07T10:23:46.307,Andrew Peters,2014-04-17T22:44:52.497,http://twitter.com/anpete,"Seattle, WA","<p>Microsoft employee working on EF Code First &amp; Migrations.</p>
+
+<p>Creator of EF Power Tools, LightSpeed, NHaml, Inflector.NET, PowerShell Gadget &amp; VS File Explorer.</p>
+",1165,49,28,,467
+609,9378,2008-08-07T10:26:12.197,Justin Tanner,2019-03-01T21:54:46.297,http://jwtanner.com,"Victoria, BC, Canada","<p>I'm Canadian web developer who likes to dabble in all aspects of programming. I've worked on the back-end feeding data to mobile apps. I've worked on the front-end with several frameworks and have run usability tests for new user interfaces. I also like open source software and try to chip in when I can. Outside of programming I enjoy running, traveling and dancing Brazilian zouk.</p>
+",1096,1547,56,,468
+611,25027,2008-08-07T10:43:39.387,OJ.,2019-03-01T04:41:52.680,http://buffered.io/,Australia,"<p><a href=""http://about.me/ojreeves"" rel=""nofollow"">About me</a></p>
+",3564,547,143,,469
+612,1058,2008-08-07T10:44:23.660,rossp,2018-09-11T03:51:25.330,http://www.rossp.org/,Australia,"<p>I'm a consultant specialising in Microsoft Dynamics CRM. On the weekends I'm a casual Django web developer, home brewer, dad and DIY guy in Melbourne, Australia.</p>
+
+<p>If you find my MS CRM answers useful and you want one-on-one help that is tailored to your business, you might want to hire us at <a href=""http://www.pa.com.au"" rel=""nofollow"">Professional Advantage</a> - where I'm a CRM specialist. We also do Microsoft SharePoint, ERP (AX &amp; GP), Wennsoft, Exchange, Cisco networks, and all sorts of other fun stuff.</p>
+
+<p>That said, all answers and comments here are my own and do not represent the views of my employer: they don't influence or endorse anything I do or say online. It's just me, I'm afraid.</p>
+",158,86,2,,470
+613,3219,2008-08-07T10:47:12.123,mreggen,2019-02-27T11:55:02.843,http://www.i_have_no_page.no,,"<p>Software Engineer based in Oslo, Norway.
+Currently employed by Computas AS.</p>
+",201,188,18,,471
+614,804,2008-08-07T10:47:20.830,deadtime,2019-02-25T12:30:50.730,,"Trondheim, Norway","<p>TAGS: programming, hardware, gaming, movies, music</p>
+",77,62,4,,472
+615,164081,2008-08-07T11:06:07.373,Matt Hamilton,2019-02-27T01:43:54.977,http://matthamilton.net,"Albury, Australia","<p><a href=""http://twitter.com/mabster"" rel=""nofollow"">Follow me on Twitter!</a></p>
+
+<p><p>Check out my hobby projects:</p>
+
+<dl>
+<dt><a href=""http://comicster.net"" rel=""nofollow"">Comicster</a></dt>
+<dd>A free, open-source WPF application to manage your comic-book collection.</dd>
+
+<dt><a href=""http://madprops.org/halfwit"" rel=""nofollow"">Halfwit</a></dt>
+<dd>A minimalist, open-source, WPF Twitter client.</dd>
+
+<dt><a href=""https://bitbucket.org/mabster/budgie"" rel=""nofollow"">Budgie</a></dt>
+<dd>A simple, asynchronous Twitter library for .NET 4 and up.</dd>
+
+<dt><a href=""https://bitbucket.org/mabster/madprops.appargs"" rel=""nofollow"">MadProps.AppArgs</a></dt>
+<dd>A library to parse command-line or ClickOnce-URI arguments into an instance of a class.</dd>
+
+<dt><a href=""https://bitbucket.org/mabster/madprops.mvvmlight"" rel=""nofollow"">MadProps.MvvmLight</a></dt>
+<dd>A contrib project to add co-routine support to the MVVM Light Toolkit.</dd>
+</dl>
+
+<p><br /></p>
+
+<p><p>Feel free to contact me directly (mabster -at- madprops.org).</p><p><a href=""http://twitter.com/mabster"" rel=""nofollow"">@mabster</a></p><p><a href=""https://plus.google.com/100682021276579489812?hl=e"" rel=""nofollow"">Google+</a></p></p>
+",9958,1966,69,,473
+616,1070,2008-08-07T11:16:13.673,Tomi Kyöstilä,2018-07-13T06:48:44.360,,Finland,,225,264,1,,474
+617,482,2008-08-07T11:16:21.583,Vagmi Mudumbai,2019-03-02T02:17:44.943,http://www.vagmim.in,"Chennai, India","<p>Making the world better one line of code at a time.</p>
+",287,83,3,,475
+618,10827,2008-08-07T11:16:45.763,HS.,2011-10-31T02:27:37.080,http://statictype.org,,,381,51,6,,476
+619,20315,2008-08-07T11:18:24.230,Neall,2019-02-20T15:39:29.573,http://twitter.com/neall,"Columbus, OH","<p>softwaremachen</p>
+",727,1095,44,,477
+620,4533,2008-08-07T11:19:57.050,Ryan Cox,2018-12-07T19:11:32.917,http://www.asciiarmor.com,"Seattle, WA","<p>Infrastructure Engineer</p>
+",434,337,3,https://www.gravatar.com/avatar/cfd5ef3d2d80171ee26bcf52a9a3c751?s=128&d=identicon&r=PG&f=1,478
+621,975,2008-08-07T11:24:18.960,Jorriss,2018-09-28T14:31:27.943,http://jorriss.net,"Miami, FL","<p>Application Architect, Data Architect and Project Manager</p>
+",90,295,1,,479
+622,279,2008-08-07T11:28:58.763,DanV,2014-05-02T20:35:36.510,http://www.danvarga.com,"Raleigh, NC",Mainframe developer.,88,2,0,https://www.gravatar.com/avatar/?s=128&d=identicon&r=PG&f=1,480
+623,323,2008-08-07T11:31:46.467,Gelu,2019-03-01T11:23:55.303,,,,76,32,0,,481
+624,193,2008-08-07T11:42:08.533,Alan Hecht,2019-02-28T20:28:34.227,http://www.linkedin.com/in/alanghecht,United States,"<p>Software Developer living in Atlanta, GA</p>
+",112,118,0,https://i.stack.imgur.com/57ol3.png,482
+625,14570,2008-08-07T11:47:40.067,intrepion,2018-12-20T14:23:04.003,http://intrepion.com,"Portland, OR","<p>I've loved programming since I taught myself BASIC in 3rd grade.</p>
+",1096,305,13,,483
+626,1842,2008-08-07T11:52:05.957,Douglas Tosi,2018-01-12T16:44:17.287,http://www.sinatica.com,Brazil,"I'm the creator of Sinática and the renowned Sinática Monitor for Firebird.  
+Besides computers, I enjoy trying new espressos.",296,154,3,,484
+627,1381,2008-08-07T12:03:09.117,Donovan Woodside,2019-02-28T21:29:56.767,,United States,,107,40,0,,485
+629,8,2008-08-07T12:05:42.137,PacketMonkey,2015-05-19T18:33:52.353,http://packetmonkey.org,,,56,0,0,,487
+630,1280,2008-08-07T12:10:44.437,JoshL,2019-02-27T16:24:14.807,http://www.topthought.net,United States,"<p>I collect spores, molds, and fungus. Also write code.</p>
+",162,11,0,https://i.stack.imgur.com/nyBRC.jpg,488
+631,12134,2008-08-07T12:14:37.610,ageektrapped,2019-03-01T15:40:58.603,https://ageektrapped.com,"Ottawa, Canada","<p>Jason is an <strong>amazing developer-slash-genius</strong>. He currently specializes in designing and developing apps for iOS, with over 15 years mastering the craft of app development. He enjoys the deadlift, barbecue, Negroni cocktails, and writing about himself in the third person.</p>
+",842,887,3,,489
+632,17911,2008-08-07T12:15:08.857,Jake Pearson,2019-03-02T19:30:29.983,,"Boulder, CO","<p>Good times.</p>
+",705,530,3,,490
+633,869,2008-08-07T12:15:28.077,Corey McKinnon,2019-03-01T21:36:42.420,http://blog.coreymckinnon.com/,"Herriman, UT","<p>I'm a C# developer for a direct sales company called <a href=""http://www.stampinup.com/"" rel=""nofollow"">Stampin' Up!</a> located in Riverton, UT.</p>
+",89,25,1,,491
+634,731,2008-08-07T12:15:58.840,C Hogg,2010-03-08T16:41:04.410,http://abstractabsurd.blogspot.com,"Portland, OR",Math & functional programming nerd.  Working on my PhD at Portland State.,89,44,1,,492
+635,6947,2008-08-07T12:16:06.923,rupello,2019-03-01T21:56:07.927,,,"<p>I am a software developer working in the mobile communications industry.</p>
+",495,63,1,,493
+636,12419,2008-08-07T12:32:33.520,Brian Lyttle,2019-02-27T02:10:23.363,http://www.brianlyttle.com,United States,"<p>Northern Irish expatriate living and working near Philadelphia. I'm an Escalation Engineer at <a href=""https://www.yammer.com"" rel=""nofollow noreferrer"">Yammer</a> which is part of the Microsoft Office Division.</p>
+",1433,419,197,https://i.stack.imgur.com/GptWw.jpg?s=128&g=1,494
+637,3650,2008-08-07T12:33:15.780,tbreffni,2019-02-07T17:15:03.110,http://tiarnan.com,,,422,132,6,https://www.gravatar.com/avatar/a08aa69a22710ff93067925e85d4cf30?s=256&d=identicon&r=PG,495
+639,170,2008-08-07T12:45:10.250,Rich Bruchal,2018-08-30T19:14:56.747,http://rich.bruchal.com,United States,"<p>CT based software developer, specializing in Cocoa, iOS, Android &amp; other mobile platforms. Yankees fan.  Martha's Vineyard lover.</p>
+",102,43,0,,496
+644,353,2008-08-07T12:54:56.703,esarjeant,2019-02-19T05:20:11.220,http://micromux.com,"Naples, FL",,49,18,0,,497
+645,7615,2008-08-07T12:58:41.063,Joel Lucsy,2019-03-02T07:02:24.653,http://lucsy.net,"Flint, MI","Just another developer, developer, developer.",396,132,6,,498
+646,1741,2008-08-07T13:12:40.677,Luke Foust,2019-02-28T18:36:27.363,http://blog.spontaneouspublicity.com,"Duvall, Washington United States","<p>Although I currently work mainly on the Microsoft .net stack, I have experience with Java, Perl, PHP and many others in the past.</p>
+",278,300,8,https://graph.facebook.com/558081755/picture?type=large,499
+648,7584,2008-08-07T13:22:00.173,RedWolves,2018-09-15T21:34:34.363,http://ralphwhitbeck.com,"Rochester, NY","<p>Developer Advocate for <a href=""http://developer.atlassian.com"" rel=""nofollow noreferrer"">Atlassian's Ecosystem platform</a> and <a href=""http://marketplace.atlassian.com"" rel=""nofollow noreferrer"">Atlassian Marketplace</a></p>
+
+<p>Follow me on twitter <a href=""http://twitter.com/redwolves"" rel=""nofollow noreferrer"">@RedWolves</a></p>
+",830,330,18,,500
+649,1705,2008-08-07T13:33:31.460,beno,2019-03-01T21:33:46.387,http://chrisbenoit.ca,"Hamilton, Canada","<p>let's setup a weekly sync meeting</p>
+",109,443,0,,501
+650,2836,2008-08-07T13:45:44.963,Jim Fiorato,2016-10-17T12:01:15.620,http://www.writebetterbits.com,"Wheaton, Illinois United States","<p>I'm very important. I have many leather-bound books and my apartment smells of rich mahogany.</p>
+",154,71,9,,502
+652,38,2008-08-07T14:14:43.453,Mike,2016-08-25T15:35:40.827,,United States,,44,5,0,,503
+653,4165,2008-08-07T14:31:07.180,Ricky,2019-02-26T03:49:43.760,http://rickyrosario.com/,"South Florida, Florida United States","<p>Engineer at Mozilla</p>
+",487,336,19,,504
+654,445,2008-08-07T14:41:00.467,Nicholas,2018-09-16T19:41:25.870,,"Vista, CA, United States",,54,277,38,,505
+655,4340,2008-08-07T14:44:51.443,MattBelanger,2019-03-02T20:42:12.113,,"Bowmanville, ON, Canada","<p>Technology and software development leader, focused on SaaS software and web development.</p>
+",340,376,26,,506
+657,2120,2008-08-07T15:05:02.603,Justin Yost,2018-09-02T02:45:25.863,https://justinyost.com/,United States,"<p>Justin is a Senior Software Engineer with Wirecutter working on building out a REST API and client app that powers the product database. Justin relishes programming, learning more about everything and anything, teaching and dislikes the Oxford comma. He is a course author for LinkedIn Learning covering topics such as; PHP, CakePHP, Ember.js, Unit Testing and REST APIs and gives talks regularly at the local PHP Meetup. In what time is left over from all that, he backpacks on occasion and enjoys a good book.</p>
+",446,1143,21,,507
+658,59259,2008-08-07T15:07:47.713,Kyle Cronin,2019-03-02T14:40:15.903,,,"<p><img src=""http://media.podcast.askdifferent.net/tracking/profile.gif"" alt=""""></p>
+",9366,658,47,,508
+659,356,2008-08-07T15:08:33.517,Brock D,2017-09-05T23:11:37.217,http://www.twitter.com/healplz,"Richmond, VA","<p>Software Developer in Richmond, VA</p>
+",70,220,3,,509
+660,916,2008-08-07T15:30:03.537,codemac,2013-12-08T07:23:08.173,http://codemac.net,United States,An entire view of myself fits in this box.,82,6,0,,510
+661,58,2008-08-07T15:33:59.190,chesterbestertester,2019-03-02T16:12:42.537,,"West Hills, CA","Long time IT manager (VP level) in the entertainment industry.  Currently running Data Warehouse and reporting applications for Universal Music Group.  Dabble in development for work and pleasure.  Always interested in discussion on teams, team work and software development",14,2,0,,511
+666,1159,2008-08-07T15:47:58.833,alexp206,2018-05-21T17:07:59.927,http://palilonis.net,"Jersey, AR","I live in NJ, I work in a Library, I drive a Mini, I like to be underwater.",657,65,3,,513
+667,1818,2008-08-07T16:00:54.003,Evan,2017-08-22T22:27:10.723,http://www.twitter.com/EvanADeVries,United States,I'm currently employeed as a asp.net/c# developer. ,170,273,9,,514
+668,108,2008-08-07T16:05:06.820,Fajar,2017-06-01T03:50:14.643,http://akatsuki7.blogspot.com,Idaho,,61,136,0,,515
+669,424,2008-08-07T16:11:17.027,quekshuy,2019-02-28T06:46:29.687,,,,72,19,0,,516
+670,180,2008-08-07T16:12:08.367,Andy,2018-08-30T16:50:51.637,,United States,,61,22,0,,517
