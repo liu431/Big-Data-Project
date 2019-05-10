@@ -14,20 +14,20 @@ Post History CSV
 count = 1
 
 with open('sample_PostHistory.csv', 'w') as write_file:
-    posthistory_data = [['Id', 'PostHistoryTypeID', 'PostId', \
+    posthistory_data = [['Id', 'PostHistoryTypeId', 'PostId', \
                 'RevisionGUID', 'CreationDate', 'UserId', 'Text']]
     for evt, elem in iterparse('PostHistory.xml', events=('end',)):   
         if elem.tag == 'row':
             ph_data = elem.attrib
             Id = ph_data.get('Id')
-            PostHistoryTypeID = ph_data.get('PostHistoryTypeID')
+            PostHistoryTypeId = ph_data.get('PostHistoryTypeId')
             PostId = ph_data.get('PostId')
             RevisionGUID = ph_data.get('RevisionGUID')
             CreationDate = ph_data.get('CreationDate')
             UserId = ph_data.get('UserId')
             Text = ph_data.get('Text')
 
-            posthistory_data.append([Id, PostHistoryTypeID, PostId, RevisionGUID, \
+            posthistory_data.append([Id, PostHistoryTypeId, PostId, RevisionGUID, \
                 CreationDate, UserId, Text])
 
         count += 1
