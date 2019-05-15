@@ -1,3 +1,4 @@
+import csv
 import xml.sax
 import sys
 
@@ -13,6 +14,13 @@ def xml_to_csv(file_name, max_lines=0):
     parser.setContentHandler(Handler)
     parser.parse(file_name)
 
+'''
+Courtesy of Nikki
+'''
+def write_row_to_csv(row, out_filename):
+    with open(out_filename, "a", newline='') as output:
+        wr = csv.writer(output, dialect='excel')
+        wr.writerow(row)
 
 class SOHandler(xml.sax.ContentHandler):
     def __init__(self, output_name, max_lines):
@@ -20,7 +28,7 @@ class SOHandler(xml.sax.ContentHandler):
         self.row = 0
         self.limit_lines = max_lines != 0
         self.m_lines = max_lines
-        self.out = open(output_name, "w+")
+        self.out = output_name
 
     # Call when an element starts
     def startElement(self, tag, attributes):
@@ -31,9 +39,9 @@ class SOHandler(xml.sax.ContentHandler):
             if self.row < self.m_lines:
                 self.row = self.row + 1
                 if self.row == 1:
-                    self.out.write(str(attributes.keys())[1:-1] + "\n")
+                    write_row_to_csv(attributes.keys()[1:-1], self.out)
                 if len(attributes) > 0:
-                    self.out.write(str(attributes.values())[1:-1] + "\n")
+                    write_row_to_csv(attributes.values()[1:-1], self.out)
 
 if (__name__ == "__main__"):
     if len(sys.argv) == 2:
