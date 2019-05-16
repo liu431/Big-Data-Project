@@ -29,36 +29,55 @@ import sys
 from bs4 import BeautifulSoup
 
 def xml_to_csv(file_name, max_lines=0):
+    VOTES_COLS = ["Id", "PostId", "VoteTypeId", "UserId", "CreationDate"]
+
+    POSTS_COLS = ["Id", "PostTypeId", "ParentId", "AcceptedAnswerId",
+                  "CreationDate", "Score", "ViewCount", "Body", "OwnerUserId",
+                  "LastEditorUserId", "LastEditorDisplayName", "LastEditDate",
+                  "LastActivityDate", "Title", "Tags", "AnswerCount",
+                  "FavoriteCount", "CommunityOwnedDate", "CommentCount",
+                   "OwnerDisplayName", "DeletionDate", "ClosedDate"]
+
     # create an XMLReader
     parser = xml.sax.make_parser()
     # turn off namepsaces
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
 
-    output_name = file_name.split(".")[0] + ".csv"
+    prefix = file_name.split(".")[0]
+    output_name = prefix + ".csv"
     # override the default ContextHandler
-    Handler = SOHandler(output_name, max_lines)
+    if prefix == 'Votes':
+        col_names = VOTES_COLS
+    elif prefix == 'Posts':
+        col_names = POSTS_COLS
+    else:
+        col_names = None
+    Handler = SOHandler(output_name, max_lines, col_names)
     parser.setContentHandler(Handler)
     parser.parse(file_name)
 
 
 def write_row_to_csv(row, out_filename):
-    with open(out_filename, "a", newline='') as output:
+    with open(out_filename, 'a', newline='') as output:
         wr = csv.writer(output, dialect='excel')
         wr.writerow(row)
 
 
 class SOHandler(xml.sax.ContentHandler):
-    def __init__(self, output_name, max_lines):
-        self.CurrentData = ""
+    def __init__(self, output_name, max_lines, col_names=None):
+        self.current_data = ""
         self.row = 0
         self.limit_lines = max_lines != 0
         self.m_lines = max_lines
-        self.attrs = []
+        if not col_names:
+            self.attrs = col_names
+        else:
+            self.attrs = []
         self.out = output_name
 
     # Call when an element starts
     def startElement(self, tag, attributes):
-        self.CurrentData = tag
+        self.current_data = tag
         if tag == "row":
             if not self.limit_lines:
                 self.m_lines += 1
