@@ -21,7 +21,7 @@ def xml_to_csv(file_name, max_lines=0):
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
 
     prefix = file_name.split(".")[0]
-    output_name = prefix + "2.csv"
+    output_name = prefix + ".csv"
     # override the default ContextHandler
     if prefix == 'Votes':
         col_names = VOTES_COLS
