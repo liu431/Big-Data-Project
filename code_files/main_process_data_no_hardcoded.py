@@ -1,34 +1,11 @@
-'''
-votes_columns = [Id, PostId, VoteTypeId, UserId, CreationDate]
-
-Posts_columns = [Id, PostTypeId, ParentId, AcceptedAnswerId, 
-CreationDate, Score, ViewCount, Body, OwnerUserId, LastEditorUserId, 
-LastEditorDisplayName, LastEditDate, LastActivityDate, 
-Title, Tags, AnswerCount, CommentCount, FavoriteCount, 
-CommunityOwnedDate, CommentCount]
-
-"<p>Hi, I'm not really a person.</p>
-
-<p>I'm a background process that helps keep this site clean!</p>
-
-<p>I do things like</p>
-
-<ul>
-<li>Randomly poke old unanswered questions every hour so they get some attention</li>
-<li>Own community questions and answers so nobody gets unnecessary reputation from them</li>
-<li>Own downvotes on spam/evil posts that get permanently deleted</li>
-<li>Own suggested edits from anonymous users</li>
-<li><a href=""http://meta.stackexchange.com/a/92006"">Remove abandoned questions</a></li>
-</ul>
-"
-'''
-
 import csv
 import xml.sax
 import sys
 from bs4 import BeautifulSoup
 
+
 def xml_to_csv(file_name, max_lines=0):
+    print('calling xml_to_csv')
     VOTES_COLS = ["Id", "PostId", "VoteTypeId", "UserId", "CreationDate"]
 
     POSTS_COLS = ["Id", "PostTypeId", "ParentId", "AcceptedAnswerId",
@@ -44,7 +21,7 @@ def xml_to_csv(file_name, max_lines=0):
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
 
     prefix = file_name.split(".")[0]
-    output_name = prefix + ".csv"
+    output_name = prefix + "2.csv"
     # override the default ContextHandler
     if prefix == 'Votes':
         col_names = VOTES_COLS
@@ -69,7 +46,7 @@ class SOHandler(xml.sax.ContentHandler):
         self.row = 0
         self.limit_lines = max_lines != 0
         self.m_lines = max_lines
-        if not col_names:
+        if col_names:
             self.attrs = col_names
         else:
             self.attrs = []
@@ -77,6 +54,7 @@ class SOHandler(xml.sax.ContentHandler):
 
     # Call when an element starts
     def startElement(self, tag, attributes):
+        print('calling startElement')
         self.current_data = tag
         if tag == "row":
             if not self.limit_lines:
@@ -84,7 +62,8 @@ class SOHandler(xml.sax.ContentHandler):
             if self.row < self.m_lines:
                 self.row += 1
                 if self.row == 1:
-                    self.attrs = list(attributes.keys())
+                    if not self.attrs:
+                        self.attrs = list(attributes.keys())
                     write_row_to_csv(self.attrs, self.out)
                 if len(attributes) > 0:
                     row_to_write = []
@@ -92,17 +71,23 @@ class SOHandler(xml.sax.ContentHandler):
                         if a == 'AboutMe':
                             if a in attributes:
                                 soup = BeautifulSoup(attributes[a], 'lxml')
-                                about_me_text = soup.get_text()
-                                row_to_write.append(about_me_text)
+                                text = soup.get_text()
+                                if not text:
+                                    text = ''
+                                row_to_write.append(text)
+                            else:
+                                row_to_write.append('')
                         else:
                             val = attributes.get(a, '')
                             row_to_write.append(val)
                     write_row_to_csv(row_to_write, self.out)
+        print('done with row', self.row)
 
 if (__name__ == "__main__"):
     if len(sys.argv) == 2:
         xml_to_csv(sys.argv[1])
     if len(sys.argv) == 3:
         xml_to_csv(sys.argv[1], int(sys.argv[2]))
+
 
 
