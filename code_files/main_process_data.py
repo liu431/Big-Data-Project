@@ -77,6 +77,16 @@ class SOHandler(xml.sax.ContentHandler):
                                 row_to_write.append(text)
                             else:
                                 row_to_write.append('')
+                        elif a == 'Body':
+                            if a in attributes:
+                                soup = BeautifulSoup(attributes[a], 'lxml')
+                                all_p = soup.find_all('p')
+                                processed_text = []
+                                for tag in all_p:
+                                    text = tag.get_text()
+                                    processed_text.append(text)
+                                processed_text = ' '.join(processed_text)
+                                row_to_write.append(processed_text)
                         else:
                             val = attributes.get(a, '')
                             row_to_write.append(val)
