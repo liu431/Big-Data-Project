@@ -54,7 +54,7 @@ class SOHandler(xml.sax.ContentHandler):
 
     # Call when an element starts
     def startElement(self, tag, attributes):
-        print('calling startElement')
+        # print('calling startElement')
         self.current_data = tag
         if tag == "row":
             if not self.limit_lines:
@@ -91,13 +91,13 @@ class SOHandler(xml.sax.ContentHandler):
                             val = attributes.get(a, '')
                             row_to_write.append(val)
                     write_row_to_csv(row_to_write, self.out)
-        print('done with row', self.row)
+        #print('done with row', self.row)
 
 if (__name__ == "__main__"):
     if len(sys.argv) == 2:
         xml_to_csv(sys.argv[1])
     if len(sys.argv) == 3:
         xml_to_csv(sys.argv[1], int(sys.argv[2]))
-
+    print(sys.argv[1] + " finished processing")
 
 
