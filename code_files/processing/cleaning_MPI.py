@@ -4,6 +4,7 @@ import xml.sax
 from bs4 import BeautifulSoup
 import sys
 import subprocess
+import math
 
 
 def xml_to_csv(file_name, max_lines=0):
@@ -60,7 +61,7 @@ class SOHandler(xml.sax.ContentHandler):
 
     # Call when an element starts
     def startElement(self, tag, attributes):
-        print('calling startElement')
+        #print('calling startElement')
         self.current_data = tag
         if tag == "row":
             if not self.limit_lines:
@@ -97,7 +98,7 @@ class SOHandler(xml.sax.ContentHandler):
                             val = attributes.get(a, '')
                             row_to_write.append(val)
                     write_row_to_csv(row_to_write, self.out)
-        print('done with row', self.row)
+        #print('done with row', self.row)
 
 
 # executes a bash command, because sometimes Python is slow/bad at simple things
@@ -113,6 +114,14 @@ def get_split_name(f_name, index):
         return f_name + "0" + str(index)
     return f_name + index
 
+def fix_split_file(file_pre, j, max):
+    if j != 0:
+        # !!! ALTER THIS TO NOT BE HARDCODED, root parent is different from <tags> in different files
+        exec_bash_cmd("sed -i '1s/^/<tags>\\n/' " + get_split_name(file_pre, j))
+        exec_bash_cmd("sed -i '1s/^/<?xml version=\"1.0\" encoding=\"utf-8\"?>\\n/' " + get_split_name(file_pre, j))
+    if j != max - 1:
+        exec_bash_cmd('echo "</tags>" >> ' + get_split_name(file_pre, j))
+
 
 if __name__ == '__main__':
     comm = MPI.COMM_WORLD
@@ -124,20 +133,21 @@ if __name__ == '__main__':
         file_length = int(exec_bash_cmd("wc -l " + file_name + " | awk '{ print $1 }'")[0])
         # calc number of lines for each MP node
         file_prefix = file_name.split(".")[0]
-        num_lines = round(file_length / size)
+        num_lines = math.ceil(file_length / size)
         print("Each node will process " + str(num_lines) + " lines")
-        # send filename and file indices to each node
 
         # split files using bash commands
         print(exec_bash_cmd("split -d -l " + str(num_lines) + " " + file_name + " " + file_prefix))
 
         # specify file chunks for each node to process
         for i in range(1, size):
+            fix_split_file(file_prefix, i, size)
             comm.send(file_name, dest=i, tag=1)
             comm.send(num_lines, dest=i, tag=2)
             comm.send(file_prefix, dest=i, tag=3)
             comm.send(get_split_name(file_prefix, i), dest=i, tag=4)
 
+        fix_split_file(file_prefix, 0, size)
         result = xml_to_csv(get_split_name(file_prefix, 0))
     else:
         file_name = comm.recv(source=0, tag=1)
@@ -149,4 +159,6 @@ if __name__ == '__main__':
         except FileNotFoundError:
             # split files using bash commands
             print(exec_bash_cmd("split -d -l " + str(num_lines) + " " + file_name + " " + file_prefix))
+            for i in range(1, size):
+                fix_split_file(file_prefix, i, size)
         result = xml_to_csv(processing_file_name)
