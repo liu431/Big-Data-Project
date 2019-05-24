@@ -1,27 +1,31 @@
-'''
+"""
 CMSC 12300 / CAPP 30123
 Project: Descriptive analysis Task 2
 
-'''
+"""
 import string
 import csv
 from mrjob.job import MRJob
 
+
 class GetUsersActivities(MRJob):
-    '''
-    docsring here
-    '''
+    """
+    Class docstring
+    """
+
     def mapper(self, _, line):
-        '''
-        docstring here
-        '''
+        """
+        :param _:
+        :param line:
+        :return:
+        """
         row = csv.reader([line]).__next__()
 
         try:
             user_id = row[8]
             post_type = row[1]
             if user_id and post_type:
-                if post_type == '1':    # indicates a question
+                if post_type == '1':  # indicates a question
                     q_key = '_'.join([str(user_id), 'q'])
                     yield q_key, 1
                 elif post_type == '2':  # indicates an answer
@@ -30,20 +34,23 @@ class GetUsersActivities(MRJob):
         except IndexError:
             pass
 
-
     def combiner(self, key, counts):
-        '''
-        docstring here
-        '''
+        """
+        :param key:
+        :param counts:
+        :return:
+        """
         try:
             yield key, sum(counts)
         except (TypeError, ValueError):
             pass
 
     def reducer(self, key, counts):
-        '''
-        docstring here
-        '''
+        """
+        :param key:
+        :param counts:
+        :return:
+        """
         try:
             user_activity = key.split('_')
             if user_activity[1] == 'q':
