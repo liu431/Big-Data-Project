@@ -1,0 +1,23 @@
+Find the average sentiment and viewcounts of accepted answers associated with questions with top tags
+
+Example: "python"
+
+Step1:
+Command: python getindex.py <CSV_Files_Posts_sample.csv> out.txt
+
+Output: key: acceptedanswerid, value: viewcount
+
+File: out.txt
+
+
+Step2:
+Command: python sentiment.py <CSV_Files_Posts_sample.csv> sent.txt
+
+Output: key: date, value: average sentiment and viewcount
+
+File: sent.txt
+
+
+Step3: TimeSeriesPlot.ipynb
+
+Output: Sentiment and Popularity for Python.png
