@@ -3,7 +3,10 @@ Find the average sentiment and viewcounts of accepted answers associated with qu
 Example: "python"
 
 Step1:
+
 Command: python getindex.py <CSV_Files_Posts_sample.csv> out.txt
+
+Input: CSV_Files_Posts_sample.csv (should be in the same folder with getindex.py)
 
 Output: key: acceptedanswerid, value: viewcount
 
@@ -11,7 +14,10 @@ File: out.txt
 
 
 Step2:
+
 Command: python sentiment.py <CSV_Files_Posts_sample.csv> sent.txt
+
+Input: CSV_Files_Posts_sample.csv and out.txt (should be in the same folder with sentiment.py)
 
 Output: key: date, value: average sentiment and viewcount
 
