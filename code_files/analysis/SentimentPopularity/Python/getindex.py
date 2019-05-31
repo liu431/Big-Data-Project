@@ -7,7 +7,6 @@ Created on Sun May 26 09:59:52 2019
 
 from mrjob.job import MRJob
 import csv
-import datetime
 
 # toptags calculated from decrs_toptags
 toptags = ['javascript', 'java','c#', 
@@ -27,17 +26,17 @@ class MRQnsTags(MRJob):
       return the key: acceptid; value: counts
       '''
       line = csv.reader([line]).__next__()
+      #with open('CSV_Files_Posts.csv') as f:
+      #      reader = csv.reader(f)
+      #      line = [row for row in reader]
+            
       try:
           if line[1] =='1':
               tags = line[14].replace('<','').split('>')
               acceptid = line[3]
               counts = line[6]
-              #tt = line[4].split("-")
-              #tt = line[4]
+
               try:
-                  #date = datetime.date(int(tt[0]),int(tt[1]),
-                  #                 int(tt[2].split("T")[0]))
-                  #date = tt[:10]
                   if "python" in tags and acceptid != '':
                        yield acceptid, counts
                        
@@ -51,7 +50,7 @@ class MRQnsTags(MRJob):
    def reducer(self, index, body):
        '''
        return the key: acceptid; value: counts
-       this step doesn't do any merging as all acceptid is unique
+       this step doesn't do any aggragation as all acceptid is unique
        '''
        try:
            yield index, body
