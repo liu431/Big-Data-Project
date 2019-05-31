@@ -11,10 +11,12 @@ This folder contains all scripts and code used throughout the project.
     - **[decrs_max_ans_q.py](analysis/decrs_max_ans_q.py):**
     - **[decrs_toptags.py](analysis/decrs_toptags.py):**
     - **[decrs_users_activities.py](analysis/decrs_users_activities.py):**
+    - **[decrs_users_gold_ans.py](analysis/decrs_users_gold_ans.py):**
 - **[Processing](processing):** *Code used to prepare raw XML data-sets for the analysis*
-    - **[adam_process_data.py](processing/adam_process_data.py):**
-    - **[cleaning_MPI.py](processing/cleaning_MPI.py):**
-    - **[dhruval_process_data.py](processing/dhruval_process_data.py):**
-    - **[main_process_data.py](processing/main_process_data.py):**
-    - **[main_process_data_no_hardcoded.py](processing/main_process_data_no_hardcoded.py):**
-    - **[nikki_process_users_votes.py](processing/nikki_process_users_votes.py):**
+    - **[First Drafts](processing/first_drafts):** *Several first drafts of processing code, each completed by a different person*
+        - **[adam_process_data.py](processing/first_drafts/adam_process_data.py):**
+        - **[dhruval_process_data.py](processing/first_drafts/dhruval_process_data.py):**
+        - **[nikki_process_users_votes.py](processing/first_drafts/nikki_process_users_votes.py):**
+    - **[cleaning_MPI.py](processing/cleaning_MPI.py):** *Final processing code using MPI*
+    - **[main_process_data.py](processing/main_process_data.py):** *Final processing code (not parallelized)*
+    - **[main_process_data_no_hardcoded.py](processing/main_process_data_no_hardcoded.py):** *Final processing code (not parallelized)*
