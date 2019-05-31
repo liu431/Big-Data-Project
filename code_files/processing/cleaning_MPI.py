@@ -153,9 +153,10 @@ if __name__ == '__main__':
                 comm.send(file_prefix, dest=i, tag=3)
                 comm.send(get_split_name(file_prefix, i), dest=i, tag=4)
             fix_split_file(file_prefix, 0, size)  # XML files need a root element and header tag to be parsed correctly
-            start = time.time() # start timing the conversion process
+            comm.barrier()  # wait for all nodes to be ready to start
+            start = time.time()  # start timing the conversion process
             result = xml_to_csv(get_split_name(file_prefix, 0))  # convert the XML file to CSV
-            comm.barrier()  # wait for all nodes to finish        else:
+            comm.barrier()  # wait for all nodes to finish
         else:
             start = time.time()
             result = xml_to_csv(file_name)
@@ -175,5 +176,6 @@ if __name__ == '__main__':
             print(exec_bash_cmd("split -d -l " + str(num_lines) + " " + file_name + " " + file_prefix))
             for i in range(1, size):
                 fix_split_file(file_prefix, i, size)
+        comm.barrier()  # wait for all nodes to be ready to start
         result = xml_to_csv(processing_file_name)
-        comm.barrier()
+        comm.barrier()  # wait for all nodes to finish
