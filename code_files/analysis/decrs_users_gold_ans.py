@@ -29,7 +29,7 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "teacher":
+                if badge_name == "Illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
@@ -53,7 +53,7 @@ class FindLocUsersGoldBadges(MRJob):
                     except GeocoderTimedOut as e:
                         print("Error: geocode failed on input %s with message %s"%(location, e.message))
 
-            yield user_id, coord
+                yield user_id, (coord, location)
 
         except (IndexError, ValueError):
             pass
@@ -65,7 +65,8 @@ class FindLocUsersGoldBadges(MRJob):
         '''
         try:
             val_list = list(vals)
-            yield user_id, val_list
+            if len(val_list) == 2:
+                yield user_id, val_list
         except (TypeError, ValueError):
             pass
 
