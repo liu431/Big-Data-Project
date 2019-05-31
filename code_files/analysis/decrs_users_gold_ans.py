@@ -29,7 +29,7 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "teacher":
+                if badge_name == "Illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
