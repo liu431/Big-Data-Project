@@ -33,27 +33,27 @@ class FindLocUsersGoldBadges(MRJob):
                     yield user_id, badge_name
 
             elif file == "users":
-            user_id = str(row[0]).strip()
-            location = str(row[6]).strip()
+                user_id = str(row[0]).strip()
+                location = str(row[6]).strip()
 
-            if not location or user_id == "-1":
-                location = None
-                coord = None
-            else:
-                try:
-                    geolocator=Nominatim(timeout=3)
-                    raw_location = geolocator.geocode(location)
-                
-                    if raw_location:
-                        coord = (raw_location.latitude, raw_location.longitude)
-                    else:
-                        location = None
-                        coord = None
-                        
-                except GeocoderTimedOut as e:
-                    print("Error: geocode failed on input %s with message %s"%(location, e.message))
+                if not location or user_id == "-1":
+                    location = None
+                    coord = None
+                else:
+                    try:
+                        geolocator=Nominatim(timeout=3)
+                        raw_location = geolocator.geocode(location)
+                    
+                        if raw_location:
+                            coord = (raw_location.latitude, raw_location.longitude)
+                        else:
+                            location = None
+                            coord = None
+                            
+                    except GeocoderTimedOut as e:
+                        print("Error: geocode failed on input %s with message %s"%(location, e.message))
 
-                yield user_id, coord
+            yield user_id, coord
 
         except (IndexError, ValueError):
             pass
