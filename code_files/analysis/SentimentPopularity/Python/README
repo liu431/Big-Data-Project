@@ -4,26 +4,27 @@ Example: "python"
 
 Step1:
 
-Command: python getindex.py <CSV_Files_Posts_sample.csv> out.txt
+Command: python getindex.py <CSV_Files_Posts_sample.csv> index.txt
 
 Input: CSV_Files_Posts_sample.csv (should be in the same folder with getindex.py)
 
 Output: key: acceptedanswerid, value: viewcount
 
-File: out.txt
+File: index.txt
 
 
 Step2:
 
-Command: python sentiment.py <CSV_Files_Posts_sample.csv> sent.txt
+Command: python sentiment.py <CSV_Files_Posts_sample.csv> results.txt
 
 Input: CSV_Files_Posts_sample.csv and out.txt (should be in the same folder with sentiment.py)
 
 Output: key: date, value: average sentiment and viewcount
 
-File: sent.txt
+File: results.txt
 
 
 Step3: TimeSeriesPlot.ipynb
+Functions: time series plotting and statistical analysis
 
 Output: Sentiment and Popularity for Python.png
