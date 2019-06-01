@@ -7,6 +7,8 @@ import string
 import csv
 from mrjob.job import MRJob
 import re
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderTimedOut
 
 class FindLocUsersGoldBadges(MRJob):
     '''
@@ -27,27 +29,46 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "teacher":
+                if badge_name == "Illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
                 user_id = str(row[0]).strip()
                 location = str(row[6]).strip()
-                if not location:
+
+                if not location or user_id == "-1":
                     location = None
-                yield user_id, location
+                    coord = None
+                else:
+                    try:
+                        geolocator=Nominatim(timeout=3)
+                        raw_location = geolocator.geocode(location)
+                    
+                        if raw_location:
+                            coord = (raw_location.latitude, raw_location.longitude)
+                            address = geolocator.reverse("raw_location.latitude, raw_location.longitude", language='en')
+                            country = address.address.split()[-1]
+                        else:
+                            country = None
+                            coord = None
+                            
+                    except GeocoderTimedOut as e:
+                        print("Error: geocode failed on input %s with message %s"%(location, e.message))
+
+                yield user_id, (coord, country)
 
         except (IndexError, ValueError):
             pass
 
 
-    def reducer(self, user_id, vals):
+    def reducer_2(self, user_id, vals):
         '''
         docstring here
         '''
         try:
             val_list = list(vals)
-            yield user_id, val_list
+            if len(val_list) == 2:
+                yield user_id, val_list
         except (TypeError, ValueError):
             pass
 
