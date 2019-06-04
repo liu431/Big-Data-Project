@@ -8,11 +8,6 @@ Created on Sun May 26 09:59:52 2019
 from mrjob.job import MRJob
 import csv
 
-# toptags calculated from decrs_toptags
-toptags = ['javascript', 'java','c#', 
-           'php', 'android', 'python', 'jquery',
-           'html', 'c++', 'ios', 'css', 'mysql', 
-           'sql', 'asp.net', 'ruby-on-rails']
 
 class MRQnsTags(MRJob):
    """
@@ -25,12 +20,11 @@ class MRQnsTags(MRJob):
       filter the tags
       return the key: acceptid; value: counts
       '''
-      line = csv.reader([line]).__next__()
-      #with open('CSV_Files_Posts.csv') as f:
-      #      reader = csv.reader(f)
-      #      line = [row for row in reader]
+      line = csv.reader([line], quotechar='|').__next__()
+
             
       try:
+          #locate 'questions'
           if line[1] =='1':
               tags = line[14].replace('<','').split('>')
               acceptid = line[3]

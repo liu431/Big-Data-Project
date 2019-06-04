@@ -14,10 +14,13 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 anskey={}
 with open("index.txt") as f:
     for line in f:
-        pair = line.split("\t")      
-        anskey[pair[0][1:-1]] = int(pair[1][2:-3])
+        pair = line.split("\t")    
+        try:
+            anskey[pair[0][1:-1]] = float(pair[1][2:-3])
+        except ValueError:
+            pass
         
-        
+       
 def sentiment_analyzer_scores(sentence):
     '''
     function takes in a string input
@@ -36,7 +39,7 @@ class MRScore(MRJob):
   
   def mapper(self, _, line):
       '''
-      key: day (could be modfied to month or year)
+      key: month (could be modfied to day or year)
       value: tuple of sentiment score and viewcount of the question
       '''
       
@@ -47,11 +50,11 @@ class MRScore(MRJob):
               body = line[7]
               tt = line[4]
               try:
-                  day = tt[:10]
+                  mon = tt[:7]
                   if ID in anskey :
                       senti = sentiment_analyzer_scores(body)
                       viewc = anskey[ID]
-                      yield day, (senti, viewc)
+                      yield mon, (senti, viewc)
                        
               except ValueError:
                   pass
@@ -60,9 +63,9 @@ class MRScore(MRJob):
           pass
 
       
-  def reducer(self, day, scores):
+  def reducer(self, mon, scores):
       '''
-      key: day
+      key: month
       value: [0,(1,2)]
             0: average of the sentimenviewcount
             1: average of the viewcount
@@ -74,8 +77,7 @@ class MRScore(MRJob):
       res.reshape(listlen, 2)
       resm = np.mean(res, axis=0)
     
-      yield day, [resm[0], (resm[1], listlen)]
-      #yield day, listlen
+      yield mon, [resm[0], (resm[1], listlen)]
 
 if __name__ == '__main__':
-  MRScore.run()
+     MRScore.run()
