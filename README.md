@@ -7,6 +7,8 @@ Group members: Adam Shelton, Dhruval Bhatt, Li Liu, Sanittawan Tan
 
 Data sets: Stack Overflow Data
 
+Link to [presentation sides](https://docs.google.com/presentation/d/1GYTZUKXJao9cUAPSVXusdpyFvTQQRsTqmrr1fUi9puU/edit?usp=sharing)
+
 ## Table of Contents
 - **[Code Files](code_files)**
 - **[Data](data)**

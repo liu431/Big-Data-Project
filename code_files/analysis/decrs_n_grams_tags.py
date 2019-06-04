@@ -24,7 +24,8 @@ class GetnGramsTags(MRJob):
             tag_list[-1] = tag_list[-1][:-1]
 
             for i in range(0, len(tag_list) - 2 + 1):
-                yield tag_list[i: i + 2], 1
+                sorted_tags = sorted(tag_list[i: i + 2])
+                yield sorted_tags, 1
 
         except IndexError:
             pass

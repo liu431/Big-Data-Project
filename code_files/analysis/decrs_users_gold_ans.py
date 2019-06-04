@@ -46,7 +46,7 @@ class FindLocUsersGoldBadges(MRJob):
                     
                         if raw_location:
                             coord = (raw_location.latitude, raw_location.longitude)
-                            address = geolocator.reverse("raw_location.latitude, raw_location.longitude", language='en')
+                            address = geolocator.reverse([raw_location.latitude, raw_location.longitude], language='en')
                             country = address.address.split()[-1]
                         else:
                             country = None
@@ -55,7 +55,7 @@ class FindLocUsersGoldBadges(MRJob):
                     except GeocoderTimedOut as e:
                         print("Error: geocode failed on input %s with message %s"%(location, e.message))
 
-                yield user_id, (coord, country)
+                    yield user_id, (coord, country)
 
         except (IndexError, ValueError):
             pass
