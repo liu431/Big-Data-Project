@@ -17,7 +17,7 @@ Step2:
 
 Command: python sentiment.py <CSV_Files_Posts_sample.csv> results.txt
 
-Input: CSV_Files_Posts_sample.csv and out.txt (should be in the same folder with sentiment.py)
+Input: CSV_Files_Posts_sample.csv and index.txt (should be in the same folder with sentiment.py)
 
 Output: key: date, value: average sentiment and viewcount
 
