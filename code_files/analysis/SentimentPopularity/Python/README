@@ -2,6 +2,9 @@ Find the average sentiment and viewcounts of accepted answers associated with qu
 
 Example: "python"
 
+Step0:
+Rnn `dos2unix CSV_Files_Posts.csv`
+
 Step1:
 
 Command: python getindex.py <CSV_Files_Posts_sample.csv> index.txt
