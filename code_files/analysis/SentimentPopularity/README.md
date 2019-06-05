@@ -37,7 +37,9 @@ toptags = ['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'htm
 <details>
 <summary>Step 0: Data preparation</summary>
 <br>
-To solve the newline issue in Unix: ```dos2unix CSV_Files_Posts.csv```
+To solve the newline issue in Unix: 
+           
+```dos2unix CSV_Files_Posts.csv```
 </details>
            
            
@@ -45,6 +47,7 @@ To solve the newline issue in Unix: ```dos2unix CSV_Files_Posts.csv```
 <summary>Step 1: Get index</summary>
 <br>
 Command: 
+           
 ```python getindex.py <CSV_Files_Posts_sample.csv> index.txt```
 
 Input: CSV_Files_Posts_sample.csv (should be in the same folder with getindex.py)
@@ -60,6 +63,7 @@ File: index.txt
 <br>
            
 Command: 
+
 ```
 python sentiment.py <CSV_Files_Posts_sample.csv> results.txt
 ```
