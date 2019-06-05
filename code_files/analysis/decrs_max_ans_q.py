@@ -24,7 +24,7 @@ class GetMaxAnsQuest(MRJob):
             post_type = int(row[1])
             if post_type == 1:
                 create_date = row[4]
-                search = re.search(r"\d{4}", create_date)
+                search = re.search(r"20[01][0-9]", create_date)
                 if search:
                     year = search.group()
                     title = row[13]
