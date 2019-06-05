@@ -3,26 +3,24 @@
 <details>
 <summary>Python</summary>
 <br>
+           
 ![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Python/python.png)
 </details>
 
 <details>
 <summary>SQL</summary>
 <br>
+           
 ![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/SQL/sql.png)
 </details>
 
 <details>
 <summary>Javascript</summary>
 <br>
+           
 ![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
 </details>
 
-<details>
-<summary>Javascript</summary>
-<br>
-![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
-</details>
 
 
 #### accepted answers associated with questions with top tags
