@@ -113,16 +113,24 @@ def exec_bash_cmd(cmd_str):
 def get_split_name(f_name, index):
     if index < 10:
         return f_name + "0" + str(index)
-    return f_name + index
+    return f_name + str(index)
 
 
-def fix_split_file(file_pre, j, max):
+def fix_split_file(file_pre, j, cluster_size):
+    print("Fixing " + get_split_name(file_pre, j))
     if j != 0:
-        # !!! ALTER THIS TO NOT BE HARDCODED, root parent is different from <tags> in different files
         exec_bash_cmd("sed -i '1s/^/<badges>\\n/' " + get_split_name(file_pre, j))
         exec_bash_cmd("sed -i '1s/^/<?xml version=\"1.0\" encoding=\"utf-8\"?>\\n/' " + get_split_name(file_pre, j))
-    if j != max - 1:
+    if j != cluster_size - 1:
         exec_bash_cmd('echo "</badges>" >> ' + get_split_name(file_pre, j))
+
+
+def cleanup_files(file_pre, cluster_size):
+    exec_bash_cmd("rm " + file_pre + "0*")
+    if cluster_size > 9:
+        exec_bash_cmd("rm " + file_pre + "1*")
+    if cluster_size > 19:
+        exec_bash_cmd("rm " + file_pre + "2*")
 
 
 if __name__ == '__main__':
@@ -133,6 +141,7 @@ if __name__ == '__main__':
     print("Starting node " + str(rank + 1) + " of " + str(size) + " on " + str(name))
     start = 0
     if rank == 0:
+        num_hosts = 1
         file_name = sys.argv[1]
         if size > 1:
             file_length = int(exec_bash_cmd("wc -l " + file_name + " | awk '{ print $1 }'")[0])
@@ -141,41 +150,81 @@ if __name__ == '__main__':
             num_lines = math.ceil(file_length / size)
             print("Each node will process " + str(num_lines) + " lines")
 
+            cleanup_files(file_prefix, size)
             # split files using bash commands
             print(exec_bash_cmd("split -d -l " + str(num_lines) + " " + file_name + " " + file_prefix))
 
             # specify file chunks for each node to process
-            # we don't need to send the actual file as it is expeted to already be in the current directory
+            # we don't need to send the actual file as it is expected to already be in the current directory
             for i in range(1, size):
                 fix_split_file(file_prefix, i, size)
                 comm.send(file_name, dest=i, tag=1)
                 comm.send(num_lines, dest=i, tag=2)
                 comm.send(file_prefix, dest=i, tag=3)
-                comm.send(get_split_name(file_prefix, i), dest=i, tag=4)
             fix_split_file(file_prefix, 0, size)  # XML files need a root element and header tag to be parsed correctly
+            comm.barrier()
+            # determine which nodes should split files, so files are only processed on each host once
+            hostnames = name + ", " + str(comm.recv(source=(size - 1)))
+            hostnames = hostnames.split(", ")
+            print(hostnames)
+            unique_hostnames = list(set(hostnames))
+            num_hosts = len(unique_hostnames)
+            host_prep = [True] * num_hosts
+            for i in range(0, size):
+                host_index = unique_hostnames.index(hostnames[i])
+                if i != 0:
+                    comm.send(int(host_prep[host_index]), dest=i, tag=5)
+                if host_prep[host_index]:
+                    print("Telling node " + str(i) + " to process file")
+                    host_prep[host_index] = False
+            comm.barrier()  # wait for all nodes to receive file process instructions
             comm.barrier()  # wait for all nodes to be ready to start
             start = time.time()  # start timing the conversion process
+            print("Node " + str(rank) + " is processing " + get_split_name(file_prefix, rank))
             result = xml_to_csv(get_split_name(file_prefix, 0))  # convert the XML file to CSV
             comm.barrier()  # wait for all nodes to finish
         else:
             start = time.time()
             result = xml_to_csv(file_name)
         end = time.time()
-        print("Processing time: " + str(end - start) + " seconds")
+        proc_time = end - start  # calculate processing time
 
-
+        print("Processing with " + str(size) + " nodes on " + str(num_hosts) + " hosts took " + str(
+            proc_time) + " seconds")
+        # write results to csv with header
+        try:
+            file = open("results.csv", 'r')
+        except FileNotFoundError:
+            write_row_to_csv(["nodes", "hosts", "proc_time"], "results.csv")
+        write_row_to_csv([size, num_hosts, proc_time], "results.csv")
     else:
+        # get processing information from node 0
         file_name = comm.recv(source=0, tag=1)
         num_lines = comm.recv(source=0, tag=2)
         file_prefix = comm.recv(source=0, tag=3)
-        processing_file_name = comm.recv(source=0, tag=4)
-        try:
-            file = open(processing_file_name, 'r')
-        except FileNotFoundError:
+        comm.barrier()
+        if rank == 1:
+            if rank == size - 1:
+                comm.send(str(name), dest=0)
+            else:
+                comm.send(str(name + ", "), dest=2)
+        else:
+            hostnames = str(comm.recv(source=(rank - 1))) + name
+            if rank == size - 1:
+                comm.send(hostnames, dest=0)
+            else:
+                hostnames = hostnames + ", "
+                comm.send(hostnames, dest=(rank + 1))
+        comm.barrier()
+        split = bool(comm.recv(source=0, tag=5))
+        # split files on other hosts
+        if split:
+            cleanup_files(file_prefix, size)
             # split files using bash commands
             print(exec_bash_cmd("split -d -l " + str(num_lines) + " " + file_name + " " + file_prefix))
-            for i in range(1, size):
+            for i in range(0, size):
                 fix_split_file(file_prefix, i, size)
         comm.barrier()  # wait for all nodes to be ready to start
-        result = xml_to_csv(processing_file_name)
+        print("Node " + str(rank) + " is processing " + get_split_name(file_prefix, rank))
+        result = xml_to_csv(get_split_name(file_prefix, rank))
         comm.barrier()  # wait for all nodes to finish
