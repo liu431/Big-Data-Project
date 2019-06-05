@@ -52,9 +52,10 @@ Command:
 
 Input: CSV_Files_Posts_sample.csv (should be in the same folder with getindex.py)
 
-Output: key: acceptedanswerid, value: viewcount
+Output: (key, value) = (acceptedanswerid, viewcount)
 
 File: index.txt
+
 </details>
 
 
@@ -64,23 +65,26 @@ File: index.txt
            
 Command: 
 
-```
-python sentiment.py <CSV_Files_Posts_sample.csv> results.txt
-```
+```python sentiment.py <CSV_Files_Posts_sample.csv> results.txt```
 
 Input: CSV_Files_Posts_sample.csv and index.txt (should be in the same folder with sentiment.py)
 
-Output: key: date, value: average sentiment and viewcount
+Output: (key, value): (date,  (average sentiment, viewcount, accepted answers))
 
 File: results.txt
+
 </details>
 
 <details>
-<summary>Step 3: TimeSeriesPlot</summary>
+<summary>Step 3: Time Series Plot</summary>
 <br>
 
 Functions: time series plotting and statistical analysis
+
 File: TimeSeriesPlot.ipynb
+
+Input: results.txt
+
 Output: Python.png
 </details>
            
