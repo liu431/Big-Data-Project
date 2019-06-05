@@ -1,15 +1,15 @@
+## Changes of sentiments and popularity of programming languages
 
-Find the average sentiment and viewcounts of accepted answers associated with questions with top tags
-
-# toptags calculated from decrs_toptags
+accepted answers associated with questions with top tags
+toptags calculated from decrs_toptags
 toptags = ['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'html', 'c++', 'ios', 'css', 'mysql', 
            'sql', 'asp.net', 'ruby-on-rails']
            
            
-Example: "python"
+#### Example: "python"
 
 Step0:
-To solve the newline issue in Unix: dos2unix CSV_Files_Posts.csv
+To solve the newline issue in Unix: ```dos2unix CSV_Files_Posts.csv```
 
 Step1:
 
