@@ -12,15 +12,16 @@ if len(sys.argv) != 3:
 inputUri=sys.argv[1]
 outputUri=sys.argv[2]
 
-# index = 8 = owneruserID
-
-#sc = pyspark.SparkContext()
 spark = SparkSession.builder.appName('users').getOrCreate()
 df = spark.read.csv(sys.argv[1], header="true")
-#distinct_users = df.select("OwnerUserId").distinct().count()
-#print(distinct_users)
 
-users = df.select("OwnerUserId").rdd.map(lambda x: (x, 1))
-users_counts = users.reduceByKey(lambda count1, count2: count1 + count2)    
-users_counts.saveAsTextFile(sys.argv[2])
-#distinct_users.saveAsTextFile(sys.argv[2])
+tmt = df.groupby("OwnerUserId").count() \
+        .orderBy('count', ascending=False)
+pattern = "^\d+[^-:.]"
+user_activities = tmt.filter(tmt["OwnerUserId"].rlike(pattern))
+user_activities.write \
+    .format('csv') \
+    .options(delimiter=',') \
+    .save(sys.argv[2])
+
+spark.stop()
