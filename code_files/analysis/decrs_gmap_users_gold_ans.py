@@ -9,7 +9,7 @@ from mrjob.job import MRJob
 import re
 import googlemaps
 
-API_KEY = 'AIzaSyC3XDZBLutTvEuw_c8euIrxGSyWARjITOk'
+API_KEY = ##fill this in
 
 class FindLocUsersGoldBadges(MRJob):
     '''
