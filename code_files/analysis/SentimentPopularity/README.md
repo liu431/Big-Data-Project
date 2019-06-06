@@ -26,11 +26,16 @@
 
 
 #### Top programming languages
-toptags calculated from decrs_toptags
+<details>
+<summary>toptags calculated from decrs_toptags</summary>
+<br>
+           
 ```
 ['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'html', 'c++', 'ios', 'css', 'mysql', 
     'sql', 'asp.net', 'ruby-on-rails']
 ```
+</details>
+
       
       
 ### Implementation         
