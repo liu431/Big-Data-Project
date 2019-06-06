@@ -3,11 +3,66 @@
 ### Results & Visualization
 
 <details>
+<summary>C</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/C/c.png)
+</details>
+
+
+<details>
+<summary>Git</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Git/git.png)
+</details>
+
+
+<details>
+<summary>Google-cloud-dataproc</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Google-cloud-dataproc/dataproc.png)
+</details>
+
+
+<details>
+<summary>Java</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Java/java.png)
+</details>
+
+
+<details>
+<summary>Javascript</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
+</details>
+
+<details>
 <summary>Python</summary>
 <br>
            
 ![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Python/python.png)
 </details>
+
+
+<details>
+<summary>R</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/R/R.png)
+</details>
+
+<details>
+<summary>Rust</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Rust/rust.png)
+</details>
+
 
 <details>
 <summary>SQL</summary>
@@ -17,20 +72,25 @@
 </details>
 
 <details>
-<summary>Javascript</summary>
+<summary>Unix</summary>
 <br>
            
-![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Unix/Unix.png)
 </details>
 
 
 
 #### Top programming languages
-toptags calculated from decrs_toptags
+<details>
+<summary>toptags calculated from decrs_toptags</summary>
+<br>
+           
 ```
 ['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'html', 'c++', 'ios', 'css', 'mysql', 
     'sql', 'asp.net', 'ruby-on-rails']
 ```
+</details>
+
       
       
 ### Implementation         
@@ -81,14 +141,19 @@ File: results.txt
 <details>
 <summary>Step 3: Time Series Plot</summary>
 <br>
+           
+Command: ```python timeseries.py python```
 
 Functions: time series plotting and statistical analysis
 
-File: TimeSeriesPlot.ipynb
+File: timeseries.py
 
-Input: results.txt
+Input: results_python.txt
 
-Output: Python.png
+Output 1: Python.png
+
+Output 2: Pythoncorr.png
+
 </details>
            
 
