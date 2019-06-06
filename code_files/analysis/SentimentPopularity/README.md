@@ -25,63 +25,75 @@
 
 
 
-#### accepted answers associated with questions with top tags
-toptags calculated from decrs_toptags
-toptags = ['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'html', 'c++', 'ios', 'css', 'mysql', 
-           'sql', 'asp.net', 'ruby-on-rails']
+#### Top programming languages
+<details>
+<summary>toptags calculated from decrs_toptags</summary>
+<br>
            
+```
+['javascript', 'java','c#', 'php', 'android', 'python', 'jquery', 'html', 'c++', 'ios', 'css', 'mysql', 
+    'sql', 'asp.net', 'ruby-on-rails']
+```
+</details>
+
+      
+      
 ### Implementation         
-#### Example: "python"
+##### Example: "python"
+
 
 <details>
-<summary>Python</summary>
+<summary>Step 0: Data preparation</summary>
 <br>
-
-
-
-<details>
-<summary>Step 0</summary>
-<br>
-To solve the newline issue in Unix: ```dos2unix CSV_Files_Posts.csv```
-<details>
+To solve the newline issue in Unix: 
+           
+```dos2unix CSV_Files_Posts.csv```
+</details>
            
            
 <details>
-<summary>Step 1</summary>
+<summary>Step 1: Get index</summary>
 <br>
-Command: ```python getindex.py <CSV_Files_Posts_sample.csv> index.txt```
+Command: 
+           
+```python getindex.py <CSV_Files_Posts_sample.csv> index.txt```
 
 Input: CSV_Files_Posts_sample.csv (should be in the same folder with getindex.py)
 
-Output: key: acceptedanswerid, value: viewcount
+Output: (key, value) = (acceptedanswerid, viewcount)
 
 File: index.txt
-<details>
+
+</details>
 
 
 <details>
-<summary>Step 2</summary>
+<summary>Step 2: Sentiment and Popularity</summary>
 <br>
-To solve the newline issue in Unix: ```dos2unix CSV_Files_Posts.csv```
-<details>
            
-Command: ```python sentiment.py <CSV_Files_Posts_sample.csv> results.txt```
+Command: 
+
+```python sentiment.py <CSV_Files_Posts_sample.csv> results.txt```
 
 Input: CSV_Files_Posts_sample.csv and index.txt (should be in the same folder with sentiment.py)
 
-Output: key: date, value: average sentiment and viewcount
+Output: (key, value): (date,  (average sentiment, viewcount, accepted answers))
 
 File: results.txt
-<details>
+
+</details>
 
 <details>
-<summary>Step 3</summary>
+<summary>Step 3: Time Series Plot</summary>
 <br>
-* Step3: TimeSeriesPlot.ipynb
+
 Functions: time series plotting and statistical analysis
 
+File: TimeSeriesPlot.ipynb
+
+Input: results.txt
+
 Output: Python.png
-<details>
-           
 </details>
+           
 

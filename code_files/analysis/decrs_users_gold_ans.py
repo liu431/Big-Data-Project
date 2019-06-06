@@ -61,7 +61,7 @@ class FindLocUsersGoldBadges(MRJob):
             pass
 
 
-    def reducer_2(self, user_id, vals):
+    def reducer(self, user_id, vals):
         '''
         docstring here
         '''
