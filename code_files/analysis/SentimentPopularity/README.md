@@ -86,14 +86,19 @@ File: results.txt
 <details>
 <summary>Step 3: Time Series Plot</summary>
 <br>
+           
+Command: ```python timeseries.py python```
 
 Functions: time series plotting and statistical analysis
 
-File: TimeSeriesPlot.ipynb
+File: timeseries.py
 
-Input: results.txt
+Input: results_python.txt
 
-Output: Python.png
+Output 1: Python.png
+
+Output 2: Pythoncorr.png
+
 </details>
            
 
