@@ -3,11 +3,66 @@
 ### Results & Visualization
 
 <details>
+<summary>C</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/C/c.png)
+</details>
+
+
+<details>
+<summary>Git</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Git/git.png)
+</details>
+
+
+<details>
+<summary>Google-cloud-dataproc</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Google-cloud-dataproc/dataproc.png)
+</details>
+
+
+<details>
+<summary>Java</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Java/java.png)
+</details>
+
+
+<details>
+<summary>Javascript</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
+</details>
+
+<details>
 <summary>Python</summary>
 <br>
            
 ![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Python/python.png)
 </details>
+
+
+<details>
+<summary>R</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/R/R.png)
+</details>
+
+<details>
+<summary>Rust</summary>
+<br>
+           
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Rust/rust.png)
+</details>
+
 
 <details>
 <summary>SQL</summary>
@@ -17,10 +72,10 @@
 </details>
 
 <details>
-<summary>Javascript</summary>
+<summary>Unix</summary>
 <br>
            
-![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Javascript/javascript.png)
+![alt text](https://github.com/liu431/Big-Data-Project/blob/master/code_files/analysis/SentimentPopularity/Unix/Unix.png)
 </details>
 
 
