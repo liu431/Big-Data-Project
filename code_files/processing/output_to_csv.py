@@ -45,8 +45,6 @@ if __name__ == '__main__':
     rank, size = comm.Get_rank(), comm.Get_size()
     name = MPI.Get_processor_name()
 
-    print("Starting node " + str(rank + 1) + " of " + str(size) + " on " + str(name))
-
     args = iter(sys.argv)
     next(args)
     file_name = next(args)
@@ -58,39 +56,46 @@ if __name__ == '__main__':
     for s in args:
         strip_chars.append(s)
 
+    if rank == 0:
+        print("Converting " + file_name + "; splitting on \'" + split_char, "\'; stripping " + str(strip_chars)[1:-1])
+    print("Starting node " + str(rank + 1) + " of " + str(size) + " on " + str(name))
+
     out_lines = []
     num_lines = 0
     start = time.time()
 
     if rank == 0:
-        print("Converting " + file_name + "; splitting on \'" + split_char, "\'; stripping " + str(strip_chars)[1:-1])
-        file = open(file_name, "r")
-        node = 0
-        for line in file:
-            if node == 0:
-                out_lines.append(process_line(line, strip_chars, split_char))
-                num_lines = num_lines + 1
-            else:
-                comm.send(line, dest=node)
-            if node == size - 1:
-                node = 0
-            else:
-                node = node + 1
-        for node in range(1, size):
-            comm.send("stop_running_file_now", dest=node)
-            num_lines = num_lines + int(comm.recv(source=node))
+        print(paste("Splitting", file_name))
+        with open(file_name) as file:
+            all_lines = file.readlines()
+        input_chunks = np.array_split(all_lines, size)
     else:
-        line = ""
-        while line != "stop_running_file_now":
-            if len(line) > 0:
-                out_lines.append(process_line(line, strip_chars, split_char))
-                num_lines = num_lines + 1
-            line = comm.recv(source=0)
+        input_chunks = None
+
+    if rank == 0:
+        print(paste("Scattering", file_name))
+    chunk = comm.scatter(input_chunks, root=0)
+    if rank == 0:
+        paste("Processing chunks")
+    for line in chunk:
+        out_lines.append(process_line(line, strip_chars, split_char))
+        num_lines = num_lines + 1
+    comm.barrier()
+
+    if rank == 0:
+        for node in range(1, size):
+            comm.send("go", dest=node)
+            num_lines = num_lines + int(comm.recv(source=node))
+        print("Gathering chunks")
+    else:
+        comm.recv(source=0)
         comm.send(num_lines, dest=0)
+    comm.barrier()
 
     gathered_chunks = comm.gather(out_lines, root=0)
 
     if rank == 0:
+        print("Writing lines to CSV")
         for chunk in gathered_chunks:
             for line in chunk:
                 write_row_to_csv(line, out_file_name)
