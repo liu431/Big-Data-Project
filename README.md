@@ -1,4 +1,5 @@
-# Big-Data-Project
+# Big Data Analysis of the Developer Community 
+
 Class: CAPP 30123 (Computer Science with Applications III) @ UChicago
 
 Group name: HackyStacks
