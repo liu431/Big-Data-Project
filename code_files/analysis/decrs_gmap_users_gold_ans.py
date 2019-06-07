@@ -30,7 +30,7 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "teacher":
+                if badge_name == "Illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
@@ -67,7 +67,13 @@ class FindLocUsersGoldBadges(MRJob):
         try:
             val_list = list(vals)
             if len(val_list) == 2:
-                yield user_id, val_list
+                a = val_list[0]
+                b = val_list[1]
+                if isinstance(a, list):
+                    final = a, b
+                else:
+                    final = b, a
+                yield user_id, final
         except (TypeError, ValueError):
             pass
 
