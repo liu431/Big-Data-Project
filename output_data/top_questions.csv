@@ -1,0 +1,13 @@
+﻿year,count,question
+2008,518," ""What is the best comment in source code you have ever encountered?"""
+2009,407," ""What's your most controversial programming opinion?"""
+2010,320," ""Strangest language feature"""
+2011,76," ""How do I remove a particular element from an array in JavaScript?"""
+2012,1968308," "" so as a super-long-long. A quick test showed that passing a long from C# gives the best compatibility. So the sprintf-issue can maybe be simplified to the question: \""\""What is the format-identifier of a long long?\""\"". It is %lli which would is quite simple"""
+2013,90," ""\""cannot resolve symbol R\"" in Android Studio"""
+2014,54," ""Command failed due to signal: Segmentation fault: 11"""
+2015,52," ""Getting error \""No such module\"" using Xcode but the framework is there"""
+2016,48," ""TensorFlow not found using pip"""
+2017,56," ""Unable to merge dex"""
+2018,48," ""Xcode 10 Error: Multiple commands produce"""
+2019,11," ""Repeat items in list to required length"""
