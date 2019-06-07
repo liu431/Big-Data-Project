@@ -34,7 +34,7 @@ mpi_data %>% subset(hosts == 1) %>% ggplot(aes(x = nodes, y = total_price)) +
 ``` r
 mpi_data %>% na.omit() %>% subset(nodes == 16) %>% ggplot(aes(x = factor(hosts), 
     y = proc_time)) + geom_col(aes(fill = factor(hosts))) + scale_fill_manual(values = color_pal(3)) + 
-    labs(title = "Number of MPI Hosts Affects Performance", x = "MPI Hosts", 
+    labs(title = "Number of MPI Hosts Affect Performance", x = "MPI Hosts", 
         y = "Average Running Time (s)") + theme_master(base_size = 22) + 
     hide_x_gridlines + hide_legend
 ```
@@ -103,3 +103,17 @@ ggraph(bigram_graph, layout = "fr") + geom_edge_link(color = "grey") +
 ```
 
 ![](visualizations_files/figure-gfm/two-grams-1.svg)<!-- -->
+
+## User Activities
+
+``` r
+user_act_data = read_csv(here("output_data", "user_ac_out.csv"))
+user_act_data = user_act_data[is.numeric(user_act_data$user_id), 
+    ]
+
+ggplot(user_act_data, aes(x = count)) + geom_density(color = color_pal(1, 
+    "cool"), size = 1.75) + labs(title = "Most Users Have Very Little Account Activity", 
+    x = "Account Interactions", y = "Density") + theme_master(base_size = 22)
+```
+
+![](visualizations_files/figure-gfm/user-act-1.svg)<!-- -->
