@@ -42,4 +42,5 @@ This folder contains all scripts and code used throughout the project.
     - **[main_process_data_no_hardcoded.py](processing/main_process_data_no_hardcoded.py):** *Final processing code (not parallelized)*
 
 <sup>1</sup> Note: The two versions of the code below are almost identical. The main difference is the package used for Geocoding.
+    
 <sup>2</sup> Note: Different bi-gram generating methods
