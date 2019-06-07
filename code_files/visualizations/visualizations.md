@@ -7,11 +7,11 @@ Adam Shelton
 ``` r
 mpi_data = read_csv(here("output_data", "mpi_trials.csv"))
 
-mpi_data %>% subset(hosts == 1) %>% ggplot(aes(x = nodes, y = proc_time)) + 
+mpi_data %>% subset(hosts == 1) %>% ggplot(aes(x = nodes, y = proc_time/60)) + 
     geom_smooth(color = color_pal(1, "cool"), size = 1.75, method = "lm", 
         formula = y ~ I(1/x)) + scale_x_continuous(breaks = c(1, 
     2, 4, 8, 16)) + labs(title = "Parallelization has Diminishing Returns", 
-    x = "MPI Nodes", y = "Average Running Time (s)") + theme_master(base_size = 22) + 
+    x = "MPI Nodes", y = "Average Running Time (min)") + theme_master(base_size = 22) + 
     theme(panel.grid.minor.x = element_blank())
 ```
 
@@ -19,23 +19,24 @@ mpi_data %>% subset(hosts == 1) %>% ggplot(aes(x = nodes, y = proc_time)) +
 
 ``` r
 mpi_data$total_price = 2 * mpi_data$nodes * (mpi_data$proc_time/3600) * 
-    0.031611 * 100
+    0.031611
 
 mpi_data %>% subset(hosts == 1) %>% ggplot(aes(x = nodes, y = total_price)) + 
     geom_smooth(color = color_pal(1, "discrete"), size = 1.75, 
         method = "loess", span = 0.5) + scale_x_continuous(breaks = c(1, 
-    2, 4, 8, 16)) + labs(title = "Parallelization has Increasing Costs", 
-    x = "MPI Nodes", y = "Average Processing Cost (cents)") + 
-    theme_master(base_size = 22) + theme(panel.grid.minor.x = element_blank())
+    2, 4, 8, 16)) + scale_y_continuous(limits = c(0, 0.02)) + 
+    labs(title = "Parallelization is More Costly", x = "MPI Nodes", 
+        y = "Mean Total Processing Cost (USD)") + theme_master(base_size = 22) + 
+    theme(panel.grid.minor.x = element_blank())
 ```
 
 ![](visualizations_files/figure-gfm/mpi-cost-1.svg)<!-- -->
 
 ``` r
 mpi_data %>% na.omit() %>% subset(nodes == 16) %>% ggplot(aes(x = factor(hosts), 
-    y = proc_time)) + geom_col(aes(fill = factor(hosts))) + scale_fill_manual(values = color_pal(3)) + 
-    labs(title = "Number of MPI Hosts Affect Performance", x = "MPI Hosts", 
-        y = "Average Running Time (s)") + theme_master(base_size = 22) + 
+    y = proc_time/60)) + geom_col(aes(fill = factor(hosts))) + 
+    scale_fill_manual(values = color_pal(3)) + labs(title = "Number of MPI Hosts Affects Performance", 
+    x = "MPI Hosts", y = "Average Running Time (min)") + theme_master(base_size = 22) + 
     hide_x_gridlines + hide_legend
 ```
 
@@ -117,6 +118,21 @@ ggplot(user_act_data, aes(x = count)) + geom_density(color = color_pal(1,
 ```
 
 ![](visualizations_files/figure-gfm/user-act-1.svg)<!-- -->
+
+``` r
+aggr_ua_data = user_act_data$count %>% table() %>% as.tibble()
+names(aggr_ua_data) = c("act_count", "num_obs")
+aggr_ua_data$act_count = as.numeric(aggr_ua_data$act_count)
+aggr_ua_data$perc = aggr_ua_data$num_obs/sum(aggr_ua_data$num_obs)
+
+ggplot(aggr_ua_data, aes(area = as.numeric(num_obs), fill = as.numeric(act_count), 
+    label = act_count)) + geom_treemap() + geom_treemap_text(colour = "white", 
+    place = "centre", grow = TRUE) + scale_fill_gradientn(trans = "log10", 
+    colors = color_pal(5, type = "continuous")) + labs(title = "The Majority of StackOverflow Accounts Have Very Little Account Activity", 
+    fill = "Number of \nPosts") + theme_master()
+```
+
+![](visualizations_files/figure-gfm/usr-act-tmap-1.svg)<!-- -->
 
 ## User Locations
 
