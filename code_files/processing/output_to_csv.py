@@ -3,6 +3,7 @@ import csv
 import time
 from mpi4py import MPI
 import numpy as np
+import ast
 
 
 def paste(*argv, sep=" "):
@@ -30,14 +31,13 @@ def flatten_list(multid_list):
     return out_list
 
 
-def process_line(in_line, strips, split):
-    for char in strips:
-        in_line = in_line.replace(char, "")
-    in_line = in_line.replace("\t", " ")
-    in_line = in_line.replace("\n", "")
-    in_line = in_line.replace("\"", "")
-    in_line = in_line.split(split)
-    return in_line
+def process_line(in_line):
+    if "null" in in_line:
+        in_line = in_line.replace("null", "\"NA\"")
+    in_line = in_line.split("\t")
+    for i in range(len(in_line)):
+        in_line[i] = ast.literal_eval(in_line[i])
+    return flatten_list(in_line)
 
 
 if __name__ == '__main__':
@@ -49,15 +49,9 @@ if __name__ == '__main__':
     next(args)
     file_name = next(args)
     out_file_name = file_name.split(".")[0] + ".csv"
-    split_char = next(args)
-    if split_char == "space":
-        split_char = " "
-    strip_chars = []
-    for s in args:
-        strip_chars.append(s)
 
     if rank == 0:
-        print("Converting " + file_name + "; splitting on \'" + split_char, "\'; stripping " + str(strip_chars)[1:-1])
+        print("Converting " + file_name)
     print("Starting node " + str(rank + 1) + " of " + str(size) + " on " + str(name))
 
     out_lines = []
@@ -78,7 +72,7 @@ if __name__ == '__main__':
     if rank == 0:
         paste("Processing chunks")
     for line in chunk:
-        out_lines.append(process_line(line, strip_chars, split_char))
+        out_lines.append(process_line(line))
         num_lines = num_lines + 1
     comm.barrier()
 
