@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 gsutil cp gs://capp-3-stackoverflow/CSV_Files/Badges.csv /home/sanittawan/
 
 gsutil cp gs://capp-3-stackoverflow/CSV_Files/Users.csv /home/sanittawan/
