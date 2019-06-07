@@ -12,7 +12,7 @@ This folder contains all scripts and code used throughout the project.
         - **[C](analysis/SentimentPopularity/C)**
         - **[Visualization](analysis/SentimentPopularity/README.md)**
         - **[VADER sentiment analysis.ipynb](analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
-        - **[adam_text_sentiment_test.py](analysis/adam_text_sentiment_test.py)**
+        - **[adam_text_sentiment_test.py](analysis/SentimentPopularity/adam_text_sentiment_test.py)**
      
     2. **Descriptive Analysis**  
         - **Exploring languages & frameworks:** Top tags
