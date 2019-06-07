@@ -14,6 +14,11 @@ library(stringr)
 library(eply)
 library(ggraph)
 library(igraph)
+library(maps)
+library(maptools)
+library(ggmap)
+library(sf)
+library(mapproj)
 library(Cairo)
 
 source("../../../../theme.R")
@@ -117,4 +122,17 @@ user_act_data = read_csv(here("output_data", "user_ac_out.csv"))
 user_act_data = user_act_data[is.numeric(user_act_data$user_id), ]
 
 ggplot(user_act_data, aes(x = count)) + geom_density(color = color_pal(1, "cool"), size = 1.75) + labs(title = "Most Users Have Very Little Account Activity", x = "Account Interactions", y = "Density") + theme_master(base_size = 22)
+```
+
+## User Locations
+```{r user-loc, message=FALSE, warning=FALSE}
+user_loc_data = read_csv(here("output_data", "users_gold_badge_locations.csv"))
+world_map = map_data("world")
+
+ggplot() +
+    geom_map(data = world_map, map = world_map,
+                  aes(x = long, y = lat, group = group, map_id=region),
+                  fill = "white", colour = "#7f7f7f", size=0.5) +
+stat_density2d(data = user_loc_data, aes(x = lon, y = lat, fill=stat(level)), geom="polygon", alpha = 0.75) + scale_fill_gradientn(colors = color_pal(5, "continuous", reverse = TRUE)) + theme_map() + theme(legend.position = "right") + labs(title = "Global Distribution of StackOverflow Users", fill = "Density") + coord_map("albers", 0, 0)
+```
 ```

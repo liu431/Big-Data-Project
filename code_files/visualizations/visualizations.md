@@ -117,3 +117,21 @@ ggplot(user_act_data, aes(x = count)) + geom_density(color = color_pal(1,
 ```
 
 ![](visualizations_files/figure-gfm/user-act-1.svg)<!-- -->
+
+## User Locations
+
+``` r
+user_loc_data = read_csv(here("output_data", "users_gold_badge_locations.csv"))
+world_map = map_data("world") %>% filter(region != "Antarctica")
+
+ggplot() + geom_map(data = world_map, map = world_map, aes(x = long, 
+    y = lat, group = group, map_id = region), fill = "white", 
+    colour = "#7f7f7f", size = 0.5) + stat_density2d(data = user_loc_data, 
+    aes(x = lon, y = lat, fill = stat(level)), geom = "polygon", 
+    alpha = 0.75) + scale_fill_gradientn(colors = color_pal(5, 
+    "continuous", reverse = TRUE)) + theme_map() + theme(legend.position = "right") + 
+    labs(title = "Global Distribution of StackOverflow Users", 
+        fill = "Density")
+```
+
+![](visualizations_files/figure-gfm/user-loc-1.svg)<!-- --> \`\`\`
