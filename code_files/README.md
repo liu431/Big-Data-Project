@@ -3,8 +3,6 @@ This folder contains all scripts and code used throughout the project.
 
 ## Table of Contents
 - **[Analysis](analysis):** *Code used for the final Big Data analysis*
-    - **[NLP](analysis/NLP):**
-        - **[VADER sentiment analysis.ipynb](analysis/NLP/VADER%20sentiment%20analysis.ipynb) :**
     - **[Sentiment Popularity](analysis/SentimentPopularity):**
         - **[Python](analysis/SentimentPopularity/Python)**
         - **[SQL](analysis/SentimentPopularity/SQL)**
@@ -12,8 +10,10 @@ This folder contains all scripts and code used throughout the project.
         - **[Java](analysis/SentimentPopularity/Java)**
         - **[Git](analysis/SentimentPopularity/Git)**
         - **[C](analysis/SentimentPopularity/C)**
-
-    - **[adam_text_sentiment_test.py](analysis/adam_text_sentiment_test.py):** 
+        - **[Visualization](analysis/SentimentPopularity/README.md)**
+        - **[VADER sentiment analysis.ipynb](analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
+        - **[adam_text_sentiment_test.py](analysis/adam_text_sentiment_test.py)** 
+        
     - **[decrs_max_ans_q.py](analysis/decrs_max_ans_q.py):**
     - **[decrs_toptags.py](analysis/decrs_toptags.py):**
     - **[decrs_users_activities.py](analysis/decrs_users_activities.py):**
