@@ -1,6 +1,12 @@
+"""
+CMSC 12300 / CAPP 30123
+Task: Pre-processing data
+
+Main author: Adam, Sanittawan (Nikki)
+"""
 import csv
-import xml.sax
 import sys
+import xml.sax
 from bs4 import BeautifulSoup
 
 
