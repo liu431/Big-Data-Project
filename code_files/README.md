@@ -16,23 +16,23 @@ This folder contains all scripts and code used throughout the project.
      
     2. **Descriptive Analysis**  
         - **Exploring languages & frameworks:** Top tags
-            - **[descr_toptags.py](analysis/decrs_toptags.py)**
+            - **[descr_toptags.py](analysis/descr_toptags.py)**
             - **[descr_toptag.py](analysis/descr_toptag.py)** *Alternative version*
         - **Exploring Users:** Distribution of user activities (questions and answers)
-            - **[descr_users_activities.py](analysis/decrs_users_activities.py)** *MapReduce version*
-            - **[descr_spark_users_activities.py](analysis/decrs_spark_users_activities.py)** *Apache Spark version*
-            - **[descr_bash_users_activities.sh](analysis/decrs_bash_users_activities.sh)** *Accompanied Bash script for launching Spark cluster*
+            - **[descr_users_activities.py](analysis/descr_users_activities.py)** *MapReduce version*
+            - **[descr_spark_users_activities.py](analysis/descr_spark_users_activities.py)** *Apache Spark version*
+            - **[descr_bash_users_activities.sh](analysis/descr_bash_users_activities.sh)** *Accompanied Bash script for launching Spark cluster*
         - **Exploring Questions:** Questions that receive most number of answers 2008 to 2019
-            - **[descr_max_ans_q.py](analysis/decrs_max_ans_q.py)**
+            - **[descr_max_ans_q.py](analysis/descr_max_ans_q.py)**
         - **Exploring Answer Providers:** Locations of users who receive ["Illuminator" badge](https://stackoverflow.com/help/badges)
-            - **[descr_users_gold_bash.sh](analysis/decrs_users_gold_bash.sh)** *Bash script for data prep before running the below code*
-            - **[descr_users_gold_ans.py](analysis/decrs_users_gold_ans.py)** *GeoPy version*<sup>1</sup>
-            - **[descr_gmap_users_gold_ans.py](analysis/decrs_gmap_users_gold_ans.py)** *Google Maps version*<sup>1</sup>
+            - **[descr_users_gold_bash.sh](analysis/descr_users_gold_bash.sh)** *Bash script for data prep before running the below code*
+            - **[descr_users_gold_ans.py](analysis/descr_users_gold_ans.py)** *GeoPy version*<sup>1</sup>
+            - **[descr_gmap_users_gold_ans.py](analysis/descr_gmap_users_gold_ans.py)** *Google Maps version*<sup>1</sup>
             - **[descr_optimized_users_locations.py](analysis/descr_optimized_users_locations.py)** *Improved version*
             - **[mrjob.conf](analysis/mrjob.conf)** *MRJob Dataproc configuration file*
         - **Exploring Tag Network:** Bi-grams of adjacent tags
-            - **[decrs_bi_grams_tags.py](analysis/decrs_bi_grams_tags.py)**<sup>2</sup>
-            - **[decrs_n_grams_tags.py](analysis/decrs_n_grams_tags.py)**<sup>2</sup>
+            - **[decrs_bi_grams_tags.py](analysis/descr_bi_grams_tags.py)**<sup>2</sup>
+            - **[decrs_n_grams_tags.py](analysis/descr_n_grams_tags.py)**<sup>2</sup>
 
 - **[Processing](processing):** *Code used to prepare raw XML data-sets for the analysis*
     - **[First Drafts](processing/first_drafts):** *Several first drafts of processing code, each completed by a different person*
