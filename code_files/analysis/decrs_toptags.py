@@ -1,5 +1,7 @@
 '''
 Using MapReduce to find the top count for tags
+
+Main Author: Dhruval Bhatt
 '''
 
 import heapq
