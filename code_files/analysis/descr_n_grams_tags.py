@@ -1,20 +1,28 @@
-'''
+"""
 CMSC 12300 / CAPP 30123
-Project: Descriptive analysis Task 2
+Task: Descriptive analysis (Exploring Tag Network)
 
-'''
-import string
+Main author: Sanittawan (Nikki)
+"""
 import csv
+import string
 from mrjob.job import MRJob
 
-class GetnGramsTags(MRJob):
-    '''
-    docsring here
-    '''
+class GetbiGramsTags(MRJob):
+    """
+    Class for generating tag bi-grams using
+    MapReduce framework
+    """
     def mapper(self, _, line):
-        '''
-        docstring here
-        '''
+        """
+        Maps generated bi-grams with count
+
+        Inputs:
+            line: a single line in a CSV file
+
+        Returns: a sorted bi-grams as key
+            and count as value
+        """
         row = csv.reader([line]).__next__()
 
         try:
@@ -23,6 +31,7 @@ class GetnGramsTags(MRJob):
             tag_list[0] = tag_list[0][1:]
             tag_list[-1] = tag_list[-1][:-1]
 
+            # Here is an alternative implementation
             for i in range(0, len(tag_list) - 2 + 1):
                 sorted_tags = sorted(tag_list[i: i + 2])
                 yield sorted_tags, 1
@@ -32,18 +41,33 @@ class GetnGramsTags(MRJob):
 
 
     def combiner(self, tag, counts):
-        '''
-        docstring here
-        '''
+        """
+        Combine counts of all unique bi-grams
+
+        Inputs:
+            tag: (tuple) of tag bi-gram
+            counts: (int) of count
+
+        Returns: a sorted bi-grams as key
+            and intermediate sum of counts
+        """
         try:
             yield tag, sum(counts)
         except (TypeError, ValueError):
             pass
 
+
     def reducer(self, tag, counts):
-        '''
-        docstring here
-        '''
+        """
+        Reduce all counts of a unique bi-gram tag
+
+        Inputs:
+            tag: (tuple) of tag bi-gram
+            counts: (int) of count
+
+        Returns: a sorted bi-grams as key
+            and count as value
+        """
         try:
             yield tag, sum(counts)
         except (TypeError, ValueError):
@@ -51,4 +75,4 @@ class GetnGramsTags(MRJob):
 
 
 if __name__ == '__main__':
-    GetnGramsTags.run()
+    GetbiGramsTags.run()

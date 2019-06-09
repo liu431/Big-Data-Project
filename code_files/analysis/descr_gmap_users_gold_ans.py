@@ -1,24 +1,24 @@
-'''
+"""
 CMSC 12300 / CAPP 30123
-Project: Descriptive analysis Task 4
+Task: Descriptive analysis (Exploring Answer Providers)
 
-'''
-import string
+Main author: Dhruval, Sanittawan (Nikki)
+"""
 import csv
-from mrjob.job import MRJob
-import re
 import googlemaps
+import re
+from mrjob.job import MRJob
 
-API_KEY = ##fill this in
+API_KEY = # you need to fill in a Google API Key here #
 
 class FindLocUsersGoldBadges(MRJob):
-    '''
+    """
     docsring here
-    '''
+    """
     def mapper(self, _, line):
-        '''
+        """
         docstring here
-        '''
+        """
         row = csv.reader([line]).__next__()
         file = str(row[-1]).strip().lower()
 
@@ -30,7 +30,7 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "Illuminator":
+                if badge_name == "illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
@@ -61,9 +61,9 @@ class FindLocUsersGoldBadges(MRJob):
 
 
     def reducer(self, user_id, vals):
-        '''
+        """
         docstring here
-        '''
+        """
         try:
             val_list = list(vals)
             if len(val_list) == 2:

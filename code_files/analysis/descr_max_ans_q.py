@@ -1,22 +1,28 @@
 """
 CMSC 12300 / CAPP 30123
-Project: Descriptive analysis Task 2
+Task: Descriptive analysis (Exploring Questions)
 
+Main author: Sanittawan (Nikki)
 """
-import string
 import csv
-from mrjob.job import MRJob
 import re
+from mrjob.job import MRJob
 
 class GetMaxAnsQuest(MRJob):
     """
-    docsring here
+    A class for finding questions with the most
+    number of answers per year from 2008 to 2019 using
+    a MapReduce framework
     """
     def mapper(self, _, line):
         """
-        :param _:
-        :param line:
-        :return:
+        Maps year to answer counts and title of the question
+
+        Inputs:
+            line: a single line in a CSV file
+
+        Returns: a year as key and a tuple of answer counts and
+            title
         """
         row = csv.reader([line]).__next__()
 
@@ -37,9 +43,14 @@ class GetMaxAnsQuest(MRJob):
 
     def combiner(self, year, val):
         """
-        :param _:
-        :param line:
-        :return:
+        Combine counts of all unique bi-grams
+
+        Inputs:
+            year: (string) the year the question was posted
+            val: (tuple) of number of answers and title
+
+        Returns: a year and a tuple containing the maximum number of
+            answer counts
         """
         try:
             max_ans = max(val)
@@ -47,11 +58,17 @@ class GetMaxAnsQuest(MRJob):
         except (TypeError, ValueError):
             pass
 
+
     def reducer(self, year, val):
         """
-        :param _:
-        :param line:
-        :return:
+        Reduce all counts of a unique bi-gram tag
+
+        Inputs:
+            year: (string) the year the question was posted
+            val: (tuple) of number of answers and title
+
+        Returns: a year and a tuple containing the maximum number of
+            answer counts
         """
         try:
             max_ans = max(val)
