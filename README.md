@@ -18,16 +18,23 @@
 ## Table of Contents
 - **[Code Files](code_files):** *Contains all scripts and code used throughout the project*
     - **[Analysis](code_files/analysis):** *Code used for the final Big Data analysis*
-        - **[Sentiment Popularity](code_files/analysis/analysis/SentimentPopularity):**
-            - **[Python](code_files/analysis/analysis/SentimentPopularity/Python)**
-            - **[SQL](code_files/analysis/analysis/SentimentPopularity/SQL)**
-            - **[Javascript](code_files/analysis/analysis/SentimentPopularity/Javascript)**
-            - **[Java](code_files/analysis/analysis/SentimentPopularity/Java)**
-            - **[Git](code_files/analysis/analysis/SentimentPopularity/Git)**
-            - **[C](code_files/analysis/analysis/SentimentPopularity/C)**
-            - **[Visualization](code_files/analysis/analysis/SentimentPopularity/README.md)**
-            - **[VADER sentiment analysis.ipynb](code_files/analysis/analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
-            - **[adam_text_sentiment_test.py](code_files/analysis/analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment anlaysis code that was tested*
+        - **[Sentiment Popularity](code_files/analysis/SentimentPopularity):**
+            - **[C](code_files/analysis/SentimentPopularity/C)**
+            - **[Git](code_files/analysis/SentimentPopularity/Git)**
+            - **[Dataproc](code_files/analysis/SentimentPopularity/Google-cloud-dataproc)**
+            - **[Java](code_files/analysis/SentimentPopularity/Java)**
+            - **[Javascript](code_files/analysis/SentimentPopularity/Javascript)**
+            - **[Python](code_files/analysis/SentimentPopularity/Python)**
+            - **[R](code_files/analysis/SentimentPopularity/R)**
+            - **[Rust](code_files/analysis/SentimentPopularity/Rust)**
+            - **[SQL](code_files/analysis/SentimentPopularity/SQL)**
+            - **[Unix](code_files/analysis/SentimentPopularity/Unix)**
+            
+            - **[Visualization](code_files/analysis/SentimentPopularity/README.md)**
+            - **[VADER sentiment analysis.ipynb](code_files/analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
+            - **[adam_text_sentiment_test.py](code_files/analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment anlaysis code that was tested*
+            
+            - **[Time Series Plot](code_files/analysis/SentimentPopularity/timeseries.py)**
         - **Descriptive Analysis**  
             - **Exploring languages & frameworks:** Top tags
                 - **[descr_toptags.py](code_files/analysis/descr_toptags.py)**
