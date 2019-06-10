@@ -4,12 +4,12 @@ Task: Descriptive analysis (Exploring Users)
 
 Main author: Sanittawan (Nikki) and Dhruval
 """
-import string
 import csv
-from mrjob.job import MRJob
-import re
-from geopy.geocoders import Nominatim
+
 from geopy.exc import GeocoderTimedOut
+from geopy.geocoders import Nominatim
+from mrjob.job import MRJob
+
 
 class FindLocUsersGoldBadges(MRJob):
     """

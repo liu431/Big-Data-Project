@@ -18,7 +18,7 @@
 ## Table of Contents
 - **[Code Files](code_files):** *Contains all scripts and code used throughout the project*
     - **[Analysis](code_files/analysis):** *Code used for the final Big Data analysis*
-        - **[Sentiment Popularity](code_files/analysis/SentimentPopularity):**
+        - **[Sentiment Popularity](code_files/analysis/SentimentPopularity):** *The meat and potatoes - all the code for the sentiment analysis by language*
             - **[C](code_files/analysis/SentimentPopularity/C)**
             - **[Git](code_files/analysis/SentimentPopularity/Git)**
             - **[Dataproc](code_files/analysis/SentimentPopularity/Google-cloud-dataproc)**
@@ -29,31 +29,29 @@
             - **[Rust](code_files/analysis/SentimentPopularity/Rust)**
             - **[SQL](code_files/analysis/SentimentPopularity/SQL)**
             - **[Unix](code_files/analysis/SentimentPopularity/Unix)**
-            
             - **[Visualization](code_files/analysis/SentimentPopularity/README.md)**
             - **[VADER sentiment analysis.ipynb](code_files/analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
-            - **[adam_text_sentiment_test.py](code_files/analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment anlaysis code that was tested*
-            
+            - **[adam_text_sentiment_test.py](code_files/analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment analysis code that was tested*
             - **[Time Series Plot](code_files/analysis/SentimentPopularity/timeseries.py)**
-        - **Descriptive Analysis**  
-            - **Exploring languages & frameworks:** Top tags
-                - **[descr_toptags.py](code_files/analysis/descr_toptags.py)**
-                - **[descr_toptag.py](code_files/analysis/descr_toptag.py)** *Alternative version*
-            - **Exploring Users:** Distribution of user activities (questions and answers)
-                - **[descr_users_activities.py](code_files/analysis/descr_users_activities.py)** *MapReduce version*
-                - **[descr_spark_users_activities.py](code_files/analysis/descr_spark_users_activities.py)** *Apache Spark version*
-                - **[descr_bash_users_activities.sh](code_files/analysis/descr_bash_users_activities.sh)** *Accompanied Bash script for launching Spark cluster*
-            - **Exploring Questions:** Questions that receive most number of answers 2008 to 2019
-                - **[descr_max_ans_q.py](code_files/analysis/descr_max_ans_q.py)**
+        - **[Descriptive Analysis](code_files/analysis/descriptive)**  
+            - **Exploring languages & frameworks:** *Top tags*
+                - **[descr_toptags.py](code_files/analysis/descriptive/descr_toptags.py)**
+                - **[descr_toptag.py](code_files/analysis/descriptive/descr_toptag.py)** *Alternative version*
+            - **Exploring Users:** *Distribution of user activities (questions and answers)*
+                - **[descr_users_activities.py](code_files/analysis/descriptive/descr_users_activities.py)** *MapReduce version*
+                - **[descr_spark_users_activities.py](code_files/analysis/descriptive/descr_spark_users_activities.py)** *Apache Spark version*
+                - **[descr_bash_users_activities.sh](code_files/analysis/descriptive/descr_bash_users_activities.sh)** *Accompanied Bash script for launching Spark cluster*
+            - **Exploring Questions:** *Questions that receive most number of answers 2008 to 2019*
+                - **[descr_max_ans_q.py](code_files/analysis/descriptive/descr_max_ans_q.py)**
             - **Exploring Answer Providers:** Locations of users who receive ["Illuminator" badge](https://stackoverflow.com/help/badges)
-                - **[descr_users_gold_bash.sh](code_files/analysis/descr_users_gold_bash.sh)** *Bash script for data prep before running the below code*
-                - **[descr_users_gold_ans.py](code_files/analysis/descr_users_gold_ans.py)** *GeoPy version*<sup>1</sup>
-                - **[descr_gmap_users_gold_ans.py](code_files/analysis/descr_gmap_users_gold_ans.py)** *Google Maps version*<sup>1</sup>
-                - **[descr_optimized_users_locations.py](code_files/analysis/descr_optimized_users_locations.py)** *Improved version*
-                - **[mrjob.conf](code_files/analysis/mrjob.conf)** *MRJob Dataproc configuration file*
-            - **Exploring Tag Network:** Bi-grams of adjacent tags
-                - **[decrs_bi_grams_tags.py](code_files/analysis/descr_bi_grams_tags.py)**<sup>2</sup>
-                - **[decrs_n_grams_tags.py](code_files/analysis/descr_n_grams_tags.py)**<sup>2</sup>
+                - **[descr_users_gold_bash.sh](code_files/analysis/descriptive/descr_users_gold_bash.sh)** *Bash script for data prep before running the below code*
+                - **[descr_users_gold_ans.py](code_files/analysis/descriptive/descr_users_gold_ans.py)** *GeoPy version*<sup>1</sup>
+                - **[descr_gmap_users_gold_ans.py](code_files/analysis/descriptive/descr_gmap_users_gold_ans.py)** *Google Maps version*<sup>1</sup>
+                - **[descr_optimized_users_locations.py](code_files/analysis/descriptive/descr_optimized_users_locations.py)** *Improved version*
+                - **[mrjob.conf](code_files/analysis/descriptive/mrjob.conf)** *MRJob Dataproc configuration file*
+            - **Exploring Tag Network:** *Bi-grams of adjacent tags*
+                - **[decrs_bi_grams_tags.py](code_files/analysis/descriptive/descr_bi_grams_tags.py)**<sup>2</sup>
+                - **[decrs_n_grams_tags.py](code_files/analysis/descriptive/descr_n_grams_tags.py)**<sup>2</sup>
     - **[Processing](code_files/processing):** *Code used to prepare raw XML data-sets for the analysis*
         - **[First Drafts](code_files/processing/first_drafts):** *Several first drafts of processing code, each completed by a different person*
             - **[adam_process_data.py](code_files/processing/first_drafts/adam_process_data.py):**

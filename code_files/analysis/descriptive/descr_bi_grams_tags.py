@@ -5,8 +5,10 @@ Task: Descriptive analysis (Exploring Tag Network)
 Main author: Sanittawan (Nikki)
 """
 import csv
-import string
+import re
+
 from mrjob.job import MRJob
+
 
 class GetbiGramsTags(MRJob):
     """
@@ -27,14 +29,12 @@ class GetbiGramsTags(MRJob):
 
         try:
             tags = row[14]
-            tag_list = tags.split("><")
-            tag_list[0] = tag_list[0][1:]
-            tag_list[-1] = tag_list[-1][:-1]
+            tag_list = re.findall(r"[^><]+", tags)
+            sliced_tag_list = tag_list[1:]
 
-            # Here is an alternative implementation
-            for i in range(0, len(tag_list) - 2 + 1):
-                sorted_tags = sorted(tag_list[i: i + 2])
-                yield sorted_tags, 1
+            for pair in zip(tag_list, sliced_tag_list):
+                sorted_pair = sorted(pair)
+                yield sorted_pair, 1
 
         except IndexError:
             pass

@@ -2,12 +2,9 @@
 CMSC 12300 / CAPP 30123
 Project: Descriptive analysis Task 4
 '''
-import string
 import csv
+
 from mrjob.job import MRJob
-import re
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
 
 
 class FindLocUsersGoldBadges(MRJob):
