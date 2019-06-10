@@ -31,8 +31,10 @@
             - **[Unix](code_files/analysis/SentimentPopularity/Unix)**
             - **[Visualization](code_files/analysis/SentimentPopularity/README.md)**
             - **[VADER sentiment analysis.ipynb](code_files/analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
+            - **[Sentiments with Dask.ipynb](code_files/analysis/SentimentPopularity/Sentiments%20with%20Dask.ipynb)** *Parallel Computing with Dask
             - **[adam_text_sentiment_test.py](code_files/analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment analysis code that was tested*
             - **[Time Series Plot](code_files/analysis/SentimentPopularity/timeseries.py)**
+            
         - **[Descriptive Analysis](code_files/analysis/descriptive)**  
             - **Exploring languages & frameworks:** *Top tags*
                 - **[descr_toptags.py](code_files/analysis/descriptive/descr_toptags.py)**
