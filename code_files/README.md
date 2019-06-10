@@ -12,7 +12,7 @@ This folder contains all scripts and code used throughout the project.
         - **[C](analysis/SentimentPopularity/C)**
         - **[Visualization](analysis/SentimentPopularity/README.md)**
         - **[VADER sentiment analysis.ipynb](analysis/SentimentPopularity/VADER%20sentiment%20analysis.ipynb)**
-        - **[adam_text_sentiment_test.py](analysis/SentimentPopularity/adam_text_sentiment_test.py)**
+        - **[adam_text_sentiment_test.py](analysis/SentimentPopularity/adam_text_sentiment_test.py):** *Alternative sentiment anlaysis code that was tested*
      
     2. **Descriptive Analysis**  
         - **Exploring languages & frameworks:** Top tags
@@ -42,6 +42,12 @@ This folder contains all scripts and code used throughout the project.
     - **[cleaning_MPI.py](processing/cleaning_MPI.py):** *Final processing code using MPI*
     - **[main_process_data.py](processing/main_process_data.py):** *Final processing code (not parallelized)*
     - **[main_process_data_no_hardcoded.py](processing/main_process_data_no_hardcoded.py):** *Final processing code (not parallelized)*
+    - **[output_to_csv.py](processing/output_to_csv.py):** *MPI script to convert text files from analysis to CSVs*
+
+- **[Visualizations](visualizations):** *Code used to create all the MPI descriptive statistics visualizations*
+    - **[visualizations_files](visualizations/visualizations_files):** *Contains raw SVG files for all figures (see the [main visualizations folder](../visualizations) for rasterized visualizations and their descriptions*
+    - **[visualizations.md](visualizations/visualizations.md):** *Markdown document displaying visualizations and their code*
+    - **[visualizations.Rmd](visualizations/visualizations.Rmd):** *R Markdown document displaying visualizations and their full code*
 
 <sup>1</sup> Note: The two versions of the code below are almost identical. The main difference is the package used for Geocoding.
     
