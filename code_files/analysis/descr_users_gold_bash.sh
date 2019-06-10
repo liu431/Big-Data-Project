@@ -1,4 +1,10 @@
-#! /bin/bash
+#!/bin/bash
+#
+# This Bash script performs a data preparation for
+# 	Exploring answer providers task.
+#
+# Main author: Dhruval, Sanittawan (Nikki)
+
 gsutil cp gs://capp-3-stackoverflow/CSV_Files/Badges.csv /home/sanittawan/
 
 gsutil cp gs://capp-3-stackoverflow/CSV_Files/Users.csv /home/sanittawan/

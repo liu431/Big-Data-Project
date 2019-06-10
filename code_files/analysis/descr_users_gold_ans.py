@@ -29,7 +29,7 @@ class FindLocUsersGoldBadges(MRJob):
                 user_id = str(row[1]).strip().lower()
                 user_id = ''.join([char for char in user_id if char != "'"])
 
-                if badge_name == "Illuminator":
+                if badge_name == "illuminator":
                     yield user_id, badge_name
 
             elif file == "users":
@@ -45,15 +45,22 @@ class FindLocUsersGoldBadges(MRJob):
                         raw_location = geolocator.geocode(location)
                     
                         if raw_location:
-                            coord = (raw_location.latitude, raw_location.longitude)
-                            address = geolocator.reverse([raw_location.latitude, raw_location.longitude], language='en')
+                            coord = (raw_location.latitude,
+                                     raw_location.longitude)
+                            address = geolocator.reverse(
+                                                    [raw_location.latitude,
+                                                     raw_location.longitude],
+                                                     language='en')
                             country = address.address.split()[-1]
                         else:
                             country = None
                             coord = None
                             
                     except GeocoderTimedOut as e:
-                        print("Error: geocode failed on input %s with message %s"%(location, e.message))
+                        msg = ("Error: geocode failed on input {}"
+                               " with message {}".format(location,
+                                                         e.message))
+                        print(msg)
 
                     yield user_id, (coord, country)
 

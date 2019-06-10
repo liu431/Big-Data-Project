@@ -1,8 +1,13 @@
-import csv
-import xml.sax
-import sys
-from bs4 import BeautifulSoup
+"""
+CMSC 12300 / CAPP 30123
+Task: Pre-processing data
 
+Main author: Adam, Sanittawan (Nikki)
+"""
+import csv
+import sys
+import xml.sax
+from bs4 import BeautifulSoup
 
 def xml_to_csv(file_name, max_lines=0):
     print('calling xml_to_csv')

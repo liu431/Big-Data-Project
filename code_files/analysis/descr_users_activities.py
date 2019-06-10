@@ -1,24 +1,27 @@
-# -*- coding: utf-8 -*-
 """
 CMSC 12300 / CAPP 30123
-Project: Descriptive analysis Task 2
+Task: Descriptive analysis (Exploring Users)
 
+Main author: Sanittawan (Nikki)
 """
-import string
 import csv
 from mrjob.job import MRJob
 
 
 class GetUsersActivities(MRJob):
     """
-    Class docstring
+    A class for finding the number of questions or answers of
+    all unique users in the data set using MapReduce framework
     """
-
     def mapper(self, _, line):
         """
-        :param _:
-        :param line:
-        :return:
+        Maps User ID to count of a single question and/or answer
+
+        Inputs:
+            line: a single line in a CSV file
+
+        Returns: user ID of questions and answers (separately) as key
+            and count as value
         """
         row = csv.reader([line]).__next__()
 
@@ -35,22 +38,36 @@ class GetUsersActivities(MRJob):
         except IndexError:
             pass
 
+
     def combiner(self, key, counts):
         """
-        :param key:
-        :param counts:
-        :return:
+        Combines the number of questions and/or answers a unique user
+            has posted
+
+        Inputs:
+            key: (string) User ID
+            counts: (int) number of questions and/or answers
+
+        Returns: User ID as key and the number of question and answer
+            separately
         """
         try:
             yield key, sum(counts)
         except (TypeError, ValueError):
             pass
 
+
     def reducer(self, key, counts):
         """
-        :param key:
-        :param counts:
-        :return:
+        Reduces the number of questions and/or answers a unique user
+            has posted
+
+        Inputs:
+            key: (string) User ID
+            counts: (int) number of questions and/or answers
+
+        Returns: User ID as key and the number of question and answer
+            separately
         """
         try:
             user_activity = key.split('_')
