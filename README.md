@@ -1,6 +1,9 @@
 # Big Data Analysis of the Developer Community 
 *This project investigates the changing sentiments of posters on StackOverflow.*
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/liu431/Big-Data-Project/master)
+
+
 ## Project Information
 
 **Class:** CAPP 30123 (Computer Science with Applications III) @ UChicago
