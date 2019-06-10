@@ -1,3 +1,8 @@
+"""
+This script takes an output XML file and converts it to a CSV
+:args: string of XML file to convert
+Authors: Adam Shelton, Nikki Tan
+"""
 from mpi4py import MPI
 import csv
 import xml.sax
@@ -7,24 +12,29 @@ import subprocess
 import math
 import time
 
+VOTES_COLS = ["Id", "PostId", "VoteTypeId", "UserId", "CreationDate"]
+POSTS_COLS = ["Id", "PostTypeId", "ParentId", "AcceptedAnswerId",
+              "CreationDate", "Score", "ViewCount", "Body", "OwnerUserId",
+              "LastEditorUserId", "LastEditorDisplayName", "LastEditDate",
+              "LastActivityDate", "Title", "Tags", "AnswerCount",
+              "FavoriteCount", "CommunityOwnedDate", "CommentCount",
+              "OwnerDisplayName", "DeletionDate", "ClosedDate"]
 
-def xml_to_csv(file_name, max_lines=0):
+
+def xml_to_csv(f_name, max_lines=0):
+    """
+    Parses an XML file
+    :param f_name: A string of the filename of the XML file to process
+    :param max_lines: An integer defining how many lines to process
+    :return:
+    """
     print('calling xml_to_csv')
-    VOTES_COLS = ["Id", "PostId", "VoteTypeId", "UserId", "CreationDate"]
-
-    POSTS_COLS = ["Id", "PostTypeId", "ParentId", "AcceptedAnswerId",
-                  "CreationDate", "Score", "ViewCount", "Body", "OwnerUserId",
-                  "LastEditorUserId", "LastEditorDisplayName", "LastEditDate",
-                  "LastActivityDate", "Title", "Tags", "AnswerCount",
-                  "FavoriteCount", "CommunityOwnedDate", "CommentCount",
-                  "OwnerDisplayName", "DeletionDate", "ClosedDate"]
-
     # create an XMLReader
     parser = xml.sax.make_parser()
     # turn off namepsaces
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
-
-    prefix = file_name
+    # get output filename
+    prefix = f_name
     if "." in prefix:
         prefix = prefix.split(".")[0]
     output_name = prefix + ".csv"
@@ -35,20 +45,27 @@ def xml_to_csv(file_name, max_lines=0):
         col_names = POSTS_COLS
     else:
         col_names = None
-    Handler = SOHandler(output_name, max_lines, col_names)
-    parser.setContentHandler(Handler)
-    parser.parse(file_name)
+    # hand off to XML parser
+    handler = SOHandler(output_name, max_lines, col_names)
+    parser.setContentHandler(handler)
+    parser.parse(f_name)
 
     return [open(output_name, 'r+')]
 
 
 def write_row_to_csv(row, out_filename):
+    """
+        Writes a row of a processed file to CSV
+        :param row: A list of items to write to CSV, each item in a list becomes a column in row
+        :param out_filename: A string giving the filename to write the CSV to
+    """
     with open(out_filename, 'a', newline='') as output:
         wr = csv.writer(output, dialect='excel')
         wr.writerow(row)
 
 
 class SOHandler(xml.sax.ContentHandler):
+
     def __init__(self, output_name, max_lines, col_names=None):
         self.current_data = ""
         self.row = 0
@@ -60,22 +77,27 @@ class SOHandler(xml.sax.ContentHandler):
             self.attrs = []
         self.out = output_name
 
-    # Call when an element starts
+    # Call when an XML tag (element) starts
     def startElement(self, tag, attributes):
+        """
+        Processes an XML row and writes to CSV
+        :param tag: Current row as an XML tag object
+        :param attributes: Values in the current XML tag
+        :return:
+        """
         # print('calling startElement')
         self.current_data = tag
-        if tag == "row":
-            if not self.limit_lines:
-                self.m_lines += 1
-            if self.row < self.m_lines:
+        if tag == "row":  # only process 'row' tags containing data
+            if self.row < self.m_lines:  # only process row if max_lines hasn't been surpassed
                 self.row += 1
                 if self.row == 1:
                     if not self.attrs:
                         self.attrs = list(attributes.keys())
-                    write_row_to_csv(self.attrs, self.out)
-                if len(attributes) > 0:
+                    write_row_to_csv(self.attrs, self.out)  # write keys as CSV header
+                if len(attributes) > 0:  # check that line is not empty
                     row_to_write = []
-                    for a in self.attrs:
+                    for a in self.attrs:  # rows don't always have values in same order, so get each value from key in order
+                        # parse keys that have HTML with BeautifulSoup
                         if a == 'AboutMe':
                             if a in attributes:
                                 soup = BeautifulSoup(attributes[a], 'lxml')
@@ -96,36 +118,60 @@ class SOHandler(xml.sax.ContentHandler):
                                 processed_text = ' '.join(processed_text)
                                 row_to_write.append(processed_text)
                         else:
-                            val = attributes.get(a, '')
+                            val = attributes.get(a, '')  # get value of that key and append to list
                             row_to_write.append(val)
-                    write_row_to_csv(row_to_write, self.out)
+                    write_row_to_csv(row_to_write, self.out)  # write list of row to CSV
         # print('done with row', self.row)
 
 
-# executes a bash command, because sometimes Python is slow/bad at simple things
 def exec_bash_cmd(cmd_str):
+    """
+    Executes a bash command, because sometimes Python is slow/bad at simple things
+    :param cmd_str: A string containing a command to run
+    :return: A tuple containing any ouput, and any error of the command
+    """
     print("Executing bash command: '" + cmd_str + "'")
     process = subprocess.Popen(cmd_str, stdout=subprocess.PIPE, shell=True)
     output, error = process.communicate()
     return output, error
 
 
-def get_split_name(f_name, index):
-    if index < 10:
-        return f_name + "0" + str(index)
-    return f_name + str(index)
+def get_split_name(f_name, node_index):
+    """
+    Generates the filename for a chunk of a split file to process
+    :param f_name: A string containing a file name
+    :param node_index: An integer containing the index of the node that will process this file chunk
+    :return: A string with the filename of the chunk for the node to process
+    """
+    if node_index < 10:
+        return f_name + "0" + str(node_index)
+    return f_name + str(node_index)
 
 
-def fix_split_file(file_pre, j, cluster_size):
-    print("Fixing " + get_split_name(file_pre, j))
-    if j != 0:
-        exec_bash_cmd("sed -i '1s/^/<badges>\\n/' " + get_split_name(file_pre, j))
-        exec_bash_cmd("sed -i '1s/^/<?xml version=\"1.0\" encoding=\"utf-8\"?>\\n/' " + get_split_name(file_pre, j))
-    if j != cluster_size - 1:
-        exec_bash_cmd('echo "</badges>" >> ' + get_split_name(file_pre, j))
+def fix_split_file(file_pre, node_index, cluster_size):
+    """
+    Adds missing XML headers and root tags to a split XML file
+    :param file_pre: A string with the file prefix (name before file extension, if any)
+    :param node_index: An integer of the node processing this file
+    :param cluster_size: An integer of the number of nodes in the MPI cluster
+    :return:
+    """
+    print("Fixing " + get_split_name(file_pre, node_index))
+    if node_index != 0:
+        exec_bash_cmd("sed -i '1s/^/<badges>\\n/' " + get_split_name(file_pre, node_index))
+        exec_bash_cmd(
+            "sed -i '1s/^/<?xml version=\"1.0\" encoding=\"utf-8\"?>\\n/' " + get_split_name(file_pre, node_index))
+    if node_index != cluster_size - 1:
+        exec_bash_cmd('echo "</badges>" >> ' + get_split_name(file_pre, node_index))
 
 
 def cleanup_files(file_pre, cluster_size):
+    """
+    Removes temporary split files generated in the conversion process
+    :param file_pre: A string with the file prefix (name before file extension, if any)
+    :param cluster_size: An integer of the number of nodes in the MPI cluster
+    :return:
+    """
     exec_bash_cmd("rm " + file_pre + "0*")
     if cluster_size > 9:
         exec_bash_cmd("rm " + file_pre + "1*")
