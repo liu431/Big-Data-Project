@@ -109,3 +109,7 @@
     - **[usr-act-tmap-1.png](visualizations/usr-act-tmap-1.png):** *Treemap of user activity*   
 - **[Zenhub Workflow](zenhub_workflow)**
 
+
+<sup>1</sup> Note: The two versions of the code below are almost identical. The main difference is the package used for Geocoding.
+    
+<sup>2</sup> Note: Different bi-gram generating methods
