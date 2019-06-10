@@ -1,5 +1,20 @@
 ## Changes of sentiments and popularity of programming languages
 
+### MapReduce Code and Output Data
+##### Example: "python"
+
+Each folder contains the code and data for each programming langauge.
+
+Two MapReduce code files: getindex_python.py and sentiment_python.py
+
+Two output data files: index_python.txt and results_python.txt
+
+Time series plot: Python.png
+
+Correlation table: Pythoncorr.png
+
+
+
 ### Results & Visualization
 
 <details>
