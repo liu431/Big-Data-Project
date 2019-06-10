@@ -6,7 +6,9 @@ Main author: Sanittawan (Nikki)
 """
 import csv
 import re
+
 from mrjob.job import MRJob
+
 
 class GetMaxAnsQuest(MRJob):
     """

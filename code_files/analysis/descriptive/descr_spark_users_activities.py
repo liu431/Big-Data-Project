@@ -11,6 +11,7 @@ Objective: To find the total number of questions and answers
     posted by a unique user ID in the data set
 """
 import sys
+
 from pyspark.sql import SparkSession
 
 # Reference: Error catcher copied from https://cloud.google.com/

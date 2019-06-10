@@ -5,8 +5,8 @@ Task: Descriptive analysis (Exploring Answer Providers)
 Main author: Dhruval, Sanittawan (Nikki)
 """
 import csv
+
 import googlemaps
-import re
 from mrjob.job import MRJob
 
 API_KEY = # you need to fill in a Google API Key here #
