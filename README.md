@@ -71,7 +71,7 @@
         - **[sample_users.csv](data/samples/sample_users.csv):** *500 lines of Users.xml converted to CSV*
         - **[sample_votes.csv](data/samples/sample_votes.csv):** *500 lines of Votes.xml converted to CSV*
 - **[Meeting Minutes](minutes):** *Contains resources from weekly minutes*
-     **Whiteboard Pictures:** _Photos of drawings/diagrams from meetings_
+     - **Whiteboard Pictures:** _Photos of drawings/diagrams from meetings_
         - **[Week 4](minutes/4_whiteboard.jpg)**
         - **[Week 6](minutes/6_whiteboard.jpg)**
         - **[Week 7](minutes/May17_whiteboard.jpg)**
