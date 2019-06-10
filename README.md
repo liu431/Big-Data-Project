@@ -17,6 +17,7 @@
 ## Quick Links
 - **[Project Proposal](refs_docs/CAPP3_project_proposal.pdf)**
 - **[Presentation Slides](https://docs.google.com/presentation/d/1GYTZUKXJao9cUAPSVXusdpyFvTQQRsTqmrr1fUi9puU/edit?usp=sharing)**
+- **[Final Project Write-up](refs_docs/CAPP3_final_writup_HackyStacks.pdf)**
 
 ## Table of Contents
 - **[Code Files](code_files):** *Contains all scripts and code used throughout the project*
