@@ -13,11 +13,17 @@ API_KEY = # you need to fill in a Google API Key here #
 
 class FindLocUsersGoldBadges(MRJob):
     """
-    docsring here
+    A class for finding the location of users with 
+    gold badge in answers, called illuminator.
     """
     def mapper(self, _, line):
         """
-        docstring here
+        Maps User ID to badges and  user id to user locations.
+        Inputs:
+            line: a single line in a CSV file
+        Returns: 
+            user id, badges or user id and location
+            (depending on the file source)
         """
         row = csv.reader([line]).__next__()
         file = str(row[-1]).strip().lower()
@@ -62,7 +68,11 @@ class FindLocUsersGoldBadges(MRJob):
 
     def reducer(self, user_id, vals):
         """
-        docstring here
+        Reduces to badges and location for a given userid
+        Inputs:
+            key: (string) User ID
+            vals: (int) tuple of location and/or badge
+        Returns: User ID as key and a list of location and badge as key
         """
         try:
             val_list = list(vals)
